@@ -18,12 +18,24 @@ VARIABLES
   --lavenderColor: #E2E9FF;
   --culturedColor: #F3F3F3;
   --onyxColor: #3E3E3E;
-  /**********SECONDARYCOLOR**********/
-  --redColor : #ED5555;
-  --orangeColor : #FF971C;
-  --yellowColor : #FFD338;
-  --greenColor : #00B533;
-  --blueColor : #68A7FF;
+  
+}
+
+/**********SECONDARYCOLOR**********/
+.red {
+  color: #ED5555;
+}
+.orange {
+  color: #FF971C;
+}
+.yellow {
+  color: #FFD338;
+}
+.green {
+  color: #00B533;
+}
+.blue {
+  color: #68A7FF;
 }
 
 
@@ -58,7 +70,7 @@ h4 {
   font-family: 'Lexend';
   font-weight: 700;
   color: var(--onyxColor);
-  font-size: 20px;
+  font-size: 18px;
   margin: 48px 0 24px;
 }
 
