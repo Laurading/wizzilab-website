@@ -17,12 +17,12 @@ export default function Uguard() {
                 <ul>
                     <li>
                         La
-                            <span> zone de prévention </span>
+                            <span className='yellow'> zone de prévention </span>
                         qui informe le conducteur de la présence d’autrui dans son espace de travail non visible.
                     </li>
                     <li>
                         La
-                            <span> zone de danger </span>
+                            <span className='red'> zone de danger </span>
                         qui alerte les deux protagonistes d'un danger de collision immédiat.
                     </li>
                 </ul>
@@ -66,7 +66,7 @@ export default function Uguard() {
                 <div className='content-col'>
                     <div className='column-4'>
                         <img src='/img/composants/u-guard/1.png'/>
-                        <h4>U-Guard-M</h4>
+                        <h4 className='red'>U-Guard-M</h4>
                         <ul>
                         <li>Synchronise les périphériques pour déterminer le périmètre de sécurité</li>
                         <li>Récupère les informations de distance reçus par les capteurs périphériques</li>
@@ -76,7 +76,7 @@ export default function Uguard() {
                     </div>
                     <div className='column-4'>
                     <img src='/img/composants/u-guard/2.png'/>
-                        <h4>U-Guard-P</h4>
+                        <h4 className='blue'>U-Guard-P</h4>
                         <ul>
                             <li>Mesure la distance avec les autres périphériques captés dans sa zone (engins et/ou piétons)</li>
                             <li>Communique les données de proximité au master</li>
@@ -84,7 +84,7 @@ export default function Uguard() {
                     </div>
                     <div className='column-4'>
                     <img src='/img/composants/u-guard/3.png'/>
-                         <h4>U-Spot</h4>
+                         <h4 className='green'>U-Spot</h4>
                          <ul>
                              <li>Activé par la proximité d’un engin</li>
                              <li>Mesure une distance complémentaire en cas de non visibilité</li>
@@ -93,7 +93,7 @@ export default function Uguard() {
                     </div>
                     <div className='column-4'>
                     <img src='/img/composants/u-guard/4.png'/>
-                        <h4>U-Space</h4>
+                        <h4 className='yellow'>U-Space</h4>
                         <ul>
                             <li>Répond aux demandes de mesures des capteurs périphériques</li>
                             <li>Prévient le piéton en cas de danger</li>

@@ -65,7 +65,7 @@ export default function Wizzipark() {
                 <div className='content-col'>
                     <div className='column-4'>
                         <img src='/img/composants/wizzipark/1.png'/>
-                        <h4>Capteur magnétique</h4>
+                        <h4 className='red'>Capteur magnétique</h4>
                         <ul>
                         <li>Identifie la présence d’un véhicule</li>
                         <li>Envoie l’information de présence à la gateway</li>
@@ -73,7 +73,7 @@ export default function Wizzipark() {
                     </div>
                     <div className='column-4'>
                     <img src='/img/composants/wizzipark/2.png'/>
-                        <h4>Capteur infrarouge à LED</h4>
+                        <h4 className='blue'>Capteur infrarouge à LED</h4>
                         <ul>
                             <li>Identifie la présence d’un véhicule</li>
                             <li>Communique le statut de la place via le LED RGB</li>
@@ -82,7 +82,7 @@ export default function Wizzipark() {
                     </div>
                     <div className='column-4'>
                     <img src='/img/composants/wizzipark/3.png'/>
-                         <h4>Gateway</h4>
+                         <h4 className='green'>Gateway</h4>
                          <ul>
                              <li>Passerelle</li>
                              <li>Récolte les informations des capteurs</li>
@@ -91,7 +91,7 @@ export default function Wizzipark() {
                     </div>
                     <div className='column-4'>
                     <img src='/img/composants/wizzipark/4.png'/>
-                        <h4>Cloud</h4>
+                        <h4 className='yellow'>Cloud</h4>
                         <ul>
                             <li>Récupère les informations par la gateway</li>
                             <li>Affiche les informations sur les places</li>
