@@ -21,10 +21,24 @@ body {
 }
 
 .content-col {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.column-2 {
+    width: calc((var(--sectionWidth) - 120px)/2);
+    align-items: center;
+    padding-bottom: 64px;
+    display: flex;
+    flex-wrap: wrap;
+     img {
+         width: 100%;
+     }
+
+}
+
 .column-3 {
     width: calc((var(--sectionWidth) - 120px)/3);
     text-align: center;
@@ -95,3 +109,13 @@ body {
     margin: 64px 0;
 }
 
+.ensavoirplus-button {
+    background-color: var(--denimColor);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 15px;
+}
+
+.savoirplus-content {
+    margin-top: 50px;
+}
