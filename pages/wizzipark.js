@@ -76,7 +76,7 @@ export default function Wizzipark() {
                         <h4>Capteur infrarouge à LED</h4>
                         <ul>
                             <li>Identifie la présence d’un véhicule</li>
-                            <li>Communique le statut de la place via le LED RGBy</li>
+                            <li>Communique le statut de la place via le LED RGB</li>
                             <li>Envoie l’information de présence à la gateway</li>
                         </ul>
                     </div>
