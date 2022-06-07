@@ -1,0 +1,33 @@
+{
+    "secteurs": [
+        {
+            "id": "1",
+            "name": "Parking",
+            "image" : "/img/secteurs/parking.png"
+        },
+        {
+            "id": "2",
+            "name": "Industrie",
+            "image" : "/img/secteurs/industrie.png"
+        },
+        {
+            "id": "3",
+            "name": "Santé",
+            "image" : "/img/secteurs/sante.png"
+        },
+        {
+            "id": "4",
+            "name": "Flex Office",
+            "image" : "/img/secteurs/flexoffice.png"
+        },
+        {
+            "id": "5",
+            "name": "Building",
+            "image" : "/img/secteurs/building.png"
+        },{
+            "id": "6",
+            "name": "Agriculture",
+            "image" : "/img/secteurs/agriculture.png"
+        }
+    ]
+}

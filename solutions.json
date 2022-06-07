@@ -1,0 +1,12 @@
+{
+    "solutions": [
+        {
+            "id" : "1",
+            "name" : "WOLT",
+            "s1-h2" : "Un système de suivi en temps réel",
+            "s1-p1" : "WOLT se compose de tags, d’ancres et de gateways. Le tag (capteur) se localise par rapport aux ancres à une fréquence prédéfinie en fonction du cas d’usage. La donnée est envoyée dans le cloud à travers la gateway.",
+            "s1-p2" : ""
+
+        }
+    ]
+}
