@@ -1,0 +1,38 @@
+header {
+    width: 100%;
+    position: fixed;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--culturedColor);
+}
+
+header img {
+    width: 15%;
+    height: 15%;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+header nav ul a {
+    margin-left: 48px;
+    font-weight: 500;
+}
+
+
+.contact-button {
+    background-color: var(--denimColor);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 15px;
+}
