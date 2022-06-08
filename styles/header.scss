@@ -1,15 +1,19 @@
 header {
     width: 100%;
     position: fixed;
-    height: 16vh;
+    height: var(--headerHeight);
     display: flex;
     align-items: center;
     background-color: var(--culturedColor);
 }
 
+.onscroll {
+    background-color: white;
+}
+
 header img {
-    width: 15%;
-    height: 15%;
+    width: 10%;
+    height: 10%;
 }
 
 header nav {
