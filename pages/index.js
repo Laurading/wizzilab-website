@@ -15,7 +15,7 @@ export default function Home() {
       </section>
       <section className='lavender-bg'>
         <div className='margin'>
-          <h2>Depuis 2011</h2>
+          <h3>Depuis 2011</h3>
           <div className='content-col'>
             <div className='column-3'>
               <img className='picto' src='/img/pictos/u-guard/1.svg' />

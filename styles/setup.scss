@@ -50,43 +50,42 @@ h1 {
   font-size: 38px;
 }
 
-h2 {
+h3 {
   font-family: 'Lexend';
   font-weight: 700;
   color: var(--denimColor);
-  font-size: 30px;
-  padding: 48px 0 24px 0;
-  margin-top: 16px;
-}
-
-h3 {
-  font-family: 'Lexend';
-  font-weight: 500;
-  color: var(--onyxColor);
-  font-size: 20px;
+  font-size: 35px;
+  padding-bottom: 32px;
 }
 
 h4 {
   font-family: 'Lexend';
+  font-weight: 500;
+  color: var(--onyxColor);
+  font-size: 22px;
+}
+
+h5 {
+  font-family: 'Lexend';
   font-weight: 700;
   color: var(--onyxColor);
-  font-size: 18px;
+  font-size: 20px;
   margin: 48px 0 24px;
 }
 
 p {
   font-family: 'Lexend';
-  font-weight: 300;
+  font-weight: 400;
   color: var(--onyxColor);
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 8px;
 }
 
 li {
   font-family: 'Lexend';
-  font-weight: 300;
+  font-weight: 400;
   color: var(--onyxColor);
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 8px;
   margin-left: 16px;
 }

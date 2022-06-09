@@ -9,7 +9,7 @@ export default function Wizzipark() {
 
             </section>
             <section className='margin'>
-            <h2>Un système en temps réel et autonome</h2>
+            <h3>Un système en temps réel et autonome</h3>
             <p>
             Des capteurs de stationnement sans fils et autonomes détectent instantanément l’arrivée ou le départ de véhicules et relaient l’information vers le Wizzicloud au travers de la gateway. Les visiteurs ont accès en temps réel aux places disponibles qui peuvent être communiquées sur des afficheurs dynamiques.
             </p>
@@ -30,7 +30,7 @@ export default function Wizzipark() {
        
             <section className='lavender-bg'>
                 <div className='margin'>
-                <h2>Vos avantages</h2>
+                <h3>Vos avantages</h3>
                 <div className='content-col'>
                     <div className='column-3'>
                         <img className='picto' src='/img/pictos/wizzipark/1.svg'/>
@@ -60,12 +60,12 @@ export default function Wizzipark() {
                 </div>
             </section>
             <section className='margin'>
-                <h2>Nos composants</h2>
+                <h3>Nos composants</h3>
 
                 <div className='content-col'>
                     <div className='column-4'>
                         <img src='/img/composants/wizzipark/1.png'/>
-                        <h4 className='red'>Capteur magnétique</h4>
+                        <h5 className='red'>Capteur magnétique</h5>
                         <ul>
                         <li>Identifie la présence d’un véhicule</li>
                         <li>Envoie l’information de présence à la gateway</li>
@@ -73,7 +73,7 @@ export default function Wizzipark() {
                     </div>
                     <div className='column-4'>
                     <img src='/img/composants/wizzipark/2.png'/>
-                        <h4 className='blue'>Capteur infrarouge à LED</h4>
+                        <h5 className='blue'>Capteur infrarouge à LED</h5>
                         <ul>
                             <li>Identifie la présence d’un véhicule</li>
                             <li>Communique le statut de la place via le LED RGB</li>
@@ -82,7 +82,7 @@ export default function Wizzipark() {
                     </div>
                     <div className='column-4'>
                     <img src='/img/composants/wizzipark/3.png'/>
-                         <h4 className='green'>Gateway</h4>
+                         <h5 className='green'>Gateway</h5>
                          <ul>
                              <li>Passerelle</li>
                              <li>Récolte les informations des capteurs</li>
@@ -91,7 +91,7 @@ export default function Wizzipark() {
                     </div>
                     <div className='column-4'>
                     <img src='/img/composants/wizzipark/4.png'/>
-                        <h4 className='yellow'>Cloud</h4>
+                        <h5 className='yellow'>Cloud</h5>
                         <ul>
                             <li>Récupère les informations par la gateway</li>
                             <li>Affiche les informations sur les places</li>

@@ -14,6 +14,8 @@ body {
 
 .lavender-bg {
     background-color: var(--lavenderColor);
+    padding-top: 64px;
+    margin: 120px 0;
 
 }
 .anim {
@@ -43,7 +45,7 @@ body {
     width: calc((var(--sectionWidth) - 120px)/3);
     text-align: center;
     align-items: center;
-    padding-bottom: 64px ;
+    margin: 40px 0 ;
      img {
          width: 60%;
          display: block;
@@ -53,9 +55,8 @@ body {
     .picto {
         width: 30%;
     }
-    h3 {
-        margin: 16px 0;
-        padding: 3% 0;
+    h4 {
+        padding: 48px 0;
     }
 }
 
@@ -88,9 +89,8 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-    h3 {
-        margin: 16px 0;
-        padding: 3% 0;
+    h4 {
+        padding: 16px 0;
         font-size: 16px;
     }
     &:hover {

@@ -1,0 +1,21 @@
+@media only screen and (max-width : 1500px) {
+    :root {
+        --margin : 120px;
+      }
+   
+}
+
+
+
+@media only screen and (max-width : 1200px) {
+    :root {
+        --margin : 80px;
+      }
+   
+}
+
+@media only screen and (max-width : 900px) {
+    :root {
+        --margin : 40px;
+      }
+}

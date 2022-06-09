@@ -9,7 +9,7 @@ export default function Wolt() {
 
             </section>
             <section className='margin'>
-            <h2>Un systeme de detection et d'alerte</h2>
+            <h3>Un systeme de detection et d'alerte</h3>
             <p>
                 WOLT se compose de tags, d’ancres et de gateways. Le tag (capteur) se localise par rapport aux ancres à une fréquence prédéfinie en fonction du cas d’usage. La donnée est envoyée dans le cloud à travers la gateway.
             </p>
@@ -27,7 +27,7 @@ export default function Wolt() {
        
             <section className='lavender-bg'>
                 <div className='margin'>
-                <h2>Vos avantages</h2>
+                <h3>Vos avantages</h3>
                 <div className='content-col'>
                     <div className='column-3'>
                         <img className='picto' src='/img/pictos/wolt/1.svg'/>
@@ -57,12 +57,12 @@ export default function Wolt() {
                 </div>
             </section>
             <section className='margin'>
-                <h2>Nos composants</h2>
+                <h3>Nos composants</h3>
 
                 <div className='content-col'>
                     <div className='column-4'>
                         <img src='/img/composants/wolt/1.png'/>
-                        <h4 className='red'>Ancre</h4>
+                        <h5 className='red'>Ancre</h5>
                         <ul>
                         <li>Les tags mesurent leur distance avec lui</li>
                         <li>Sert de repère fix</li>
@@ -71,7 +71,7 @@ export default function Wolt() {
                     </div>
                     <div className='column-4'>
                     <img src='/img/composants/wolt/2.png'/>
-                        <h4 className='blue'>Tags</h4>
+                        <h5 className='blue'>Tags</h5>
                         <ul>
                             <li>Objet mobile dont on veut connaître la position</li>
                             <li>Mesure sa distance avec les ancres et envoie l’information à la gateway</li>
@@ -80,7 +80,7 @@ export default function Wolt() {
                     </div>
                     <div className='column-4'>
                     <img src='/img/composants/wolt/3.png'/>
-                         <h4 className='green'>Gateway</h4>
+                         <h5 className='green'>Gateway</h5>
                          <ul>
                              <li>Passerelle</li>
                              <li>Récolte les informations des tags et des ancres</li>
@@ -89,7 +89,7 @@ export default function Wolt() {
                     </div>
                     <div className='column-4'>
                     <img src='/img/composants/wolt/4.png'/>
-                        <h4 className='yellow'>Cloud</h4>
+                        <h5 className='yellow'>Cloud</h5>
                         <ul>
                             <li>Définit la position du tag en fonction des informations reçues par celui-ci</li>
                             <li>Permet de configurer les tags et les ancres</li>
