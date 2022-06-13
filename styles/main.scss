@@ -9,13 +9,13 @@ body {
 }
 
 .section-one {
-    padding-top: var(--HeaderHeight);
+    padding-top: var(--headerHeight);
+    width: 100%;
+    text-align: center;
 }
 
 .lavender-bg {
     background-color: var(--lavenderColor);
-    padding-top: 64px;
-    margin: 120px 0;
 
 }
 .anim {
@@ -60,7 +60,7 @@ body {
     }
 }
 
-.column-3.secteurs-cards {
+.column-3.onhover {
     &:hover {
         transition: background-color 0.2s;
         background-color: white;

@@ -47,7 +47,15 @@ h1 {
   font-family: 'Lexend';
   font-weight: 700;
   color: var(--onyxColor);
-  font-size: 38px;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Lexend';
+  font-weight: 700;
+  color: var(--denimColor);
+  font-size: 40px;
+  padding: 96px 0;
 }
 
 h3 {
@@ -55,7 +63,7 @@ h3 {
   font-weight: 700;
   color: var(--denimColor);
   font-size: 35px;
-  padding-bottom: 32px;
+  padding: 64px 0;
 }
 
 h4 {
