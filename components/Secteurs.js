@@ -8,7 +8,7 @@ const Secteurs = () => {
             <h3>Votre secteur d'activité</h3>
             <div className='content-col'>
                 {secteurs.secteurs.map(secteur => (
-                    <div onClick={(() => setActive(secteur))} className={`${active != null ? 'column-6' : 'column-3'} ${active === '1' ? 'selected' : ''} secteurs-cards`}>
+                    <div onClick={(() => setActive(secteur))} key={secteur.name} className={`${active != null ? 'column-6' : 'column-3'} ${active === '1' ? 'selected' : ''} onhover`}>
                         <img src={secteur.image} />
                         <h4>{secteur.name}</h4>
                     </div>
