@@ -7,7 +7,7 @@ export default function SavoirFaire() {
             <Header />
             <section className='section-one'>
                 <div className='lavender-bg'>
-                    <h2>Notre savoir faire</h2>
+                    <h2>Notre savoir faire</h2> 
                 </div>
             </section>
             <section className='margin'>
