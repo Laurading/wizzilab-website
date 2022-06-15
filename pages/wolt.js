@@ -29,27 +29,27 @@ export default function Wolt() {
                 <div className='margin'>
                 <h3>Vos avantages</h3>
                 <div className='content-col'>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wolt/1.svg'/>
                         <p>Localiser les objets / inventaires et diminuer les pertes</p>
                     </div>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wolt/2.svg'/>
                         <p>Installer facilement et rapidement notre kit</p>
                     </div>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wolt/3.svg'/>
                         <p>Identifier les points de congestion et réduire et temps mort</p>
                     </div>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wolt/4.svg'/>
                         <p>Adapter les besoins de localisation aux différents cas d’usage</p>
                     </div>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wolt/5.svg'/>
                         <p>Optimiser les déplacements de vos objets / itinéraires</p>
                     </div>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wolt/6.svg'/>
                         <p>Améliorer la performance de votre activité</p>
                     </div>

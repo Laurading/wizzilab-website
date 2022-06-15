@@ -32,27 +32,27 @@ export default function Wizzipark() {
                 <div className='margin'>
                 <h3>Vos avantages</h3>
                 <div className='content-col'>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wizzipark/1.svg'/>
                         <p>Améliorer le processus d’accueil et la satisfaction des conducteurs</p>
                     </div>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wizzipark/2.svg'/>
                         <p>Identifier les voitures ventouses</p>
                     </div>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wizzipark/3.svg'/>
                         <p>Optimiser le taux de remplissage de votre parking</p>
                     </div>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wizzipark/4.svg'/>
                         <p>Exploiter un système de réservation de places de parking</p>
                     </div>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wizzipark/5.svg'/>
                         <p>Informer les visiteurs sur les emplacements spécifiques du parking</p>
                     </div>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wizzipark/6.svg'/>
                         <p>Réduire le temps de recherche d’une place de stationnement</p>
                     </div>

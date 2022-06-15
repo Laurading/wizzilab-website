@@ -40,27 +40,27 @@ export default function SavoirFaire() {
                 <div className='margin'>
                     <h3>Un système IoT efficace</h3>
                     <div className='content-col'>
-                        <div className='column-3'>
+                        <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/1.svg' />
                             <p>Identifier et réduire les situations à risque sur votre site</p>
                         </div>
-                        <div className='column-3'>
+                        <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/2.svg' />
                             <p>Installer facilement et rapidement notre kit</p>
                         </div>
-                        <div className='column-3'>
+                        <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/3.svg' />
                             <p>Alerter le conducteur sur la proximité d’un engin ou d’un pieton</p>
                         </div>
-                        <div className='column-3'>
+                        <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/4.svg' />
                             <p>Améliorer les différents comportements de déplacement</p>
                         </div>
-                        <div className='column-3'>
+                        <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/5.svg' />
                             <p>Avertir les pietons lorsqu’ils entrent dans une zone potentiellement risquée</p>
                         </div>
-                        <div className='column-3'>
+                        <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/6.svg' />
                             <p>Adapter les paramètres de détection à votre parc d’engins et votre environnement</p>
                         </div>
@@ -103,31 +103,31 @@ export default function SavoirFaire() {
                 <h3>Une philosophie de conception</h3>
                 <p>Chez Wizzilab, nous mettons en pratique une philosophie de conception stricte :</p>
                 <div className='content-col'>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <h5>Développement de systèmes de bout en bout.</h5>
                         <p>
                         Nous avons toujours à l’esprit l’ensemble des besoins, le coût et les défis de faible puissance par rapport au système, donc chaque composant est adapté pour fonctionner efficacement avec le reste du système.
                         </p>
                     </div>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <h5>Communication sans fil optimale.</h5>
                         <p>Nous croyons que la disponibilité du réseau les infrastructures répondant aux exigences à grande échelle et à faible coût de l’IoT est une condition préalable au succès de tout système IoT. Nous avons la possibilité de combiner différentes technologies sans fil comme le DASH7, LoRaWAN et cellulaire entre autres, afin d’optimiser les compromis entre le débit de données, la portée et la consommation d’énergie.</p>
                     </div>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <h5>Localisation.</h5>
                         <p>Le positionnement intérieur et extérieur est au coeur d’une multitude des applications professionnelles et privées.
 Nous avons développé une solide expertise en UWB sans fil, ce qui nous permet d’estimer les distances avec un sous-compteur précision.</p>
                     </div>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <h5>Décisions évenementielles en cascade.</h5>
                         <p>Nous utilisons des déclencheurs de faible puissance pour nous réveiller davantage modes de consommation d’énergie.
 Cela permet de conserver la consommation extrêmement faible, tout en offrant la meilleure valeur fonctionnelle.</p>
                     </div>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <h5>Edge computing et algorithmes embarqués.</h5>
                         <p>Les informations sont traitées et filtrées dans les noeuds périphériques, chaque fois que nécessaire, avec la possibilité de rediriger et les fulx de données agrégés. Cela permet d’optimiser le traiteuement à chaque étape, évite les débordements et ne fournit que des données significatives au service d’application.</p>
                     </div>
-                    <div className='column-3'>
+                    <div className='column-3 six'>
                         <h5>Gestion centralisée de la flotte.</h5>
                         <p>Un système IoT efficace nécessite un moyen simple de servir et de configurer le parc de noeuds d’extrémité IoT. Nous concevons nos systèmes pour garantir qu’ils peuvent être accessibles tout au long de leur vie pour la maintenance, la reconfiguation, la sécurité et la mise à jour du firmware.</p>
                     </div>

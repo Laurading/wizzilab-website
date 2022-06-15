@@ -33,27 +33,27 @@ export default function Uguard() {
                 <div className='margin'>
                     <h3>Vos avantages</h3>
                     <div className='content-col'>
-                        <div className='column-3'>
+                        <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/1.svg'/>
                             <p>Identifier et réduire les situations à risque sur votre site</p>
                         </div>
-                        <div className='column-3'>
+                        <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/2.svg'/>
                             <p>Installer facilement et rapidement notre kit</p>
                         </div>
-                        <div className='column-3'>
+                        <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/3.svg'/>
                             <p>Alerter le conducteur sur la proximité d’un engin ou d’un pieton</p>
                         </div>
-                        <div className='column-3'>
+                        <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/4.svg'/>
                             <p>Améliorer les différents comportements de déplacement</p>
                         </div>
-                        <div className='column-3'>
+                        <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/5.svg'/>
                             <p>Avertir les pietons lorsqu’ils entrent dans une zone potentiellement risquée</p>
                         </div>
-                        <div className='column-3'>
+                        <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/6.svg'/>
                             <p>Adapter les paramètres de détection à votre parc d’engins et votre environnement</p>
                         </div>

@@ -11,6 +11,7 @@ VARIABLES
 :root {
   --margin : 240px;
   --sectionWidth : calc(100vw - var(--margin)*2);
+  --gap : 120px;
 
   --headerHeight : 12vh;
   --sectionHeight : calc(100vh - var(--HeaderHeight));
@@ -76,6 +77,7 @@ h4 {
   font-weight: 500;
   color: var(--onyxColor);
   font-size: 22px;
+  padding: 16px 0;
 }
 
 h5 {
@@ -88,7 +90,7 @@ h5 {
 
 p {
   font-family: 'Lexend';
-  font-weight: 400;
+  font-weight: 300;
   color: var(--onyxColor);
   font-size: 18px;
   margin-bottom: 8px;
@@ -96,7 +98,7 @@ p {
 
 li {
   font-family: 'Lexend';
-  font-weight: 400;
+  font-weight: 300;
   color: var(--onyxColor);
   font-size: 18px;
   margin-bottom: 8px;
@@ -106,12 +108,13 @@ li {
 
 a {
   font-family: 'Lexend';
+  font-weight: 500;
   text-decoration: none;
   color: var(--onyxColor);
   font-size: 16px;
   transition: opacity 0.2s;
   &:hover{
-      opacity: 0.5;
+      opacity: 0.8;
   }
 }
 
@@ -121,4 +124,51 @@ span {
 
 img {
   width: 100%;
+}
+
+button {
+  font-family: 'Lexend';
+  font-size: 18px;
+  background-color: var(--denimColor);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  &:hover {
+    transition: color 0.2s;
+    color: rgba(200, 200, 200, 0.5);
+}
+}
+
+input {
+  font-family: 'Lexend';
+  font-size: 16px;
+  border: 0;
+  padding: 8px;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  width: 100%;
+  margin: 16px 0;
+}
+
+input:focus {
+  border-bottom: 2px solid var(--denimColor);
+
+}
+
+textarea {
+  font-family: 'Lexend';
+  font-size: 16px;
+  border: 0;
+  padding: 8px;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  width: 100%;
+  height: 15vh;
+  margin: 16px 0;
+}
+
+textarea:focus {
+  border-bottom: 2px solid var(--denimColor);
+
 }

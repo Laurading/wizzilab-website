@@ -32,22 +32,28 @@ const Header = () => {
     return (
         <header className={goingUp === false ? "onscroll" : ""}>
             <nav className="margin">
-                <img src='/img/logo/wizzilab.png' />
-                <ul>
-                    <li>
+                <a className='logo'href='/'>
+                  <img src='/img/logo/wizzilab.png'/>
+                </a>
+                <ul className='margin-header'>
+                    <li className='deroulant'>
                         <a>Nos solutions</a>
-                        {/* <ul>
-                            <li>Wolt</li>
-                            <li>Wizzipark</li>
-                            <li>U-Guard</li>
-                            <li>Wisp</li>
-                        </ul> */}
+                          <ul className='sous'>
+                            <li><a href='/wolt'>Wolt</a></li>
+                            <li><a href='/wizzipark'>Wizzipark</a></li>
+                            <li><a href='/u-guard'>U-Guard</a></li>
+                            <li><a href='/wisp'>Wisp</a></li>
+                          </ul>
                     </li>
                     <li>
-                        <a>Support</a>
+                        <a href='https://wizzilab.com/wiki/#!index.md' target="_blank">Support</a>
                     </li>
-                    <li>
+                    <li className='deroulant'>
                         <a>A propos</a>
+                        <ul className='sous'>
+                          <li><a href='/savoir-faire'>Notre savoir-faire</a></li>
+                          <li><a href='/wizziteam'>Wizziteam</a></li>
+                        </ul>
                     </li>
                     <li>
                     <a onClick={() => setButtonPopup(true)} className='contact-button'>Contact</a>

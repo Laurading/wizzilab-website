@@ -1,5 +1,6 @@
 import Header from '../components/Header'
 import Secteurs from '../components/Secteurs'
+import Footer from '../components/Footer'
 
 
 export default function Home() {
@@ -7,14 +8,26 @@ export default function Home() {
     <div>
       <Header />
       <section className='section-one anim'>
-
+        <img src='/img/landing.png'/>
       </section>
       <Secteurs />
-      <section className='section-one anim'>
+      <section className='margin'>
+        <h3>Notre processus</h3>
+        <div className='content-col'>
+          <div className='column-3 '>
+            <img src='/img/processus/cibler.png'/>
+          </div>
+          <div className='column-3'>
+            <img src='/img/processus/deployer.png'/>
+          </div>
+          <div className='column-3'>
+            <img src='/img/processus/recolter.png'/>
+          </div>
+        </div>
 
       </section>
       <section className='lavender-bg'>
-        <div className='margin'>
+        <div className='margin-prefooter'>
           <h3>Depuis 2011</h3>
           <div className='content-col'>
             <div className='column-3'>
@@ -32,6 +45,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   )
 }

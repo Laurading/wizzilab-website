@@ -28,9 +28,10 @@ const Secteurs = () => {
                                 <div>
                                     <h3>{active.name}</h3>
                                     <p>{active.content}</p>
-                                    <div className='savoirplus-content'>
-                                        <a className='ensavoirplus-button'>En savoir plus</a>
+                                    <div className='button-content'>
+                                        <button>En savoir plus</button>
                                     </div>
+                                    
                                 </div>
 
                             </div>

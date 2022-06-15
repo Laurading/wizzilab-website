@@ -12,7 +12,7 @@ header {
 }
 
 header img {
-    width: 15%;
+    width: 100%;
 }
 
 header nav {
@@ -21,21 +21,73 @@ header nav {
     justify-content: space-between;
 }
 
+.margin-header {
+    margin-left: 30%;
+}
+
 header nav ul {
+    width: 100%;
     display: flex;
     align-items: center;
     list-style-type: none;
+    justify-content: space-between;
+
 }
 
 header nav ul a {
-    margin-left: 48px;
-    font-weight: 500;
+    padding: 100% 0;
 }
 
+.sous {
+    position: absolute;
+    display: none;
+    background-color:white;
+    box-shadow: 0px 0px 2px rgb(240, 240, 240);
+    margin-top: 3vh;
+}
+
+
+nav > ul li:hover .sous {
+    display: block;
+}
+
+.sous li {
+    width: 100%;
+    text-align: left;
+    padding: 16px;
+}
+
+.sous a {
+    padding: 10px;
+    border-bottom: none;
+    margin: 0;
+    &:hover {
+        transition: opacity 0.2;
+        opacity: 0.8;
+    }
+}
 
 .contact-button {
     background-color: var(--denimColor);
     color: white;
     padding: 12px 20px;
     border-radius: 15px;
+}
+
+
+@media only screen and (max-width : 1000px) {
+    .logo {
+        height: 6vh;
+        text-align: center;
+    }
+    .logo img {
+        width: 20%;
+    }
+    header nav {
+        display: block;
+    }
+
+    .margin-header {
+        margin-left: 0%;
+    }
 }
