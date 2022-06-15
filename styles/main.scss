@@ -4,13 +4,12 @@ body {
 }
 
 .margin {
-    margin: 0 var(--margin);
+    margin: 120px var(--margin);
 
 }
 
 .section-one {
     padding-top: var(--headerHeight);
-    width: 100%;
     text-align: center;
 }
 
@@ -49,6 +48,7 @@ body {
     width: calc((var(--sectionWidth) - 120px)/3);
     text-align: center;
     align-items: center;
+    padding-bottom: 64px;
      img {
          width: 60%;
          display: block;
@@ -58,8 +58,9 @@ body {
     .picto {
         width: 30%;
     }
-    h4 {
-        padding: 48px 0;
+    h3 {
+        margin: 16px 0;
+        padding: 3% 0;
     }
 }
 
@@ -104,8 +105,9 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-    h4 {
-        padding: 16px 0;
+    h3 {
+        margin: 16px 0;
+        padding: 3% 0;
         font-size: 16px;
     }
     &:hover {
