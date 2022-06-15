@@ -18,6 +18,10 @@ body {
     background-color: var(--lavenderColor);
 
 }
+
+.denim-bg {
+    background-color: var(--denimColor);
+}
 .anim {
     height: 100vh;
 }
@@ -45,7 +49,6 @@ body {
     width: calc((var(--sectionWidth) - 120px)/3);
     text-align: center;
     align-items: center;
-    margin: 40px 0 ;
      img {
          width: 60%;
          display: block;
@@ -58,6 +61,18 @@ body {
     h4 {
         padding: 48px 0;
     }
+}
+
+.column-3.left {
+    text-align: left;
+    
+}
+
+.column-3x2 {
+    width: calc(((var(--sectionWidth) - 120px )/3)*2);
+    text-align: left;
+    align-items: center;
+    padding: 32px;
 }
 
 .column-3.onhover {

@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lexend';
 }
 
 /********************
@@ -36,6 +37,10 @@ VARIABLES
 }
 .blue {
   color: #68A7FF;
+}
+
+.cultured {
+  color: var(--culturedColor);
 }
 
 

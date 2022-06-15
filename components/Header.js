@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
+import Contact from './Contact';
 
 const Header = () => {
-    const prevScrollY = useRef(0);
+  const prevScrollY = useRef(0);
 
   const [goingUp, setGoingUp] = useState(false);
 
@@ -23,6 +24,9 @@ const Header = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, [goingUp]);
+
+
+  const [buttonPopup, setButtonPopup] = useState(false)
     
     
     return (
@@ -46,11 +50,12 @@ const Header = () => {
                         <a>A propos</a>
                     </li>
                     <li>
-                    <a className='contact-button'>Contact</a>
+                    <a onClick={() => setButtonPopup(true)} className='contact-button'>Contact</a>
                     </li>
                 </ul>
 
             </nav>
+            <Contact trigger={buttonPopup} setTrigger={setButtonPopup}/>
         </header>
     )
 }
