@@ -4,27 +4,50 @@ const Contact = (props) => {
     return (props.trigger) ? (
         <div className='popup'>
             <div className='popup-inner'>
-            <div className='content-col'>
-                <div className='column-3x2'>
-                <h3>My popup</h3>
-                <div className='content-col'>
-                    <div className='column-3 left'>
-                        <input className='effect-1' type="text" placeholder="Nom"/>
-                        <span class="focus-border"></span>
+                <button onClick={() => props.setTrigger(false)} className='close-btn'><img src='/img/close.svg'/></button>
+                <div className='content-col-contact'>
+                    <div className='column-3x2'>
+                        <div className='padding-contact'>
+                            <h3>N’HESITEZ PAS, CONTACTEZ-NOUS!</h3>
+                        </div>
+                        <div className='content-col-contact'>
+                            <div className='column-3 left'>
+                                <input type="text" placeholder="Nom" />
+                                <input type="text" placeholder="Email" />
+                            </div>
+                            <div className='column-3 left'>
+                                <input type="text" placeholder="Société" />
+                                <input type="text" placeholder="Téléphone" />
+                            </div>
+                        </div>
+                        <div className='padding-contact'>
+                            <textarea placeholder="Message" />
+                        </div>
+                        <div className='button-content center'>
+                            <button>Envoyer</button>
+                        </div>
+
                     </div>
-                    <div className='column-3 left'>
-                        test
+                    <div className='column-3 left denim-bg test'>
+                        <h4 className='cultured padding-tb'>CONTACT</h4>
+                        <p className='cultured'>
+                            contact@wizzilab.com
+                        </p>
+                        <p className='cultured'>
+                            +33 (0)6 30 57 96 12
+                        </p>
+                        <h4 className='cultured padding-tb'>WIZZILAB</h4>
+                        <p className='cultured'>
+                            2 Boulevard du Général de Gaulle
+                        </p>
+                        <p className='cultured'>
+                            92120 Montrouge
+                        </p>
+                        <p className='cultured'>
+                            France
+                        </p>
                     </div>
                 </div>
-                </div>
-                <div className='column-3 left denim-bg'>
-                <button onClick={() => props.setTrigger(false)} className='close-btn'>close</button>
-                <h4 className='cultured'>CONTACT</h4>
-                </div>
-              </div>
-              
-              
-                
             </div>
 
         </div>
