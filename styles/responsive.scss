@@ -1,86 +1,132 @@
 @media only screen and (max-width : 1500px) {
-    :root {
-        --margin : 120px;
-        --gap : 120px;
-      }
-   
+  :root {
+    --margin: 120px;
+    --gap: 120px;
+  }
+
 }
 
 @media only screen and (max-width : 1200px) {
-    :root {
-        --margin : 80px;
-        --gap : 80px;
-      }
-   
+  :root {
+    --margin: 80px;
+    --gap: 80px;
+  }
+
 }
 
 @media only screen and (max-width : 900px) {
   :root {
-    --margin : 40px;
-    --gap : 40px;
+    --margin: 40px;
+    --gap: 40px;
   }
 
   .column-3.six {
-      width: calc((var(--sectionWidth) - var(--gap))/2);
+    width: calc((var(--sectionWidth) - var(--gap))/2);
   }
 
   .column-6 {
-      width: calc((var(--sectionWidth) - var(--gap))/3);
+    width: calc((var(--sectionWidth) - var(--gap))/3);
   }
 
   .column-4 {
-      width: calc((var(--sectionWidth) - var(--gap))/2);
+    width: calc((var(--sectionWidth) - var(--gap))/2);
   }
 
   .column-2 {
-      width: 100%;
+    width: 100%;
   }
-  
+
+  .column {
+    width: calc((var(--sectionWidth) - var(--gap)*2)/2)
+  }
+
+  .radius-right {
+    border-radius: 15px 15px 0px 0px;
+}
+
+  .content-col-contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .column-3x2 {
+    width: 100%;
+    padding: 0 0 32px;
+  }
+
+
+  .column-3.left {
+    text-align: left;
+    width: 100%;
+    padding: 0 32px;
+
+  }
+
+  .padding-contact {
+    padding: 0 32px
+  }
+
+  .close-btn {
+    color: var(--onyxColor);
+  }
+
+  .padding-tb {
+    padding: 32px 0;
+  }
 }
 
 @media only screen and (max-width : 600px) {
   :root {
-    --margin : 8px;
+    --margin: 8px;
   }
 
   .column-3 {
-      width: 100%;
+    width: 100%;
   }
 
   .column-3.six {
-      width: 100%;
+    width: 100%;
   }
 
   h2 {
-      font-size: 32px;
+    font-size: 32px;
   }
 
   h3 {
-      font-size: 28px;
-      text-align: center;
+    font-size: 28px;
+    text-align: center;
+    padding: 32px 0;
   }
 
   h4 {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   h5 {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   p {
-      font-size: 13px;
+    font-size: 13px;
   }
 
   li {
-      font-size: 13px;
+    font-size: 13px;
   }
 
   a {
-      font-size: 13px;
+    font-size: 13px;
   }
 
   button {
-      font-size: 13px;
+    font-size: 13px;
+  }
+
+  input {
+    font-size: 13px;
+  }
+
+  textarea {
+    font-size: 13px;
   }
 }

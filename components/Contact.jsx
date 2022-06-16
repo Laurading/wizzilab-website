@@ -6,6 +6,32 @@ const Contact = (props) => {
             <div className='popup-inner'>
                 <button onClick={() => props.setTrigger(false)} className='close-btn'><img src='/img/close.svg'/></button>
                 <div className='content-col-contact'>
+                    <div className='column-3 left denim-bg radius-right'>
+                        <div className='content-col'>
+                            <div className='column'>
+                            <h4 className='cultured padding-tb'>CONTACT</h4>
+                        <p className='cultured'>
+                            contact@wizzilab.com
+                        </p>
+                        <p className='cultured'>
+                            +33 (0)6 30 57 96 12
+                        </p>
+                            </div>
+                            <div className='column'>
+                                
+                        <h4 className='cultured padding-tb'>WIZZILAB</h4>
+                        <p className='cultured'>
+                            2 Boulevard du Général de Gaulle
+                        </p>
+                        <p className='cultured'>
+                            92120 Montrouge
+                        </p>
+                        <p className='cultured'>
+                            France
+                        </p>
+                            </div>
+                        </div>
+                    </div>
                     <div className='column-3x2'>
                         <div className='padding-contact'>
                             <h3>N’HESITEZ PAS, CONTACTEZ-NOUS!</h3>
@@ -28,26 +54,8 @@ const Contact = (props) => {
                         </div>
 
                     </div>
-                    <div className='column-3 left denim-bg radius-right'>
-                        <h4 className='cultured padding-tb'>CONTACT</h4>
-                        <p className='cultured'>
-                            contact@wizzilab.com
-                        </p>
-                        <p className='cultured'>
-                            +33 (0)6 30 57 96 12
-                        </p>
-                        <h4 className='cultured padding-tb'>WIZZILAB</h4>
-                        <p className='cultured'>
-                            2 Boulevard du Général de Gaulle
-                        </p>
-                        <p className='cultured'>
-                            92120 Montrouge
-                        </p>
-                        <p className='cultured'>
-                            France
-                        </p>
-                    </div>
                 </div>
+                
             </div>
 
         </div>

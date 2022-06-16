@@ -69,6 +69,7 @@ body {
 .content-col-contact {
     width: 100%;
     display: flex;
+    flex-direction: row-reverse;
 }
 
 .padding-contact {
@@ -186,7 +187,7 @@ body {
 
 
 .button-content {
-    margin-top: 50px;
+    margin-top: var(--margin)/2
 }
 
 .center {
