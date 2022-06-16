@@ -10,22 +10,18 @@ export default function Wisp() {
 
             </section>
             <section className='margin'>
-            <h3>Un système en temps réel et autonome</h3>
+            <h3>Un système flexible et pret à l&apos;emploi</h3>
             <p>
-            Des capteurs de stationnement sans fils et autonomes détectent instantanément l’arrivée ou le départ de véhicules et relaient l’information vers le Wizzicloud au travers de la gateway. Les visiteurs ont accès en temps réel aux places disponibles qui peuvent être communiquées sur des afficheurs dynamiques.
+            A l&apos;aide de capteurs d&apos;environnement, des données sont collectées puis transmises sous forme d&apos;indicateurs.</p>
+            <p>
+            WISP digitalise vos données telles que la température, la pression, l&apos;humidité, la luminosité, ...
             </p>
             <p>
-                <span>2 types de capteurs </span>
-                sont disponibles :
+            ... vous permettant d&apos;analyser ces indicateurs afin de compléter et améliorer votre processus de prise de décision.
             </p>
-            <ul>
-            <li>
-            Le <span>capteur magnétique</span>, se fixant au sol, détectant la présence d'un véhicule.
-            </li>
-            <li>
-                Le <span>capteur infrarouge à LED</span>, se fixant au plafond, change de couleur en fonction du statut de la place et au cas d'usage.
-            </li>
-            </ul>
+            <p>
+            Wizzilab peut s&apos;appuyer sur cette solution “sur étagère” pour répondre aux cas d&apos;usage spécifiques grâce à son expérience de bureau d’étude.
+            </p>
                 <img className='solutions-img' src='/img/solutions/wisp.png' />
             </section>
             <Footer/>

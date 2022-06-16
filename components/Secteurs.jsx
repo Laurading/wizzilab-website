@@ -5,7 +5,7 @@ const Secteurs = () => {
     const [active, setActive] = useState(null);
     return (
         <section className='margin'>
-            <h3>Votre secteur d'activité</h3>
+            <h3>Votre secteur d&apos;activité</h3>
             <div className='content-col'>
                 {secteurs.secteurs.map(secteur => (
                     <div onClick={(() => setActive(secteur))} key={secteur.name} className={`${active != null ? 'column-6' : 'column-3'} ${active === '1' ? 'selected' : ''} onhover`}>

@@ -12,7 +12,7 @@ export default function Wizzipark() {
             <section className='margin'>
             <h3>Un système en temps réel et autonome</h3>
             <p>
-            Des capteurs de stationnement sans fils et autonomes détectent instantanément l’arrivée ou le départ de véhicules et relaient l’information vers le Wizzicloud au travers de la gateway. Les visiteurs ont accès en temps réel aux places disponibles qui peuvent être communiquées sur des afficheurs dynamiques.
+            Des capteurs de stationnement sans fils et autonomes détectent instantanément l&apos;arrivée ou le départ de véhicules et relaient l&apos;information vers le Wizzicloud au travers de la gateway. Les visiteurs ont accès en temps réel aux places disponibles qui peuvent être communiquées sur des afficheurs dynamiques.
             </p>
             <p>
                 <span>2 types de capteurs </span>
@@ -20,10 +20,10 @@ export default function Wizzipark() {
             </p>
             <ul>
             <li>
-            Le <span>capteur magnétique</span>, se fixant au sol, détectant la présence d'un véhicule.
+            Le <span>capteur magnétique</span>, se fixant au sol, détectant la présence d&apos;un véhicule.
             </li>
             <li>
-                Le <span>capteur infrarouge à LED</span>, se fixant au plafond, change de couleur en fonction du statut de la place et au cas d'usage.
+                Le <span>capteur infrarouge à LED</span>, se fixant au plafond, change de couleur en fonction du statut de la place et au cas d&apos;usage.
             </li>
             </ul>
                 <img className='solutions-img' src='/img/solutions/wizzipark.png' />
@@ -35,7 +35,7 @@ export default function Wizzipark() {
                 <div className='content-col'>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wizzipark/1.svg'/>
-                        <p>Améliorer le processus d’accueil et la satisfaction des conducteurs</p>
+                        <p>Améliorer le processus d&apos;accueil et la satisfaction des conducteurs</p>
                     </div>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wizzipark/2.svg'/>
@@ -55,7 +55,7 @@ export default function Wizzipark() {
                     </div>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wizzipark/6.svg'/>
-                        <p>Réduire le temps de recherche d’une place de stationnement</p>
+                        <p>Réduire le temps de recherche d&apos;une place de stationnement</p>
                     </div>
                 </div>
                 </div>
@@ -68,8 +68,8 @@ export default function Wizzipark() {
                         <img src='/img/composants/wizzipark/1.png'/>
                         <h5 className='red'>Capteur magnétique</h5>
                         <ul>
-                        <li>Identifie la présence d’un véhicule</li>
-                        <li>Envoie l’information de présence à la gateway</li>
+                        <li>Identifie la présence d&apos;un véhicule</li>
+                        <li>Envoie l&apos;information de présence à la gateway</li>
                         </ul>
                     </div>
                     <div className='column-4'>
@@ -78,7 +78,7 @@ export default function Wizzipark() {
                         <ul>
                             <li>Identifie la présence d’un véhicule</li>
                             <li>Communique le statut de la place via le LED RGB</li>
-                            <li>Envoie l’information de présence à la gateway</li>
+                            <li>Envoie l&apos;information de présence à la gateway</li>
                         </ul>
                     </div>
                     <div className='column-4'>

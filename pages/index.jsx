@@ -8,20 +8,30 @@ export default function Home() {
     <div>
       <Header />
       <section className='section-one anim'>
-        <img src='/img/landing.png'/>
+        <img src='/img/landing.png' />
       </section>
       <Secteurs />
       <section className='margin'>
         <h3>Notre processus</h3>
         <div className='content-col'>
           <div className='column-3 '>
-            <img src='/img/processus/cibler.png'/>
+            <h4 className='white-bg'><span>CIBLER</span></h4>
+            <img src='/img/processus/cibler.png' />
+            <br />
+            <p><span>Comprendre et définir vos besoins</span></p>
           </div>
           <div className='column-3'>
-            <img src='/img/processus/deployer.png'/>
+            <h4 className='white-bg'><span>DÉPLOYER</span></h4>
+            <img src='/img/processus/deployer.png' />
+            <br />
+            <p><span>Une installation simple, rapide</span></p>
           </div>
           <div className='column-3'>
-            <img src='/img/processus/recolter.png'/>
+            <h4 className='white-bg'><span>RÉCOLTER</span></h4>
+            <img src='/img/processus/recolter.png' />
+            <br />
+            <p><span>Une supervision à distance
+              Des API pour récolter vos données</span></p>
           </div>
         </div>
 
@@ -45,7 +55,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   )
 }

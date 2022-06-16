@@ -10,7 +10,7 @@ export default function Wolt() {
 
             </section>
             <section className='margin'>
-            <h3>Un systeme de detection et d'alerte</h3>
+            <h3>Un systeme de detection et d&apos;alerte</h3>
             <p>
                 WOLT se compose de tags, d’ancres et de gateways. Le tag (capteur) se localise par rapport aux ancres à une fréquence prédéfinie en fonction du cas d’usage. La donnée est envoyée dans le cloud à travers la gateway.
             </p>
@@ -19,9 +19,9 @@ export default function Wolt() {
                 sont possibles :
             </p>
             <ul>
-                <li>Le <span className='red'>positionnement</span>, le plus précis des 3 niveaux, qui permet d’identifier la position exacte de l’objet</li>
-                <li>La <span className='orange'>proximité</span> qui permet de connaître la position approximative d’un tag par rapport aux ancres</li>
-                <li>La <span className='yellow'>présence</span> qui permet de savoir si un objet dans une zone d’intérêt</li>
+                <li>Le <span className='red'>positionnement</span>, le plus précis des 3 niveaux, qui permet d&apos;identifier la position exacte de l&apos;objet</li>
+                <li>La <span className='orange'>proximité</span> qui permet de connaître la position approximative d&apos;un tag par rapport aux ancres</li>
+                <li>La <span className='yellow'>présence</span> qui permet de savoir si un objet dans une zone d&apos;intérêt</li>
             </ul>
                 <img className='solutions-img' src='/img/solutions/wolt.png' />
             </section>
@@ -44,7 +44,7 @@ export default function Wolt() {
                     </div>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wolt/4.svg'/>
-                        <p>Adapter les besoins de localisation aux différents cas d’usage</p>
+                        <p>Adapter les besoins de localisation aux différents cas d&apos;usage</p>
                     </div>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wolt/5.svg'/>
@@ -67,7 +67,8 @@ export default function Wolt() {
                         <ul>
                         <li>Les tags mesurent leur distance avec lui</li>
                         <li>Sert de repère fix</li>
-                        <li>Composant "passif";</li>
+                        <li>Composant &ldquo;passif&rdquo;
+                        </li>
                         </ul>
                     </div>
                     <div className='column-4'>
@@ -75,7 +76,7 @@ export default function Wolt() {
                         <h5 className='blue'>Tags</h5>
                         <ul>
                             <li>Objet mobile dont on veut connaître la position</li>
-                            <li>Mesure sa distance avec les ancres et envoie l’information à la gateway</li>
+                            <li>Mesure sa distance avec les ancres et envoie l&apos;information à la gateway</li>
                             <li>Deux types de tags qui permettent deux précisions : la position et la présence</li>
                         </ul>
                     </div>
