@@ -28,7 +28,7 @@ const Contact = (props) => {
                         </div>
 
                     </div>
-                    <div className='column-3 left denim-bg test'>
+                    <div className='column-3 left denim-bg radius-right'>
                         <h4 className='cultured padding-tb'>CONTACT</h4>
                         <p className='cultured'>
                             contact@wizzilab.com

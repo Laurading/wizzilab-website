@@ -1,4 +1,5 @@
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 
 export default function Wizzipark() {
@@ -100,9 +101,7 @@ export default function Wizzipark() {
                     </div>
                 </div>
             </section>
-            <section className='section-one anim'>
-           
-        </section>
+            <Footer/>
         </div>
     )
 }

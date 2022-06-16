@@ -1,5 +1,5 @@
 import Header from '../components/Header'
-
+import Footer from '../components/Footer'
 
 export default function Uguard() {
     return (
@@ -102,9 +102,7 @@ export default function Uguard() {
                     </div>
                 </div>
             </section>
-            <section className='section-one anim'>
-           
-            </section>
+            <Footer/>
         </div>
     )
 }

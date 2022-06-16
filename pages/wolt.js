@@ -1,4 +1,5 @@
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 
 export default function Wolt() {
@@ -97,9 +98,7 @@ export default function Wolt() {
                     </div>
                 </div>
             </section>
-            <section className='section-one anim'>
-           
-        </section>
+            <Footer/>
         </div>
     )
 }
