@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Contact from './Contact';
+import Link from 'next/link'
 
 const Header = () => {
   const prevScrollY = useRef(0);
@@ -32,27 +33,30 @@ const Header = () => {
     return (
         <header className={goingUp === false ? "onscroll" : ""}>
             <nav className="margin">
-                <a className='logo'href='/'>
+              <Link href='/'>
+              <a className='logo'>
                   <img src='/img/logo/wizzilab.png'/>
                 </a>
+              </Link>
+                
                 <ul className='margin-header'>
                     <li className='deroulant'>
                         <a>Nos solutions</a>
                           <ul className='sous'>
-                            <li><a href='/wolt'>Wolt</a></li>
-                            <li><a href='/wizzipark'>Wizzipark</a></li>
-                            <li><a href='/u-guard'>U-Guard</a></li>
-                            <li><a href='/wisp'>Wisp</a></li>
+                            <li><Link href='/wolt'><a>Wolt</a></Link></li>
+                            <li><Link href='/wizzipark'><a>Wizzipark</a></Link></li>
+                            <li><Link href='/u-guard'><a>U-Guard</a></Link></li>
+                            <li><Link href='/wisp'><a>Wisp</a></Link></li>
                           </ul>
                     </li>
                     <li>
-                        <a href='https://wizzilab.com/wiki/#!index.md' target="_blank">Support</a>
+                        <a href='https://wizzilab.com/wiki/#!index.md'>Support</a>
                     </li>
                     <li className='deroulant'>
                         <a>A propos</a>
                         <ul className='sous'>
-                          <li><a href='/savoir-faire'>Notre savoir-faire</a></li>
-                          <li><a href='/wizziteam'>Wizziteam</a></li>
+                          <li><Link href='/savoir-faire'><a>Notre savoir-faire</a></Link></li>
+                          <li><Link href='/wizziteam'><a>Wizziteam</a></Link></li>
                         </ul>
                     </li>
                     <li>

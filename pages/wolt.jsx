@@ -67,7 +67,7 @@ export default function Wolt() {
                         <ul>
                         <li>Les tags mesurent leur distance avec lui</li>
                         <li>Sert de repère fix</li>
-                        <li>Composant “passif”</li>
+                        <li>Composant "passif";</li>
                         </ul>
                     </div>
                     <div className='column-4'>
