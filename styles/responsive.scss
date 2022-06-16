@@ -14,7 +14,7 @@
 
 }
 
-@media only screen and (max-width : 900px) {
+@media only screen and (max-width : 1000px) {
   :root {
     --margin: 40px;
     --gap: 40px;
@@ -72,6 +72,27 @@
 
   .padding-tb {
     padding: 32px 0;
+  }
+
+  h3 {
+    font-size: 30px;
+    padding: 48px 0;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+
+  textarea {
+    font-size: 14px;
   }
 }
 
