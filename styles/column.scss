@@ -1,0 +1,112 @@
+.content-col {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column-2 {
+    width: calc((var(--sectionWidth) - var(--gap))/2);
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    .padding-iot {
+        padding: 3%;
+    }
+}
+
+.column-3 {
+    width: calc((var(--sectionWidth) - var(--gap))/3);
+    text-align: center;
+    align-items: center;
+    padding-bottom: 64px;
+
+    img {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .picto {
+        width: 30%;
+    }
+}
+
+.column-4 {
+    width: calc((var(--sectionWidth) - var(--gap))/4);
+    align-items: center;
+    padding-bottom: 64px;
+
+    img {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.column-6 {
+    width: calc((var(--sectionWidth) - var(--gap))/6);
+    text-align: center;
+
+    img {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h3 {
+        margin: 16px 0;
+        padding: 3% 0;
+        font-size: 16px;
+    }
+
+    &:hover {
+        transition: background-color 0.2s;
+        background-color: white;
+    }
+
+}
+/****************NOTRE SAVOIR FAIRE COLUMN****************/
+
+.no-gap {
+    width: calc((var(--sectionWidth) - 16px )/3) ;
+}
+
+/******************CONTACT COLUMN******************/
+
+.content-col-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.column-3.left {
+    text-align: left;
+    width: calc((var(--sectionWidth))/3);
+    padding: 0 64px;
+}
+
+.column-3x2 {
+    width: calc(((var(--sectionWidth))/3)*2);
+    text-align: left;
+    align-items: center;
+    padding: 0 0 64px;
+
+}
+
+/***************SECTEURS COLUMN***************/
+
+.column-3.onhover {
+    &:hover {
+        transition: background-color 0.2s;
+        background-color: white;
+    }
+
+    img {
+        width: 60%;
+    }
+}

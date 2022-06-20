@@ -5,11 +5,10 @@ export default function Uguard() {
     return (
         <div>
             <Header />
-            <section className='section-one anim'>
-                <img src='/img/u-guard.png' />
-            </section>
-            <section className='margin'>
-                <h3>Un système en temps réel et autonome</h3>
+            <section className='section-one'>
+            <div className='margin-lr'>
+            <h2><span className='orange'>U-GUARD : </span> La solution &ldquo;Proximity&rdquo;</h2>
+                <img className='solutions-img' src='/img/solutions/u-guard.png' />
                 <p>5 capteurs (4 U-Guard-P et 1 U-Guard-M) génèrent un périmètre de sécurité autour de l&apos;engin afin de détecter la proximité des piétons ou d’autres engins (via un badge ou un système identique).</p>
                 <p>Il existe 
                     <span> 2 zones de sécurité </span>
@@ -26,7 +25,8 @@ export default function Uguard() {
                         qui alerte les deux protagonistes d&apos;un danger de collision immédiat.
                     </li>
                 </ul>
-                <img className='solutions-img' src='/img/solutions/u-guard.png' />
+            </div>
+                
             </section>
        
             <section className='lavender-bg'>

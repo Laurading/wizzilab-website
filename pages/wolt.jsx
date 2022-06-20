@@ -6,55 +6,54 @@ export default function Wolt() {
     return (
         <div>
             <Header />
-            <section className='section-one anim'>
-                <img src='/img/wolt.png' />
+            <section className='section-one'>
+                <div className='margin-lr'>
+                    <h2><span className='blue'>WOLT : </span> La solution d&apos;infrastructure RTLS</h2>
+                    <img className='solutions-img' src='/img/solutions/wolt.png' />
+                    <p>
+                        WOLT se compose de tags, d’ancres et de gateways. Le tag (capteur) se localise par rapport aux ancres à une fréquence prédéfinie en fonction du cas d’usage. La donnée est envoyée dans le cloud à travers la gateway.
+                    </p>
+                    <p>
+                        <span>3 niveaux de précisions de localisation </span>
+                        sont possibles :
+                    </p>
+                    <ul>
+                        <li>Le <span className='red'>positionnement</span>, le plus précis des 3 niveaux, qui permet d&apos;identifier la position exacte de l&apos;objet</li>
+                        <li>La <span className='orange'>proximité</span> qui permet de connaître la position approximative d&apos;un tag par rapport aux ancres</li>
+                        <li>La <span className='yellow'>présence</span> qui permet de savoir si un objet dans une zone d&apos;intérêt</li>
+                    </ul>
+                </div>
             </section>
-            <section className='margin'>
-            <h3>Un systeme de detection et d&apos;alerte</h3>
-            <p>
-                WOLT se compose de tags, d’ancres et de gateways. Le tag (capteur) se localise par rapport aux ancres à une fréquence prédéfinie en fonction du cas d’usage. La donnée est envoyée dans le cloud à travers la gateway.
-            </p>
-            <p>
-                <span>3 niveaux de précisions de localisation </span>
-                sont possibles :
-            </p>
-            <ul>
-                <li>Le <span className='red'>positionnement</span>, le plus précis des 3 niveaux, qui permet d&apos;identifier la position exacte de l&apos;objet</li>
-                <li>La <span className='orange'>proximité</span> qui permet de connaître la position approximative d&apos;un tag par rapport aux ancres</li>
-                <li>La <span className='yellow'>présence</span> qui permet de savoir si un objet dans une zone d&apos;intérêt</li>
-            </ul>
-                <img className='solutions-img' src='/img/solutions/wolt.png' />
-            </section>
-       
+
             <section className='lavender-bg'>
                 <div className='margin'>
-                <h3>Vos avantages</h3>
-                <div className='content-col'>
-                    <div className='column-3 six'>
-                        <img className='picto' src='/img/pictos/wolt/1.svg'/>
-                        <p className='center'>Localiser les objets / inventaires et diminuer les pertes</p>
+                    <h3>Vos avantages</h3>
+                    <div className='content-col'>
+                        <div className='column-3 six'>
+                            <img className='picto' src='/img/pictos/wolt/1.svg' />
+                            <p className='center'>Localiser les objets / inventaires et diminuer les pertes</p>
+                        </div>
+                        <div className='column-3 six'>
+                            <img className='picto' src='/img/pictos/wolt/2.svg' />
+                            <p className='center'>Installer facilement et rapidement notre kit</p>
+                        </div>
+                        <div className='column-3 six'>
+                            <img className='picto' src='/img/pictos/wolt/3.svg' />
+                            <p className='center'>Identifier les points de congestion et réduire et temps mort</p>
+                        </div>
+                        <div className='column-3 six'>
+                            <img className='picto' src='/img/pictos/wolt/4.svg' />
+                            <p className='center'>Adapter les besoins de localisation aux différents cas d&apos;usage</p>
+                        </div>
+                        <div className='column-3 six'>
+                            <img className='picto' src='/img/pictos/wolt/5.svg' />
+                            <p className='center'>Optimiser les déplacements de vos objets / itinéraires</p>
+                        </div>
+                        <div className='column-3 six'>
+                            <img className='picto' src='/img/pictos/wolt/6.svg' />
+                            <p className='center'>Améliorer la performance de votre activité</p>
+                        </div>
                     </div>
-                    <div className='column-3 six'>
-                        <img className='picto' src='/img/pictos/wolt/2.svg'/>
-                        <p className='center'>Installer facilement et rapidement notre kit</p>
-                    </div>
-                    <div className='column-3 six'>
-                        <img className='picto' src='/img/pictos/wolt/3.svg'/>
-                        <p className='center'>Identifier les points de congestion et réduire et temps mort</p>
-                    </div>
-                    <div className='column-3 six'>
-                        <img className='picto' src='/img/pictos/wolt/4.svg'/>
-                        <p className='center'>Adapter les besoins de localisation aux différents cas d&apos;usage</p>
-                    </div>
-                    <div className='column-3 six'>
-                        <img className='picto' src='/img/pictos/wolt/5.svg'/>
-                        <p className='center'>Optimiser les déplacements de vos objets / itinéraires</p>
-                    </div>
-                    <div className='column-3 six'>
-                        <img className='picto' src='/img/pictos/wolt/6.svg'/>
-                        <p className='center'>Améliorer la performance de votre activité</p>
-                    </div>
-                </div>
                 </div>
             </section>
             <section className='margin'>
@@ -62,17 +61,17 @@ export default function Wolt() {
 
                 <div className='content-col'>
                     <div className='column-4'>
-                        <img src='/img/composants/wolt/1.png'/>
+                        <img src='/img/composants/wolt/1.png' />
                         <h5 className='red'>Ancre</h5>
                         <ul>
-                        <li>Les tags mesurent leur distance avec lui</li>
-                        <li>Sert de repère fix</li>
-                        <li>Composant &ldquo;passif&rdquo;
-                        </li>
+                            <li>Les tags mesurent leur distance avec lui</li>
+                            <li>Sert de repère fix</li>
+                            <li>Composant &ldquo;passif&rdquo;
+                            </li>
                         </ul>
                     </div>
                     <div className='column-4'>
-                    <img src='/img/composants/wolt/2.png'/>
+                        <img src='/img/composants/wolt/2.png' />
                         <h5 className='blue'>Tags</h5>
                         <ul>
                             <li>Objet mobile dont on veut connaître la position</li>
@@ -81,16 +80,16 @@ export default function Wolt() {
                         </ul>
                     </div>
                     <div className='column-4'>
-                    <img src='/img/composants/wolt/3.png'/>
-                         <h5 className='green'>Gateway</h5>
-                         <ul>
-                             <li>Passerelle</li>
-                             <li>Récolte les informations des tags et des ancres</li>
-                             <li>Envoie les informations au cloud</li>
-                         </ul>
+                        <img src='/img/composants/wolt/3.png' />
+                        <h5 className='green'>Gateway</h5>
+                        <ul>
+                            <li>Passerelle</li>
+                            <li>Récolte les informations des tags et des ancres</li>
+                            <li>Envoie les informations au cloud</li>
+                        </ul>
                     </div>
                     <div className='column-4'>
-                    <img src='/img/composants/wolt/4.png'/>
+                        <img src='/img/composants/wolt/4.png' />
                         <h5 className='yellow'>Cloud</h5>
                         <ul>
                             <li>Définit la position du tag en fonction des informations reçues par celui-ci</li>
@@ -99,7 +98,7 @@ export default function Wolt() {
                     </div>
                 </div>
             </section>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

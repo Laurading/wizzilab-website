@@ -7,9 +7,6 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <section className='section-one anim'>
-        <img src='/img/landing.png' />
-      </section>
       <Secteurs />
       <section className='margin'>
         <h3>Notre processus</h3>
@@ -37,7 +34,7 @@ export default function Home() {
 
       </section>
       <section className='lavender-bg'>
-        <div className='margin-prefooter'>
+        <div className='margin-lr'>
           <h3>Depuis 2011</h3>
           <div className='content-col'>
             <div className='column-3'>

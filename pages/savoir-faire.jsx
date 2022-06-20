@@ -8,7 +8,7 @@ export default function SavoirFaire() {
             <Header />
             <section className='section-one'>
                 <div className='lavender-bg'>
-                    <h2>Notre savoir faire</h2>
+                    <h2 className='denim'>Notre savoir faire</h2>
                 </div>
             </section>
             <section className='margin'>
@@ -16,7 +16,7 @@ export default function SavoirFaire() {
                     <div className='column-2'>
                         <h3> Qu&apos;est ce qu&apos;un projet IoT?</h3>
                         <p>
-                            L&apos;équipe Wizzilab déploie les capacités extraordinaires de l&apos;IoT en maîtrisant des technologies et des systèmes de conception uniques qui permettent de fournir la Data nécessaire pour vous aider et accompagner  :
+                            L&apos;équipe Wizzilab déploie les capacités extraordinaires de l&apos;IoT en maîtrisant des technologies et des systèmes de conception uniques qui permettent de fournir la Data nécessaire pour vous aider et accompagner:
                         </p>
                         <ul>
                             <li>
@@ -117,7 +117,7 @@ export default function SavoirFaire() {
                 <p>Chez Wizzilab, nous mettons en pratique une philosophie de conception stricte :</p>
                 <br />
                 <div className='content-col'>
-                    <div className='column-3 no-gap six align-left denim-bg cultured-border'>
+                    <div className='column-3 no-gap six align-left denim-bg'>
                         <div className='content-padding'>
                             <h5 className='cultured'>Développement de systèmes de bout en bout.</h5>
                             <p className='cultured'>
@@ -125,39 +125,40 @@ export default function SavoirFaire() {
                             </p>
                         </div>
                     </div>
-                    <div className='column-3 no-gap six align-left lavender-bg cultured-border'>
+                    <div className='column-3 no-gap six align-left lavender-bg'>
                         <div className='content-padding'>
                             <h5>Communication sans fil optimale.</h5>
                             <p>Nous croyons que la disponibilité du réseau les infrastructures répondant aux exigences à grande échelle et à faible coût de l&apos;IoT est une condition préalable au succès de tout système IoT. Nous avons la possibilité de combiner différentes technologies sans fil comme le DASH7, LoRaWAN et cellulaire entre autres, afin d’optimiser les compromis entre le débit de données, la portée et la consommation d’énergie.</p>
                         </div>
                     </div>
-                    <div className='column-3 no-gap six align-left denim-border'>
+                    <div className='column-3 no-gap six align-left white-bg'>
                         <div className='content-padding'>
                             <h5>Localisation.</h5>
                             <p>Le positionnement intérieur et extérieur est au coeur d&apos;une multitude des applications professionnelles et privées.
                                 Nous avons développé une solide expertise en UWB sans fil, ce qui nous permet d&apos;estimer les distances avec un sous-compteur précision.</p>
                         </div>
                     </div>
-                    <div className='column-3 no-gap six align-left denim-border'>
+                    <div className='column-3 no-gap six align-left white-bg'>
                         <div className='content-padding'>
                             <h5>Décisions évenementielles en cascade.</h5>
                             <p>Nous utilisons des déclencheurs de faible puissance pour nous réveiller davantage modes de consommation d&apos;énergie.
                                 Cela permet de conserver la consommation extrêmement faible, tout en offrant la meilleure valeur fonctionnelle.</p>
                         </div>
                     </div>
-                    <div className='column-3 no-gap six align-left denim-bg cultured-border'>
+                    <div className='column-3 no-gap six align-left denim-bg'>
                         <div className='content-padding'>
                             <h5 className='cultured'>Edge computing et algorithmes embarqués.</h5>
                             <p className='cultured'>Les informations sont traitées et filtrées dans les noeuds périphériques, chaque fois que nécessaire, avec la possibilité de rediriger et les fulx de données agrégés. Cela permet d&apos;optimiser le traiteuement à chaque étape, évite les débordements et ne fournit que des données significatives au service d&apos;application.</p>
                         </div>
                     </div>
-                    <div className='column-3 no-gap six align-left lavender-bg cultured-border'>
+                    <div className='column-3 no-gap six align-left lavender-bg'>
                         <div className='content-padding'>
                             <h5>Gestion centralisée de la flotte.</h5>
                             <p>Un système IoT efficace nécessite un moyen simple de servir et de configurer le parc de noeuds d&apos;extrémité IoT. Nous concevons nos systèmes pour garantir qu’ils peuvent être accessibles tout au long de leur vie pour la maintenance, la reconfiguation, la sécurité et la mise à jour du firmware.</p>
                         </div>
                     </div>
                     <div>
+                        <br/>
                         <br/>
                     <p>
                         Basé sur le cloud fournissant des services de données IoT évolutifs. Chez Wizzilab, nous fournissons des données IoT en temps réel pour améliorer les performances. Nous fournissons des API cloud simples pour se connecter les données sont acheminées vers les services applicatifs du client.

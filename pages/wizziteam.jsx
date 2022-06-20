@@ -8,7 +8,7 @@ export default function Wizziteam() {
             <Header />
             <section className='section-one'>
                 <div className='lavender-bg'>
-                    <h2>Wizziteam</h2> 
+                    <h2 className='denim'>Wizziteam</h2> 
                 </div>
             </section>
             <section className='margin'>

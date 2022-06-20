@@ -6,11 +6,10 @@ export default function Wizzipark() {
     return (
         <div>
             <Header />
-            <section className='section-one anim'>
-                <img src='/img/wizzipark.png' />
-            </section>
-            <section className='margin'>
-            <h3>Un système en temps réel et autonome</h3>
+            <section className='section-one'>
+            <div className='margin-lr'>
+            <h2><span className='red'>WIZZIPARK :</span> La solution de stationnement intelligent et en temps réel</h2>
+            <img className='solutions-img' src='/img/solutions/wizzipark.png' />
             <p>
             Des capteurs de stationnement sans fils et autonomes détectent instantanément l&apos;arrivée ou le départ de véhicules et relaient l&apos;information vers le Wizzicloud au travers de la gateway. Les visiteurs ont accès en temps réel aux places disponibles qui peuvent être communiquées sur des afficheurs dynamiques.
             </p>
@@ -26,7 +25,8 @@ export default function Wizzipark() {
                 Le <span>capteur infrarouge à LED</span>, se fixant au plafond, change de couleur en fonction du statut de la place et au cas d&apos;usage.
             </li>
             </ul>
-                <img className='solutions-img' src='/img/solutions/wizzipark.png' />
+                
+            </div>
             </section>
        
             <section className='lavender-bg'>
