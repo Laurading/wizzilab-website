@@ -49,7 +49,7 @@ const Contact = (props) => {
                         <div className='padding-contact'>
                             <textarea placeholder="Message" />
                         </div>
-                        <div className='button-content center'>
+                        <div className='center'>
                             <button>Envoyer</button>
                         </div>
 

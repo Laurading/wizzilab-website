@@ -55,27 +55,27 @@ export default function SavoirFaire() {
                     <div className='content-col'>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/1.svg' />
-                            <p>Une solution technique qui a fait ses preuves</p>
+                            <p className='center'>Une solution technique qui a fait ses preuves</p>
                         </div>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/2.svg' />
-                            <p>Installation facile et rapide</p>
+                            <p className='center'>Installation facile et rapide</p>
                         </div>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/3.svg' />
-                            <p>Minimisant les interventions physiques</p>
+                            <p className='center'>Minimisant les interventions physiques</p>
                         </div>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/4.svg' />
-                            <p>Facile à entretenir, configurer et mettre à jour à distance</p>
+                            <p className='center'>Facile à entretenir, configurer et mettre à jour à distance</p>
                         </div>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/5.svg' />
-                            <p>Sécurisé de bout en bout</p>
+                            <p className='center'>Sécurisé de bout en bout</p>
                         </div>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/6.svg' />
-                            <p>Adaptable via le Cloud en fonction des évolutions des cas d&apos;usages</p>
+                            <p className='center'>Adaptable via le Cloud en fonction des évolutions des cas d&apos;usages</p>
                         </div>
                     </div>
                 </div>

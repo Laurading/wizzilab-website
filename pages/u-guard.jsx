@@ -6,7 +6,7 @@ export default function Uguard() {
         <div>
             <Header />
             <section className='section-one anim'>
-
+                <img src='/img/u-guard.png' />
             </section>
             <section className='margin'>
                 <h3>Un système en temps réel et autonome</h3>
@@ -35,27 +35,27 @@ export default function Uguard() {
                     <div className='content-col'>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/1.svg'/>
-                            <p>Identifier et réduire les situations à risque sur votre site</p>
+                            <p className='center'>Identifier et réduire les situations à risque sur votre site</p>
                         </div>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/2.svg'/>
-                            <p>Installer facilement et rapidement notre kit</p>
+                            <p className='center'>Installer facilement et rapidement notre kit</p>
                         </div>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/3.svg'/>
-                            <p>Alerter le conducteur sur la proximité d&apos;un engin ou d&apos;un pieton</p>
+                            <p className='center'>Alerter le conducteur sur la proximité d&apos;un engin ou d&apos;un pieton</p>
                         </div>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/4.svg'/>
-                            <p>Améliorer les différents comportements de déplacement</p>
+                            <p className='center'>Améliorer les différents comportements de déplacement</p>
                         </div>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/5.svg'/>
-                            <p>Avertir les pietons lorsqu&apos;ils entrent dans une zone potentiellement risquée</p>
+                            <p className='center'>Avertir les pietons lorsqu&apos;ils entrent dans une zone potentiellement risquée</p>
                         </div>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/6.svg'/>
-                            <p>Adapter les paramètres de détection à votre parc d&apos;engins et votre environnement</p>
+                            <p className='center'>Adapter les paramètres de détection à votre parc d&apos;engins et votre environnement</p>
                         </div>
                     </div>
                 </div>

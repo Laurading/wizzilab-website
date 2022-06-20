@@ -12,27 +12,50 @@ export default function Wizziteam() {
                 </div>
             </section>
             <section className='margin'>
-                <h3>
-                    Notre mission
-                </h3>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget risus est id turpis pellentesque tortor donec. Velit cum augue sagittis viverra sed in erat sit ut. Enim quam consequat scelerisque id amet leo, id. Morbi ornare feugiat donec nisi, dolor cras. Nam blandit venenatis ac, faucibus lacus egestas consectetur ornare. Nibh dolor libero eu, lacus. Nam pellentesque quam facilisis sapien tincidunt mattis posuere.
-                </p>
+                
+                        <h3>Notre vision</h3>
+                        <p>Améliorer votre environnement en digitalisant la donnée physique</p>
+                        <h3>Nos valeurs</h3>
+                        <div className='content-col'>
+                            <div className='column-3'>
+                            <h4>Créativité</h4>
+                            <img src='/img/valeurs/Creativite.png'/>
+                            <p className='margin-top'> Allier le potentiel de la Technologie à l&apos;inventivité de notre équipe pour répondre aux challenges de nos utilisateurs</p>
+                            </div>
+                            <div className='column-3'>
+                            <h4>Écoute</h4>
+                            <img src='/img/valeurs/Ecoute.png'/>
+                            <p className='margin-top'>Savoir nous adapter à vos contraintes afin d&apos;apporter une solution appropriée</p>
+                            </div>
+                            <div className='column-3'>
+                                <h4>Engagement</h4>
+                                <img src='/img/valeurs/Engagement.png'/>
+                            <p className='margin-top'> Accompagner et soutenir nos partenaires dans leur projet en leur apportant le meilleur service</p>
+                            </div>
+                        </div>
             </section>
             <section className='margin'>
                 <h3>Notre team</h3>
                 <div className='content-col'>
                     <div className='column-3'>
-                        test
+                    <img src='/img/wizziteam/test.png'/>
+                    <h4>Michael ANDRE</h4>
+                    <p  className='center'>CEO</p>
                     </div>
                     <div className='column-3'>
-                        test
+                    <img src='/img/wizziteam/test.png'/>
+                    <h4>Michael ANDRE</h4>
+                    <p className='center'>CEO</p>
                     </div>
                     <div className='column-3'>
-                        test
+                    <img src='/img/wizziteam/test.png'/>
+                    <h4>Michael ANDRE</h4>
+                    <p className='center'>CEO</p>
                     </div>
                     <div className='column-3'>
-                        test
+                    <img src='/img/wizziteam/test.png'/>
+                    <h4>Michael ANDRE</h4>
+                    <p className='center'>CEO</p>
                     </div>
                 </div>
             </section>

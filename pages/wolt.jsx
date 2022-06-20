@@ -7,7 +7,7 @@ export default function Wolt() {
         <div>
             <Header />
             <section className='section-one anim'>
-
+                <img src='/img/wolt.png' />
             </section>
             <section className='margin'>
             <h3>Un systeme de detection et d&apos;alerte</h3>
@@ -32,27 +32,27 @@ export default function Wolt() {
                 <div className='content-col'>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wolt/1.svg'/>
-                        <p>Localiser les objets / inventaires et diminuer les pertes</p>
+                        <p className='center'>Localiser les objets / inventaires et diminuer les pertes</p>
                     </div>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wolt/2.svg'/>
-                        <p>Installer facilement et rapidement notre kit</p>
+                        <p className='center'>Installer facilement et rapidement notre kit</p>
                     </div>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wolt/3.svg'/>
-                        <p>Identifier les points de congestion et réduire et temps mort</p>
+                        <p className='center'>Identifier les points de congestion et réduire et temps mort</p>
                     </div>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wolt/4.svg'/>
-                        <p>Adapter les besoins de localisation aux différents cas d&apos;usage</p>
+                        <p className='center'>Adapter les besoins de localisation aux différents cas d&apos;usage</p>
                     </div>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wolt/5.svg'/>
-                        <p>Optimiser les déplacements de vos objets / itinéraires</p>
+                        <p className='center'>Optimiser les déplacements de vos objets / itinéraires</p>
                     </div>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wolt/6.svg'/>
-                        <p>Améliorer la performance de votre activité</p>
+                        <p className='center'>Améliorer la performance de votre activité</p>
                     </div>
                 </div>
                 </div>

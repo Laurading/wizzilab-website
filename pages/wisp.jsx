@@ -7,7 +7,7 @@ export default function Wisp() {
         <div>
             <Header />
             <section className='section-one anim'>
-
+            <img src='/img/wisp.png' />
             </section>
             <section className='margin'>
             <h3>Un système flexible et pret à l&apos;emploi</h3>

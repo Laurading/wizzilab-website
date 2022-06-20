@@ -20,6 +20,11 @@
     --gap: 40px;
   }
 
+  header {
+    padding-bottom: 16px;
+    
+  }
+
   .column-3.six {
     width: calc((var(--sectionWidth) - var(--gap))/2);
   }
