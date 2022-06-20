@@ -4,36 +4,43 @@
             "id": "1",
             "name": "Parking",
             "image" : "/img/secteurs/parking.png",
-            "content" : "Des solutions connectées pour la gestion de vos places de parking"
+            "content" : "Des solutions connectées pour la gestion de vos places de parking",
+            "href" : "/wizzipark"
         },
         {
             "id": "2",
             "name": "Industrie",
             "image" : "/img/secteurs/industrie.png",
-            "content" : "La localisation Indoor au service de l’amélioration de la performance industrielle"
+            "content" : "La localisation Indoor au service de l’amélioration de la performance industrielle",
+            "href" : "/u-guard"
         },
         {
             "id": "3",
             "name": "Santé",
             "image" : "/img/secteurs/sante.png",
             "content" : "Localiser votre matériel pour une meilleure utilisation et efficience du parcours patient"
+            ,
+            "href" : "/wolt"
         },
         {
             "id": "4",
             "name": "Flex Office",
             "image" : "/img/secteurs/flexoffice.png",
-            "content" : "Organiser et optimiser la gestion de vos locaux"
+            "content" : "Organiser et optimiser la gestion de vos locaux",
+            "href" : "/wizzipark"
         },
         {
             "id": "5",
             "name": "Building",
             "image" : "/img/secteurs/building.png",
-            "content" : "Le tracage indoor de votre outillage sur site pour une meilleure gestion de vos budgets"
+            "content" : "Le tracage indoor de votre outillage sur site pour une meilleure gestion de vos budgets",
+            "href" : "/wolt"
         },{
             "id": "6",
             "name": "Agriculture",
             "image" : "/img/secteurs/agriculture.png",
-            "content" : "Connecter votre environnement pour mieux l’analyser par nos actionneurs"
+            "content" : "Connecter votre environnement pour mieux l’analyser par nos actionneurs",
+            "href" : "/wisp"
         }
     ]
 }

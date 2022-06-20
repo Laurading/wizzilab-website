@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import secteurs from '../secteurs.json';
+import Link from 'next/link'
 
 const Secteurs = () => {
     const [active, setActive] = useState(null);
@@ -29,7 +30,9 @@ const Secteurs = () => {
                                     <h3>{active.name}</h3>
                                     <p>{active.content}</p>
                                     <div className='button-content'>
-                                        <button>En savoir plus</button>
+                                        <Link href={active.href}>
+                                            <button>En savoir plus</button>
+                                        </Link>
                                     </div>
                                     
                                 </div>
