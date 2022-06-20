@@ -44,18 +44,23 @@ export default function Wizziteam() {
                     </div>
                     <div className='column-3'>
                     <img src='/img/wizziteam/test.png'/>
-                    <h4>Michael ANDRE</h4>
-                    <p className='center'>CEO</p>
+                    <h4>Yordan TABAKOV</h4>
+                    <p className='center'>CTO</p>
                     </div>
                     <div className='column-3'>
                     <img src='/img/wizziteam/test.png'/>
-                    <h4>Michael ANDRE</h4>
-                    <p className='center'>CEO</p>
+                    <h4>Laurent BASTIDE</h4>
+                    <p className='center'>Product Architect</p>
                     </div>
                     <div className='column-3'>
                     <img src='/img/wizziteam/test.png'/>
-                    <h4>Michael ANDRE</h4>
-                    <p className='center'>CEO</p>
+                    <h4>Benjamin BABUT</h4>
+                    <p className='center'>Cloud System Architect</p>
+                    </div>
+                    <div className='column-3'>
+                    <img src='/img/wizziteam/test.png'/>
+                    <h4>Pierre-Emmanuel CHARBONNIER</h4>
+                    <p className='center'>.</p>
                     </div>
                 </div>
             </section>
