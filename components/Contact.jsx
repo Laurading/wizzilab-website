@@ -14,7 +14,7 @@ const Contact = (props) => {
                             contact@wizzilab.com
                         </p>
                         <p className='cultured'>
-                            +33 (0)6 30 57 96 12
+                            +33 (0)6 95 14 88 16
                         </p>
                             </div>
                             <div className='column'>
