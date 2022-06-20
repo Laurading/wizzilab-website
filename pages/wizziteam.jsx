@@ -39,28 +39,30 @@ export default function Wizziteam() {
                 <div className='content-col'>
                     <div className='column-3'>
                     <img src='/img/wizziteam/test.png'/>
-                    <h4>Michael ANDRE</h4>
-                    <p  className='center'>CEO</p>
+                    <p className='center'><span>Michael ANDRE</span></p>
+                    <p className='center'>CEO</p>
                     </div>
                     <div className='column-3'>
                     <img src='/img/wizziteam/test.png'/>
-                    <h4>Yordan TABAKOV</h4>
+                    <p className='center'><span>Yordan TABAKOV</span></p>
                     <p className='center'>CTO</p>
                     </div>
                     <div className='column-3'>
                     <img src='/img/wizziteam/test.png'/>
-                    <h4>Laurent BASTIDE</h4>
+                    <p className='center'><span>Laurent BASTIDE</span></p>
                     <p className='center'>Product Architect</p>
                     </div>
                     <div className='column-3'>
                     <img src='/img/wizziteam/test.png'/>
-                    <h4>Benjamin BABUT</h4>
+                    <p className='center'><span>Benjamin BABUT</span></p>
                     <p className='center'>Cloud System Architect</p>
                     </div>
                     <div className='column-3'>
                     <img src='/img/wizziteam/test.png'/>
-                    <h4>Pierre-Emmanuel CHARBONNIER</h4>
+                    <p className='center'><span>Pierre-Emmanuel CHARBONNIER</span></p>
                     <p className='center'>.</p>
+                    </div>
+                    <div className='column-3'>
                     </div>
                 </div>
             </section>
