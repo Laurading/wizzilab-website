@@ -70,7 +70,7 @@ export default function Wizzipark() {
                         <ul>
                         <li>Identifie la présence d&apos;un véhicule</li>
                         <li>Envoie l&apos;information de présence à la gateway</li>
-                        <li>Deux options d'installation : à<span className='cultured'>-</span>coller ou à<span className='cultured'>-</span>encastrer</li>
+                        <li>Deux options d&apos;installation : à<span className='cultured'>-</span>coller ou à<span className='cultured'>-</span>encastrer</li>
                         </ul>
                     </div>
                     <div className='column-4'>
@@ -100,8 +100,8 @@ export default function Wizzipark() {
                             <li>Récupère les informations transitant la / les gateway(s)</li>
                             <li>Affiche les informations sur les places</li>
                             <li>Permet de configurer les capteurs et la gateway</li>
-                            <li>Fournit des statistiques d'activité (nombre de visiteurs, taux d'occupation,...)</li>
-                            <li>L'ensemble de vos parkings en supervision sur une seule interface</li>
+                            <li>Fournit des statistiques d&apos;activité (nombre de visiteurs, taux d&apos;occupation,...)</li>
+                            <li>L&apos;ensemble de vos parkings en supervision sur une seule interface</li>
                         </ul>
                     </div>
                 </div>
