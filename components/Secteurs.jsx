@@ -33,7 +33,7 @@ const Secteurs = () => {
                                         <p>{active.content}</p>
                                         <div className='content-col margin-top'>
                                             {secteurs.secteurs[active.id - 1].solutions.map(solution => (
-                                                <Link href={solution.href}>
+                                                <Link href={solution.href} key={solution.name}>
                                                     <div className='column-4 onhover'>
                                                 <div className='padding-lr'>
                                                 <h5 className={`${solution.color}`}>{solution.name}</h5>
