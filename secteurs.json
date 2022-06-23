@@ -4,18 +4,18 @@
             "id": "1",
             "name": "Parking",
             "image" : "/img/secteurs/parking.png",
-            "content" : "Des solutions connectées pour la gestion de vos places de parking",
+            "content" : "Installer nos capteurs Indoor/Outdoor pour activer le guidage à la place, reporter les informations sur des afficheurs pour améliorer l'expérience client et superviser/piloter l'activité grâce à notre plateforme (Wizzicloud)",
             "solutions" : [
                 {
                     "name" : "Wizzipark",
                     "color" : "red",
-                    "text" : "La solution de stationnement intelligent en temps réel",
+                    "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
                     "href" : "/wizzipark"
                 },
                 {
                     "name" : "Wolt",
                     "color" : "blue",
-                    "text" : "La solution d'infrastructure RTLS",
+                    "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
                     "href" : "/wolt"
                 }
             ]
@@ -24,30 +24,24 @@
             "id": "2",
             "name": "Industrie",
             "image" : "/img/secteurs/industrie.png",
-            "content" : "La localisation Indoor au service de l’amélioration de la performance industrielle",
+            "content" : "Améliorer votre performance industrielle grâce à nos capteurs qui vous fourniront la donnée nécessaire à votre modernisation.",
             "solutions" : [
-                {
-                    "name" : "U-Guard",
-                    "color" : "orange",
-                    "text" : "La solution \"Proximity\"",
-                    "href" : "/u-guard"
-                },
                 {
                     "name" : "Wizzipark",
                     "color" : "red",
-                    "text" : "La solution de stationnement intelligent en temps réel",
+                    "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
                     "href" : "/wizzipark"
                 },
                 {
                     "name" : "Wolt",
                     "color" : "blue",
-                    "text" : "La solution d'infrastructure RTLS",
+                    "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
                     "href" : "/wolt"
                 },
                 {
                     "name" : "Wisp",
                     "color" : "green",
-                    "text" : "La solution qui se connecte à votre environnement",
+                    "text" : "Connecter votre environnement pour mieux l’analyser par nos actionneurs",
                     "href" : "/wisp"
                 }
             ]
@@ -56,24 +50,24 @@
             "id": "3",
             "name": "Santé",
             "image" : "/img/secteurs/sante.png",
-            "content" : "Localiser votre matériel pour une meilleure utilisation et efficience du parcours patient"
+            "content" : "Localiser votre matériel pour une meilleure utilisation et efficience du parcours patient/personnel. "
             ,
             "solutions" : [
                 {
                     "name" : "Wolt",
-                    "color" : "blue", "text" : "La solution d'infrastructure RTLS",
+                    "color" : "blue", "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
                     "href" : "/wolt"
                 },
                 {
                     "name" : "Wizzipark",
                     "color" : "red",
-                    "text" : "La solution de stationnement intelligent en temps réel",
+                    "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
                     "href" : "/wizzipark"
                 },
                 {
                     "name" : "Wisp",
                     "color" : "green",
-                    "text" : "La solution qui se connecte à votre environnement",
+                    "text" : "Connecter votre environnement pour mieux l’analyser par nos actionneurs",
                     "href" : "/wisp"
                 }
             ]
@@ -82,17 +76,17 @@
             "id": "4",
             "name": "Flex Office",
             "image" : "/img/secteurs/flexoffice.png",
-            "content" : "Organiser et optimiser la gestion de vos locaux",
+            "content" : "Organiser et optimiser la gestion de vos locaux et matériels. Piloter et adapter vos besoins de stationnement (places spécifiques : électriques, handicapées, ...).",
             "solutions" : [
                 {
                     "name" : "Wizzipark",
                     "color" : "red",
-                    "text" : "La solution de stationnement intelligent en temps réel",
+                    "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
                     "href" : "/wizzipark"
                 },
                 {
                     "name" : "Wolt",
-                    "color" : "blue", "text" : "La solution d'infrastructure RTLS",
+                    "color" : "blue", "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
                     "href" : "/wolt"
                 }
             ]
@@ -101,23 +95,23 @@
             "id": "5",
             "name": "Building",
             "image" : "/img/secteurs/building.png",
-            "content" : "Le tracage indoor de votre outillage sur site pour une meilleure gestion de vos budgets",
+            "content" : "Le tracage indoor de votre outillage sur site pour une meilleure gestion de vos budgets. Détectez la présence de vos engins.",
             "solutions" : [
                 {
                     "name" : "Wolt",
-                    "color" : "blue", "text" : "La solution d'infrastructure RTLS",
+                    "color" : "blue", "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
                     "href" : "/wolt"
                 },
                 {
                     "name" : "Wizzipark",
                     "color" : "red",
-                    "text" : "La solution de stationnement intelligent en temps réel",
+                    "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
                     "href" : "/wizzipark"
                 },
                 {
                     "name" : "Wisp",
                     "color" : "green",
-                    "text" : "La solution qui se connecte à votre environnement",
+                    "text" : "Connecter votre environnement pour mieux l’analyser par nos actionneurs",
                     "href" : "/wisp"
                     
                 }
@@ -127,29 +121,23 @@
             "id": "6",
             "name": "Agriculture",
             "image" : "/img/secteurs/agriculture.png",
-            "content" : "Connecter votre environnement pour mieux l’analyser par nos actionneurs",
+            "content" : "Développer, analyser et transformer votre activité grâce a nos différents types de capteurs.",
             "solutions" : [
                 {
                     "name" : "Wisp",
                     "color" : "green",
-                    "text" : "La solution qui se connecte à votre environnement",
+                    "text" : "Connecter votre environnement pour mieux l’analyser par nos actionneurs",
                     "href" : "/wisp"
-                },
-                {
-                    "name" : "U-Guard",
-                    "color" : "orange",
-                    "text" : "La solution \"Proximity\"",
-                    "href" : "/u-guard"
                 },
                 {
                     "name" : "Wizzipark",
                     "color" : "red",
-                    "text" : "La solution de stationnement intelligent en temps réel",
+                    "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
                     "href" : "/wizzipark"
                 },
                 {
                     "name" : "Wolt",
-                    "color" : "blue", "text" : "La solution d'infrastructure RTLS",
+                    "color" : "blue", "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
                     "href" : "/wolt"
                 }
             ]

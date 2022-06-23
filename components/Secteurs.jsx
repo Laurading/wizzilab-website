@@ -7,6 +7,12 @@ const Secteurs = () => {
     const [active, setActive] = useState(null);
     return (
         <section className='section-one'>
+            <div className='denim-bg'>
+                <div className="margin-lr">
+                <h2 className='center cultured'>WizziLab : Fournisseur de Données d&apos;objets connectés</h2>
+                <img className="landing-img" src="/img/landing.png"/>
+                </div>
+            </div>
             <div className='margin-lr'>
                 <h1>La <span className='denim'>Donnée temps réel</span> au service de la <span className='denim'>Performance</span></h1>
                 <div className='content-col'>
@@ -35,14 +41,14 @@ const Secteurs = () => {
                                             {secteurs.secteurs[active.id - 1].solutions.map(solution => (
                                                 <Link href={solution.href} key={solution.name}>
                                                     <div className='column-4 onhover'>
-                                                <div className='padding-lr'>
-                                                <h5 className={`${solution.color}`}>{solution.name}</h5>
-                                                <p className='margin-bottom'>{solution.text}</p>
-                                                
-                                                </div>
-                                            </div>
+                                                        <div className='padding-lr'>
+                                                            <h5 className={`${solution.color}`}>{solution.name}</h5>
+                                                            <p className='margin-bottom'>{solution.text}</p>
+
+                                                        </div>
+                                                    </div>
                                                 </Link>
-                                                
+
                                             ))}
                                         </div>
 

@@ -91,3 +91,22 @@ body {
     padding: 5%;
 }
 
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    color: var(--denimColor);
+    font-size: 22px;
+}
+
+
+.landing-img {
+padding: 32px 0;
+}
+
+.vertical-middle {
+    align-items: center;
+    justify-content: center;
+}

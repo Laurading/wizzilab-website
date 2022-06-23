@@ -45,7 +45,7 @@ const Header = () => {
                           <ul className='sous'>
                             <li><Link href='/wolt'><a>Wolt</a></Link></li>
                             <li><Link href='/wizzipark'><a>Wizzipark</a></Link></li>
-                            <li><Link href='/u-guard'><a>U-Guard</a></Link></li>
+                            {/* <li><Link href='/u-guard'><a>U-Guard</a></Link></li> */}
                             <li><Link href='/wisp'><a>Wisp</a></Link></li>
                           </ul>
                     </li>
