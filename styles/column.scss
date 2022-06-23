@@ -46,6 +46,12 @@
     }
 }
 
+.column-4.onhover {
+    &:hover {
+        transition: background-color 0.2s;
+        background-color: white;
+    }
+}
 
 .column-6 {
     width: calc((var(--sectionWidth) - var(--gap))/6);

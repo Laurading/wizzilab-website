@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import secteurs from '../secteurs.json';
-import Link from 'next/link'
+import Link from 'next/link';
+
 
 const Secteurs = () => {
     const [active, setActive] = useState(null);
@@ -30,10 +31,19 @@ const Secteurs = () => {
                                     <div>
                                         <h3>{active.name}</h3>
                                         <p>{active.content}</p>
-                                        <div className='button-content'>
-                                            <Link href={active.href}>
-                                                <button>En savoir plus</button>
-                                            </Link>
+                                        <div className='content-col margin-top'>
+                                            {secteurs.secteurs[active.id - 1].solutions.map(solution => (
+                                                <Link href={solution.href}>
+                                                    <div className='column-4 onhover'>
+                                                <div className='padding-lr'>
+                                                <h5 className={`${solution.color}`}>{solution.name}</h5>
+                                                <p className='margin-bottom'>{solution.text}</p>
+                                                
+                                                </div>
+                                            </div>
+                                                </Link>
+                                                
+                                            ))}
                                         </div>
 
                                     </div>
