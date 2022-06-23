@@ -7,7 +7,7 @@ export default function Wisp() {
         <div>
             <Header />
             <section className='section-one'>
-                <div className='margin-lr'>
+                <div className='margin-lr margin-bottom'>
                     <h2><span className='green'>WISP : </span> La solution qui se connecte à votre environnement</h2>
                     <img className='solutions-img' src='/img/solutions/wisp.png' />
                     <p>

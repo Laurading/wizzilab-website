@@ -31,24 +31,6 @@ body {
     margin-bottom: 16px;
 }
 
-
-.anim {
-    height: calc(100vh - var(--headerHeight));
-    background-color: var(--lavenderColor);
-    // display: flex;
-    // align-content: center;
-    // align-items: center;
-    width: 100%;
-    
-    img {
-       width: 40%;
-    //    max-width: 100%;
-    //    max-height: 100%;
-    //    object-fit: cover;
-    }
-}
-
-
 .lavender-bg {
     background-color: var(--lavenderColor);
 }
@@ -72,9 +54,6 @@ body {
     padding: 0 64px;
 }
 
-
-
-
 .selected {
     background-color: white;
 }
@@ -82,7 +61,6 @@ body {
 .solutions-img {
     margin: 0 0 64px 0;
 }
-
 
 .center {
     width: 100%;
@@ -113,11 +91,3 @@ body {
     padding: 5%;
 }
 
-.last-section {
-    margin-top: 0;
-}
-
-.number {
-    color: var(--denimColor);
-    font-size: 22px;
-}
