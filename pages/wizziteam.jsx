@@ -60,9 +60,12 @@ export default function Wizziteam() {
                     <div className='column-3'>
                     <img src='/img/wizziteam/test.png'/>
                     <p className='center'><span>Pierre-Emmanuel CHARBONNIER</span></p>
-                    <p className='center'>.</p>
+                    <p className='center'>Sales Director</p>
                     </div>
                     <div className='column-3'>
+                    <img src='/img/wizziteam/test.png'/>
+                    <p className='center'><span>Jérémie GREFFE</span></p>
+                    <p className='center'>HW &amp; SW design engineer</p>
                     </div>
                 </div>
             </section>
