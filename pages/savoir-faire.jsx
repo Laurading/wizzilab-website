@@ -54,27 +54,27 @@ export default function SavoirFaire() {
                     <br/>
                     <div className='content-col'>
                         <div className='column-3 six'>
-                            <img className='picto' src='/img/pictos/u-guard/1.svg' />
+                            <img className='picto' src='/img/pictos/savoirfaire/1.svg' />
                             <p className='center'>Une solution technique qui a fait ses preuves</p>
                         </div>
                         <div className='column-3 six'>
-                            <img className='picto' src='/img/pictos/u-guard/2.svg' />
+                            <img className='picto' src='/img/pictos/savoirfaire/2.svg' />
                             <p className='center'>Installation facile et rapide</p>
                         </div>
                         <div className='column-3 six'>
-                            <img className='picto' src='/img/pictos/u-guard/3.svg' />
+                            <img className='picto' src='/img/pictos/savoirfaire/3.svg' />
                             <p className='center'>Minimisant les interventions physiques</p>
                         </div>
                         <div className='column-3 six'>
-                            <img className='picto' src='/img/pictos/u-guard/4.svg' />
+                            <img className='picto' src='/img/pictos/savoirfaire/4.svg' />
                             <p className='center'>Facile à entretenir, configurer et mettre à jour à distance</p>
                         </div>
                         <div className='column-3 six'>
-                            <img className='picto' src='/img/pictos/u-guard/5.svg' />
+                            <img className='picto' src='/img/pictos/savoirfaire/5.svg' />
                             <p className='center'>Sécurisé de bout en bout</p>
                         </div>
                         <div className='column-3 six'>
-                            <img className='picto' src='/img/pictos/u-guard/6.svg' />
+                            <img className='picto' src='/img/pictos/savoirfaire/6.svg' />
                             <p className='center'>Adaptable via le Cloud en fonction des évolutions des cas d&apos;usages</p>
                         </div>
                     </div>
