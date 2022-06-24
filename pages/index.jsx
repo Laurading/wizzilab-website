@@ -18,7 +18,7 @@ export default function Home() {
       <Secteurs />
       <div className='trait'></div>
       <section className='margin'>
-        <h3>La méthode Wizzilab</h3>
+        <h3>Mise en place des solutions Wizzilab</h3>
         <div className='content-col'>
           <div className='column-3 '>
             <h4 className='denim-bg'><span className='cultured'>1.CIBLER</span></h4>
