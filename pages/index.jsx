@@ -7,7 +7,16 @@ export default function Home() {
   return (
     <div>
       <Header />
+      <section className='section-one'>
+      <div className='denim-bg'>
+                <div className="margin-lr">
+                <h2 className='center cultured thin'><span>WizziLab</span> : Fournisseur de Données d&apos;objets connectés</h2>
+                <img className="landing-img" src="/img/landing.png"/>
+                </div>
+            </div>
+      </section>
       <Secteurs />
+      <div className='trait'></div>
       <section className='margin'>
         <h3>Notre processus</h3>
         <div className='content-col'>
