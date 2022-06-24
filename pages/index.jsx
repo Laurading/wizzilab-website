@@ -21,19 +21,19 @@ export default function Home() {
         <h3>Mise en place des solutions Wizzilab</h3>
         <div className='content-col'>
           <div className='column-3 '>
-            <h4 className='denim-bg'><span className='cultured'>1.CIBLER</span></h4>
+            <h4 className='denim-bg'><span className='cultured'>1. CIBLER</span></h4>
             <img src='/img/processus/cibler.png' />
             <br />
             <p className='center'><span>Comprendre et définir vos besoins</span></p>
           </div>
           <div className='column-3'>
-            <h4 className='denim-bg'><span className='cultured'>2.DÉPLOYER</span></h4>
+            <h4 className='denim-bg'><span className='cultured'>2. DÉPLOYER</span></h4>
             <img src='/img/processus/deployer.png' />
             <br />
             <p className='center'><span>Une installation simple, rapide</span></p>
           </div>
           <div className='column-3'>
-            <h4 className='denim-bg'><span className='cultured'>3.RÉCOLTER</span></h4>
+            <h4 className='denim-bg'><span className='cultured'>3. RÉCOLTER</span></h4>
             <img src='/img/processus/recolter.png' />
             <br />
             <p className='center'><span>Une supervision à distance
