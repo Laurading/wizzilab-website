@@ -64,7 +64,7 @@ export default function Wolt() {
                         <img src='/img/composants/wolt/1.png' />
                         <h5 className='red'>Ancre</h5>
                         <ul>
-                            <li>Les tags mesurent leur distance avec lui</li>
+                            <li>Les tags mesurent leur distance avec elle</li>
                             <li>Sert de repère fix</li>
                             <li>Composant &ldquo;passif&rdquo;
                             </li>
