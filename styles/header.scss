@@ -100,4 +100,10 @@ nav > ul li:hover .sous {
     .logo img {
         width: 40%;
     }
+    .contact-button {
+        background-color: var(--denimColor);
+        color: white;
+        padding: 8px 16px;
+        border-radius: 15px;
+    }
 }
