@@ -135,7 +135,6 @@
 
   h2 {
     font-size: 32px;
-    padding: calc(var(--margin)/3) 0 0;
   }
 
   h3 {
@@ -178,8 +177,4 @@
   .number {
     color: var(--denimColor);
     font-size: 20px;
-}
-.padding-bottom {
-  padding-bottom: calc(var(--margin)/3);
-}
 }
