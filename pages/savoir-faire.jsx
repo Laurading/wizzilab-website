@@ -8,7 +8,7 @@ export default function SavoirFaire() {
             <Header />
             <section className='section-one'>
                 <div className='lavender-bg'>
-                    <h2 className='denim'>Notre savoir faire</h2>
+                    <h2 className='denim padding-bottom'>Notre savoir faire</h2>
                 </div>
             </section>
             <section className='margin'>
