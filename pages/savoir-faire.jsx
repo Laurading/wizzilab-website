@@ -7,16 +7,17 @@ export default function SavoirFaire() {
         <div>
             <Header />
             <section className='section-one'>
-                <div className='lavender-bg'>
-                    <h2 className='denim padding-bottom'>Notre savoir faire</h2>
+            <div className='lavender-bg'>
+                    <h2 className='denim'>Notre savoir-faire</h2>
+                    <h3 className='center'>Du bureau d'étude à nos solutions sur &ldquo;étagère&rdquo;</h3>
                 </div>
             </section>
             <section className='margin'>
                 <div className='content-col'>
                     <div className='column-2'>
-                        <h3> Qu&apos;est ce qu&apos;un projet IoT?</h3>
+                        <h3>L&apos;IoT vous accompagne dans votre transformation</h3>
                         <p>
-                            L&apos;équipe Wizzilab déploie les capacités extraordinaires de l&apos;IoT en maîtrisant des technologies et des systèmes de conception uniques qui permettent de fournir la Data nécessaire pour vous aider et accompagner:
+                            L&apos;équipe Wizzilab déploie les capacités extraordinaires de l&apos;IoT en maîtrisant des technologies et des systèmes de conception uniques qui permettent de fournir la Data nécessaire pour vous accompagner:
                         </p>
                         <ul>
                             <li>
@@ -112,7 +113,8 @@ export default function SavoirFaire() {
                     </li>
                 </ul>
             </section>
-            <section className='margin'>
+            <section className='lavender-bg'>
+                <div className='margin-lr'>
                 <h3>Une philosophie de conception</h3>
                 <p>Chez Wizzilab, nous mettons en pratique une philosophie de conception stricte :</p>
                 <br />
@@ -160,7 +162,7 @@ export default function SavoirFaire() {
                     <div className='column-3 no-gap six align-left denim-bg'>
                         <div className='content-padding'>
                             <h5 className='cultured'>Edge computing et algorithmes embarqués.</h5>
-                            <p className='cultured'>Les informations sont traitées et filtrées dans les noeuds périphériques, chaque fois que nécessaire, avec la possibilité de rediriger et les fulx de données agrégés. Cela permet d&apos;optimiser le traiteuement à chaque étape, évite les débordements et ne fournit que des données significatives au service d&apos;application.</p>
+                            <p className='cultured'>Les informations sont traitées et filtrées dans les noeuds périphériques, chaque fois que nécessaire, avec la possibilité de rediriger et les flux de données agrégés. Cela permet d&apos;optimiser le traiteuement à chaque étape, évite les débordements et ne fournit que des données significatives au service d&apos;application.</p>
                         </div>
                     </div>
                     <div className='column-3 no-gap six align-left lavender-bg'>
@@ -179,6 +181,7 @@ export default function SavoirFaire() {
                         Basé sur le cloud fournissant des services de données IoT évolutifs. Chez Wizzilab, nous fournissons des données IoT en temps réel pour améliorer les performances. Nous fournissons des API cloud simples pour se connecter les données sont acheminées vers les services applicatifs du client.
                     </p>
                     </div>
+                </div>
                 </div>
             </section>
             <Footer />

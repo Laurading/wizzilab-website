@@ -98,6 +98,27 @@ export default function Wolt() {
                     </div>
                 </div>
             </section>
+            <section className='lavender-bg'>
+                <div className='margin-lr'>
+                    <div className='content-col'>
+                        <div className='column-2'>
+                            <h3>Commander notre kit starter</h3>
+                            <p>Notre kit se compose de:</p>
+                            <ul>
+                                <li>4 ancres</li>
+                                <li>2 tags</li>
+                                <li>1 gateway</li>
+                            </ul>
+                            <div className='padding-tb'>
+                                <a className="buy-button" href='https://wizzilab.com/shop'>Commander</a>
+                            </div>
+                        </div>
+                        <div className='column-2 padding-tb'>
+                            <img src='/img/composants/kit/kitwolt.png' />
+                        </div>
+                    </div>
+                </div>
+            </section>
             <Footer />
         </div>
     )
