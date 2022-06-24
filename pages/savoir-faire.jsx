@@ -121,28 +121,40 @@ export default function SavoirFaire() {
                         <div className='content-padding'>
                             <h5 className='cultured'>Développement de systèmes de bout en bout.</h5>
                             <p className='cultured'>
-                                Nous avons toujours à l&apos;esprit l&apos;ensemble des besoins, le coût et les défis de faible puissance par rapport au système, donc chaque composant est adapté pour fonctionner efficacement avec le reste du système.
+                                Afin de développer le système le plus adapté à vos besoins, nous tenons
+                                compte de vos attentes et votre environnement afin d&apos;allier le meilleur
+                                rapport débit et puissance énergétique et mettre en place l&apos;architecture
+                                la plus efficace depuis sa conception jusqu&apos;à son déploiement.
                             </p>
                         </div>
                     </div>
                     <div className='column-3 no-gap six align-left lavender-bg'>
                         <div className='content-padding'>
                             <h5>Communication sans fil optimale.</h5>
-                            <p>Nous croyons que la disponibilité du réseau les infrastructures répondant aux exigences à grande échelle et à faible coût de l&apos;IoT est une condition préalable au succès de tout système IoT. Nous avons la possibilité de combiner différentes technologies sans fil comme le DASH7, LoRaWAN et cellulaire entre autres, afin d’optimiser les compromis entre le débit de données, la portée et la consommation d’énergie.</p>
+                            <p>Nous avons la possibilité de combiner différentes technologies sans fil
+                                comme le DASH7, LoRaWAN et cellulaire entre autres, afin d&apos;optimiser
+                                les compromis entre le débit de données, la portée et la consommation
+                                d&apos;énergie. Le succès de tout système IoT est de pouvoir répondre à ses
+                                différents paramètres en trouvant la meilleure combinaison pour votre
+                                cas d&apos;usage spécifique.</p>
                         </div>
                     </div>
                     <div className='column-3 no-gap six align-left white-bg'>
                         <div className='content-padding'>
                             <h5>Localisation.</h5>
-                            <p>Le positionnement intérieur et extérieur est au coeur d&apos;une multitude des applications professionnelles et privées.
-                                Nous avons développé une solide expertise en UWB sans fil, ce qui nous permet d&apos;estimer les distances avec un sous-compteur précision.</p>
+                            <p>Le positionnement indoor/outdoor est au cœur de nombreuses
+                                applications professionnelles et privées. Nous avons développé une
+                                solide expertise en UWB sans fil, ce qui nous permet d&apos;estimer des
+                                distances avec une précision inférieure au METRE.</p>
                         </div>
                     </div>
                     <div className='column-3 no-gap six align-left white-bg'>
                         <div className='content-padding'>
                             <h5>Décisions évenementielles en cascade.</h5>
-                            <p>Nous utilisons des déclencheurs de faible puissance pour nous réveiller davantage modes de consommation d&apos;énergie.
-                                Cela permet de conserver la consommation extrêmement faible, tout en offrant la meilleure valeur fonctionnelle.</p>
+                            <p>La consommation d&apos;énergie de nos capteurs est dirigée et une
+                                fréquence d&apos;éveil appliquée afin de préserver et d&apos;optimiser leur durée
+                                d&aops;utilisation. Nous allions une consommation faible à la meilleure valeur
+                                fonctionnelle de nos produits pour un rendement optimisé.</p>
                         </div>
                     </div>
                     <div className='column-3 no-gap six align-left denim-bg'>
@@ -154,7 +166,10 @@ export default function SavoirFaire() {
                     <div className='column-3 no-gap six align-left lavender-bg'>
                         <div className='content-padding'>
                             <h5>Gestion centralisée de la flotte.</h5>
-                            <p>Un système IoT efficace nécessite un moyen simple de servir et de configurer le parc de noeuds d&apos;extrémité IoT. Nous concevons nos systèmes pour garantir qu’ils peuvent être accessibles tout au long de leur vie pour la maintenance, la reconfiguation, la sécurité et la mise à jour du firmware.</p>
+                            <p>La supervision à distance est un service indispensable pour la gestion
+                                d&apos;un système IoT. Toutes nos solutions sont conçues afin qu&apos;elles soient
+                                accessibles tout au long de leur vie pour la maintenance, la
+                                reconfiguration, la sécurité et la mise à jour du firmware. </p>
                         </div>
                     </div>
                     <div>
