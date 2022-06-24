@@ -36,6 +36,7 @@ header nav ul {
 
 header nav ul a {
     padding-bottom: 50%;
+    font-size: 17px;
 }
 
 .sous {
@@ -94,6 +95,9 @@ nav > ul li:hover .sous {
     .margin-header {
         margin-left: 0%;
     }
+    header nav ul a {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width : 600px) {
@@ -105,5 +109,8 @@ nav > ul li:hover .sous {
         color: white;
         padding: 8px 16px;
         border-radius: 15px;
+    }
+    header nav ul a {
+        font-size: 13px;
     }
 }
