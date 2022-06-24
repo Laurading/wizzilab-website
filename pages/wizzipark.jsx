@@ -22,7 +22,7 @@ export default function Wizzipark() {
             Le <span>capteur au sol</span>, détectant la présence d&apos;un véhicule.
             </li>
             <li>
-                Le <span>capteur plafonnier</span>, change de couleur en fonction du statut de la place et au cas d&apos;usage.
+                Le <span>capteur plafonnier</span>, sa LED change de couleur en fonction du statut de la place et du cas d&apos;usage.
             </li>
             </ul>
                 
@@ -35,27 +35,27 @@ export default function Wizzipark() {
                 <div className='content-col'>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wizzipark/1.svg'/>
-                        <p className='center'>Améliore le processus d&apos;accueil et la satisfaction des conducteurs</p>
+                        <p className='center'>Améliorer le processus d&apos;accueil et la satisfaction des conducteurs</p>
                     </div>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wizzipark/2.svg'/>
-                        <p className='center'>Identifie les voitures ventouses</p>
+                        <p className='center'>Identifier les voitures ventouses</p>
                     </div>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wizzipark/3.svg'/>
-                        <p className='center'>Optimise le taux de remplissage de votre parking</p>
+                        <p className='center'>Optimiser le taux de remplissage de votre parking</p>
                     </div>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wizzipark/4.svg'/>
-                        <p className='center'>Exploite un système de réservation de places de parking</p>
+                        <p className='center'>Exploiter un système de réservation de places de parking</p>
                     </div>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wizzipark/5.svg'/>
-                        <p className='center'>Informe les visiteurs sur les emplacements spécifiques du parking</p>
+                        <p className='center'>Informer les visiteurs sur les emplacements spécifiques du parking</p>
                     </div>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wizzipark/6.svg'/>
-                        <p className='center'>Réduit le temps de recherche d&apos;une place de stationnement</p>
+                        <p className='center'>Réduire le temps de recherche d&apos;une place de stationnement</p>
                     </div>
                 </div>
                 </div>

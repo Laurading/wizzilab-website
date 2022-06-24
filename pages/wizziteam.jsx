@@ -8,13 +8,13 @@ export default function Wizziteam() {
             <Header />
             <section className='section-one'>
                 <div className='lavender-bg'>
-                    <h2 className='denim'>Wizziteam</h2> 
+                    <h2 className='denim'>Wizziteam</h2>
+                    <h3 className='center'>Notre vision : Améliorer votre environnement en digitalisant la donnée physique</h3>
                 </div>
             </section>
             <section className='margin'>
                 
-                        <h3>Notre vision</h3>
-                        <p>Améliorer votre environnement en digitalisant la donnée physique</p>
+                        
                         <h3>Nos valeurs</h3>
                         <div className='content-col'>
                             <div className='column-3'>
