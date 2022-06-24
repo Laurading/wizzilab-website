@@ -114,7 +114,7 @@ export default function SavoirFaire() {
                 </ul>
             </section>
             <section className='lavender-bg'>
-                <div className='margin-lr'>
+                <div className='margin-lr padding-bottom'>
                 <h3>Une philosophie de conception</h3>
                 <p>Chez Wizzilab, nous mettons en pratique une philosophie de conception stricte :</p>
                 <br />
@@ -155,7 +155,7 @@ export default function SavoirFaire() {
                             <h5>Décisions évenementielles en cascade.</h5>
                             <p>La consommation d&apos;énergie de nos capteurs est dirigée et une
                                 fréquence d&apos;éveil appliquée afin de préserver et d&apos;optimiser leur durée
-                                d&aops;utilisation. Nous allions une consommation faible à la meilleure valeur
+                                d&apos;utilisation. Nous allions une consommation faible à la meilleure valeur
                                 fonctionnelle de nos produits pour un rendement optimisé.</p>
                         </div>
                     </div>
@@ -175,11 +175,6 @@ export default function SavoirFaire() {
                         </div>
                     </div>
                     <div>
-                        <br/>
-                        <br/>
-                    <p>
-                        Basé sur le cloud fournissant des services de données IoT évolutifs. Chez Wizzilab, nous fournissons des données IoT en temps réel pour améliorer les performances. Nous fournissons des API cloud simples pour se connecter les données sont acheminées vers les services applicatifs du client.
-                    </p>
                     </div>
                 </div>
                 </div>

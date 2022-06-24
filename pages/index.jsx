@@ -39,6 +39,9 @@ export default function Home() {
             <p className='center'><span>Une supervision à distance
               Des API pour récolter vos données</span></p>
           </div>
+          <p>
+            Basé sur le cloud fournissant des services de données IoT évolutifs. Chez Wizzilab, nous fournissons des données IoT en temps réel pour améliorer les performances. Nous fournissons des API cloud simples pour se connecter les données sont acheminées vers les services applicatifs du client.
+          </p>
         </div>
 
       </section>
