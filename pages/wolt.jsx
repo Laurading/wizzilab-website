@@ -13,7 +13,7 @@ export default function Wolt() {
                     <p>
                         WOLT est une solution de localisation sur site basée sur une infrastructure ultra
                         légère sans câblage.
-                        WOLT se compose de tags, d’ancres et de gateways. Le tag (capteur) se localise par rapport aux ancres à une fréquence prédéfinie en fonction du cas d’usage. La donnée est envoyée dans le cloud à travers la gateway.
+                        Elle se compose de tags, d’ancres et de gateways. Le tag (capteur) se localise par rapport aux ancres à une fréquence prédéfinie en fonction du cas d’usage. La donnée est envoyée dans le cloud à travers la gateway.
                     </p>
                     <p>
                         <span>3 niveaux de précisions de localisation </span>
