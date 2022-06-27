@@ -8,9 +8,11 @@ export default function Wolt() {
             <Header />
             <section className='section-one'>
                 <div className='margin-lr'>
-                    <h2><span className='blue'>WOLT : </span> La solution d&apos;infrastructure RTLS</h2>
+                    <h2><span className='blue'>WOLT : </span> La solution de RTLS</h2>
                     <img className='solutions-img' src='/img/solutions/wolt.png' />
                     <p>
+                        WOLT est une solution de localisation sur site basée sur une infrastructure ultra
+                        légère sans câblage.
                         WOLT se compose de tags, d’ancres et de gateways. Le tag (capteur) se localise par rapport aux ancres à une fréquence prédéfinie en fonction du cas d’usage. La donnée est envoyée dans le cloud à travers la gateway.
                     </p>
                     <p>
@@ -18,9 +20,9 @@ export default function Wolt() {
                         sont possibles :
                     </p>
                     <ul>
-                        <li>Le <span className='red'>positionnement</span>, le plus précis des 3 niveaux, qui permet d&apos;identifier la position exacte de l&apos;objet</li>
+                        <li>Le <span className='red'>positionnement</span>, le plus précis des 3 niveaux, qui permet d&apos;identifier la position exacte de l&apos;actif</li>
                         <li>La <span className='orange'>proximité</span> qui permet de connaître la position approximative d&apos;un tag par rapport aux ancres</li>
-                        <li>La <span className='yellow'>présence</span> qui permet de savoir si un objet dans une zone d&apos;intérêt</li>
+                        <li>La <span className='yellow'>présence</span> qui permet de savoir si un actif dans une zone d&apos;intérêt</li>
                     </ul>
                 </div>
             </section>
@@ -31,11 +33,11 @@ export default function Wolt() {
                     <div className='content-col'>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/wolt/1.svg' />
-                            <p className='center'>Localiser les objets / inventaires et diminuer les pertes</p>
+                            <p className='center'>Localiser les actifs et diminuer les pertes</p>
                         </div>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/wolt/2.svg' />
-                            <p className='center'>Installer facilement et rapidement notre kit</p>
+                            <p className='center'>Installer facilement et rapidement notre système</p>
                         </div>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/wolt/3.svg' />
@@ -47,7 +49,7 @@ export default function Wolt() {
                         </div>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/wolt/5.svg' />
-                            <p className='center'>Optimiser les déplacements de vos objets / itinéraires</p>
+                            <p className='center'>Optimiser les déplacements de vos actifs / itinéraires</p>
                         </div>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/wolt/6.svg' />
@@ -64,36 +66,33 @@ export default function Wolt() {
                         <img src='/img/composants/wolt/1.png' />
                         <h5 className='red'>Ancre</h5>
                         <ul>
-                            <li>Les tags mesurent leur distance avec elle</li>
                             <li>Sert de repère fix</li>
-                            <li>Composant &ldquo;passif&rdquo;
-                            </li>
+                            <li>Installation sans cablage</li>
+                            <li>Alimentée sur batteries</li>
                         </ul>
                     </div>
                     <div className='column-4'>
                         <img src='/img/composants/wolt/2.png' />
                         <h5 className='blue'>Tags</h5>
                         <ul>
-                            <li>Objet mobile dont on veut connaître la position</li>
-                            <li>Mesure sa distance avec les ancres et envoie l&apos;information à la gateway</li>
-                            <li>Deux types de tags qui permettent deux précisions : la position et la présence</li>
+                            <li>Placé sur vos actifs, se repère par rapport ayx ancres</li>
+                            <li>Communique avec le Cloud à travers le réseau local IoT crée par la Gateway</li>
+                            <li>Alimenté sur batteries</li>
+                            <li>Trois tailles / capacités possibles en fonction de l&apos;usage</li>
                         </ul>
                     </div>
                     <div className='column-4'>
                         <img src='/img/composants/wolt/3.png' />
                         <h5 className='green'>Gateway</h5>
                         <ul>
-                            <li>Passerelle</li>
-                            <li>Récolte les informations des tags et des ancres</li>
-                            <li>Envoie les informations au cloud</li>
+                            <li>Passerelle enre le réseau sans fil local et le Cloud</li>
                         </ul>
                     </div>
                     <div className='column-4'>
                         <img src='/img/composants/wolt/4.png' />
                         <h5 className='yellow'>Cloud</h5>
                         <ul>
-                            <li>Définit la position du tag en fonction des informations reçues par celui-ci</li>
-                            <li>Permet de configurer les tags et les ancres</li>
+                            <li>Ensemble de services virtualisés de localisation et de gestion de la solution</li>
                         </ul>
                     </div>
                 </div>

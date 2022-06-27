@@ -63,7 +63,7 @@ body {
 }
 
 .selected {
-    background-color: white;
+    background-color: rgb(255, 255, 255, 0.4);
 }
 
 .solutions-img {
@@ -121,6 +121,10 @@ padding: 32px 0;
 
 .thin {
     font-weight: 300;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 .buy-button {

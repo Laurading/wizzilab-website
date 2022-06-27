@@ -85,13 +85,13 @@ export default function SavoirFaire() {
                 <h3>
                     Notre expertise technique
                 </h3>
-                <p>Sur le plan technologique, Wizzilab répond aux demandes de cas d&apos;usages spécifiques grâce à son équipe experte dans les systèmes embarqués basse consommation, technologies IoT sans fil, sécurité et service cloud.</p>
+                <p>Sur le plan technologique, Wizzilab répond aux demandes de cas d&apos;usages spécifiques grâce à son équipe experte dans les systèmes embarqués basse consommation, technologies IoT sans fil, la sécurité et les services cloud.</p>
                 <p>
                     Notre expertise technique comprend :
                 </p>
                 <ul>
                     <li>
-                        La conception de la carte avec des contraintes RF
+                        La conception de la carte avec contraintes RF
                     </li>
                     <li>
                         La création de firmware embarqué à puissance limitée
@@ -109,7 +109,7 @@ export default function SavoirFaire() {
                         La certification et industrialisation
                     </li>
                     <li>
-                        Le suivi de la production à grande échelle
+                        La gestion de la production à grande échelle
                     </li>
                 </ul>
             </section>
@@ -162,7 +162,11 @@ export default function SavoirFaire() {
                     <div className='column-3 no-gap six align-left denim-bg'>
                         <div className='content-padding'>
                             <h5 className='cultured'>Edge computing et algorithmes embarqués.</h5>
-                            <p className='cultured'>Les informations sont traitées et filtrées dans les noeuds périphériques, chaque fois que nécessaire, avec la possibilité de rediriger et les flux de données agrégés. Cela permet d&apos;optimiser le traiteuement à chaque étape, évite les débordements et ne fournit que des données significatives au service d&apos;application.</p>
+                                <p className='cultured'>Les informations sont traitées et filtrées
+                                    dans les nœuds périphériques, chaque fois que nécessaire, avec la possibilité de
+                                    rediriger et d&apos;agréger les flux de données. Cela permet d&apos;optimiser le traitement à
+                                    chaque   étape,   d&apos;éviter   les   surcharges   et   de   fournir   uniquement   des   données
+                                    significatives au service applicatif.</p>
                         </div>
                     </div>
                     <div className='column-3 no-gap six align-left lavender-bg'>

@@ -35,7 +35,7 @@ export default function Wizziteam() {
                         </div>
             </section>
             <section className='margin'>
-                <h3>Notre team</h3>
+                <h3>Notre équipe Lead</h3>
                 <div className='content-col'>
                     <div className='column-3'>
                     <img src='/img/wizziteam/test.png'/>
@@ -49,8 +49,8 @@ export default function Wizziteam() {
                     </div>
                     <div className='column-3'>
                     <img src='/img/wizziteam/test.png'/>
-                    <p className='center'><span>Laurent BASTIDE</span></p>
-                    <p className='center'>Product Architect</p>
+                    <p className='center'><span>Pierre-Emmanuel CHARBONNIER</span></p>
+                    <p className='center'>Sales Director</p>
                     </div>
                     <div className='column-3'>
                     <img src='/img/wizziteam/test.png'/>
@@ -59,15 +59,14 @@ export default function Wizziteam() {
                     </div>
                     <div className='column-3'>
                     <img src='/img/wizziteam/test.png'/>
-                    <p className='center'><span>Jérémie GREFFE</span></p>
-                    <p className='center'>HW &amp; SW design engineer</p>
+                    <p className='center'><span>Laurent BASTIDE</span></p>
+                    <p className='center'>Product Architect</p>
                     </div>
                     <div className='column-3'>
                     <img src='/img/wizziteam/test.png'/>
-                    <p className='center'><span>Pierre-Emmanuel CHARBONNIER</span></p>
-                    <p className='center'>Sales Director</p>
+                    <p className='center'><span>Jérémie GREFFE</span></p>
+                    <p className='center'>Embedded Firmware Architect</p>
                     </div>
-                    
                 </div>
             </section>
             <Footer/>
