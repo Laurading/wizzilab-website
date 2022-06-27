@@ -37,7 +37,7 @@ export default function Home() {
             <img src='/img/processus/recolter.png' />
             <br />
             <p className='center'><span>Une supervision à distance
-              Des API pour récolter vos données</span></p>
+              et des API pour récolter vos données</span></p>
           </div>
         </div>
 
