@@ -8,7 +8,10 @@ export default function Wisp() {
             <Header />
             <section className='section-one'>
                 <div className='margin-lr'>
-                    <h2><span className='green'>WISP : </span> La solution qui se connecte à votre environnement</h2>
+                    <div className='padding-tb'>
+                    <h2 className='test-weight'><span className='green'>WISP</span></h2>
+                    <h2>La solution qui se connecte à votre environnement</h2>
+                    </div>
                     <img className='solutions-img' src='/img/solutions/wisp.png' />
                     <div className='padding-tb'>
                     <p>

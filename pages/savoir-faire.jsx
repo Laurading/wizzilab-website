@@ -7,7 +7,7 @@ export default function SavoirFaire() {
         <div>
             <Header />
             <section className='section-one'>
-            <div className='lavender-bg'>
+            <div className='lavender-bg padding-tb'>
                     <h2 className='denim'>Notre savoir-faire</h2>
                     <h3 className='center'>Du bureau d&apos;étude à nos solutions sur &ldquo;étagère&rdquo;</h3>
                 </div>
@@ -15,7 +15,7 @@ export default function SavoirFaire() {
             <section className='margin'>
                 <div className='content-col'>
                     <div className='column-2'>
-                        <h3>L&apos;IoT vous accompagne dans votre transformation</h3>
+                        <h3 className='padding-tb'>L&apos;IoT vous accompagne dans votre transformation</h3>
                         <p>
                             L&apos;équipe Wizzilab déploie les capacités extraordinaires de l&apos;IoT en maîtrisant des technologies et des systèmes de conception uniques qui permettent de fournir la Data nécessaire pour vous accompagner:
                         </p>
@@ -50,7 +50,7 @@ export default function SavoirFaire() {
 
             <section className='lavender-bg'>
                 <div className='margin'>
-                    <h3>Un système IoT efficace</h3>
+                    <h3  className='padding-tb'>Un système IoT efficace</h3>
                     <p>Après plus de 10 ans d&apos;expérience dans la conception, le déploiement et le service IoT, nous avons su identifier les caractéristiques d&apos;un système IoT efficace :</p>
                     <br/>
                     <div className='content-col'>
@@ -82,7 +82,7 @@ export default function SavoirFaire() {
                 </div>
             </section>
             <section className='margin'>
-                <h3>
+                <h3 className='padding-tb'>
                     Notre expertise technique
                 </h3>
                 <p>Sur le plan technologique, Wizzilab répond aux demandes de cas d&apos;usages spécifiques grâce à son équipe experte dans les systèmes embarqués basse consommation, technologies IoT sans fil, la sécurité et les services cloud.</p>
@@ -115,7 +115,7 @@ export default function SavoirFaire() {
             </section>
             <section className='lavender-bg'>
                 <div className='margin-lr padding-bottom'>
-                <h3>Une philosophie de conception</h3>
+                <h3 className='padding-tb'>Une philosophie de conception</h3>
                 <p>Chez Wizzilab, nous mettons en pratique une philosophie de conception stricte :</p>
                 <br />
                 <div className='content-col'>

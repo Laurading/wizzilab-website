@@ -31,7 +31,7 @@ export default function Uguard() {
 
             <section className='lavender-bg'>
                 <div className='margin'>
-                    <h3>Vos avantages</h3>
+                    <h3  className='padding-tb'>Vos avantages</h3>
                     <div className='content-col'>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/u-guard/1.svg' />
@@ -61,7 +61,7 @@ export default function Uguard() {
                 </div>
             </section>
             <section className='margin'>
-                <h3>Nos composants</h3>
+                <h3  className='padding-tb'>Nos composants</h3>
 
                 <div className='content-col'>
                     <div className='column-4'>

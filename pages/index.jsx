@@ -10,7 +10,7 @@ export default function Home() {
       <section className='section-one'>
       <div className='denim-bg'>
                 <div className="margin-lr">
-                <h2 className='center cultured'>Fournisseur de Données d&apos;objets connectés</h2>
+                <h2 className='center cultured padding-tb'>Fournisseur de Données d&apos;objets connectés</h2>
                 <img className="landing-img" src="/img/landing.png"/>
                 </div>
             </div>
@@ -18,7 +18,7 @@ export default function Home() {
       <Secteurs />
       <div className='trait'></div>
       <section className='margin'>
-        <h3>Mise en place des solutions Wizzilab</h3>
+        <h3 className='padding-tb'>Mise en place des solutions Wizzilab</h3>
         <div className='content-col'>
           <div className='column-3 '>
             <h4 className='denim-bg'><span className='cultured'>1. CIBLER</span></h4>
@@ -44,7 +44,7 @@ export default function Home() {
       </section>
       <section className='lavender-bg'>
         <div className='margin-lr'>
-          <h3>Depuis 2011</h3>
+          <h3 className='padding-tb'>Depuis 2011</h3>
           <div className='content-col'>
             <div className='column-3'>
               <img className='picto' src='/img/pictos/home/1.svg' />

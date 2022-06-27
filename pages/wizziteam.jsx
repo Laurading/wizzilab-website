@@ -7,15 +7,15 @@ export default function Wizziteam() {
         <div>
             <Header />
             <section className='section-one'>
-                <div className='lavender-bg'>
-                    <h2 className='denim'>Wizziteam</h2>
+                <div className='lavender-bg padding-tb'>
+                        <h2 className='denim'>Wizziteam</h2>
                     <h3 className='center'>Notre vision : Améliorer votre environnement en digitalisant la donnée physique</h3>
                 </div>
             </section>
             <section className='margin'>
                 
                         
-                        <h3>Nos valeurs</h3>
+                        <h3 className='padding-tb'>Nos valeurs</h3>
                         <div className='content-col'>
                             <div className='column-3'>
                             <h4 className='denim-bg cultured'><span>CRÉATIVITÉ</span></h4>
@@ -35,7 +35,7 @@ export default function Wizziteam() {
                         </div>
             </section>
             <section className='margin'>
-                <h3>Notre équipe Lead</h3>
+                <h3 className='padding-tb'>Notre équipe Lead</h3>
                 <div className='content-col'>
                     <div className='column-3'>
                     <img src='/img/wizziteam/test.png'/>

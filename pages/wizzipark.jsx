@@ -8,8 +8,11 @@ export default function Wizzipark() {
             <Header />
             <section className='section-one'>
             <div className='margin-lr'>
-            <h2><span className='red'>WIZZIPARK :</span> La solution de stationnement intelligent en temps réel</h2>
+            <div className='padding-tb'>
+            <h2 className='test-weight'><span className='red'>WIZZIPARK</span></h2>
+            <h2>La solution de stationnement intelligent en temps réel</h2>
             <img className='solutions-img' src='/img/solutions/wizzipark.png' />
+            </div>
             <p>
             Des capteurs de stationnement sans fils et autonomes détectent instantanément l&apos;arrivée ou le départ de véhicules et relaient l&apos;information vers le Wizzicloud au travers de la gateway. Les visiteurs ont accès en temps réel aux places disponibles qui peuvent être communiquées sur des afficheurs dynamiques.
             </p>
@@ -31,7 +34,7 @@ export default function Wizzipark() {
        
             <section className='lavender-bg'>
                 <div className='margin'>
-                <h3>Vos avantages</h3>
+                <h3  className='padding-tb'>Vos avantages</h3>
                 <div className='content-col'>
                     <div className='column-3 six'>
                         <img className='picto' src='/img/pictos/wizzipark/1.svg'/>
@@ -61,7 +64,7 @@ export default function Wizzipark() {
                 </div>
             </section>
             <section className='margin'>
-                <h3>Nos composants</h3>
+                <h3 className='padding-tb'>Nos composants</h3>
 
                 <div className='content-col'>
                     <div className='column-4'>

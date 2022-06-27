@@ -29,7 +29,7 @@ const Secteurs = () => {
 							<>
 								<div className='column-2'>
 									<div>
-										<h3>{active.name}</h3>
+										<h3 className='padding-tb'>{active.name}</h3>
 										<p>{active.content}</p>
 										<div className='content-col margin-top'>
 											{secteurs.secteurs[active.id - 1].solutions.map(solution => (
