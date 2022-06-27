@@ -7,7 +7,7 @@ const Secteurs = () => {
 	const [active, setActive] = useState(null);
 	return (
 		<section className='lavender-bg'>
-			<div className='margin-lr'>
+			<div className='margin-lr padding-tb'>
 				<h1>La <span className='denim'>Donnée temps réel</span> au service de la <span className='denim'>Performance</span></h1>
 				<div className='content-col'>
 					{secteurs.secteurs.map(secteur => (
