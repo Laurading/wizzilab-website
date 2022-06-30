@@ -1,5 +1,6 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import Conception from '../components/Conception'
 
 
 export default function SavoirFaire() {
@@ -113,7 +114,8 @@ export default function SavoirFaire() {
                     </li>
                 </ul>
             </section>
-            <section className='lavender-bg'>
+            <Conception/>
+            {/* <section className='lavender-bg'>
                 <div className='margin-lr padding-bottom'>
                 <h3 className='padding-tb'>Une philosophie de conception</h3>
                 <p>Chez Wizzilab, nous mettons en pratique une philosophie de conception stricte :</p>
@@ -182,7 +184,7 @@ export default function SavoirFaire() {
                     </div>
                 </div>
                 </div>
-            </section>
+            </section> */}
             <Footer />
         </div>
     )

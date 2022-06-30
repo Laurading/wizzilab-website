@@ -69,12 +69,6 @@
         padding: 3% 0;
         font-size: 16px;
     }
-
-    &:hover {
-        transition: background-color 0.2s;
-        background-color: rgb(255, 255, 255, 0.4);
-    }
-
 }
 /****************NOTRE SAVOIR FAIRE COLUMN****************/
 
@@ -105,6 +99,17 @@
 }
 
 /***************SECTEURS COLUMN***************/
+
+.column-6.onhover {
+    &:hover {
+        transition: background-color 0.2s;
+        background-color: rgb(255, 255, 255, 0.4);
+    }
+
+    img {
+        width: 60%;
+    }
+}
 
 .column-3.onhover {
     &:hover {

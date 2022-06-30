@@ -1,0 +1,52 @@
+{
+    "tabs": [
+        {
+            "id": "1",
+            "title": "Développement de systèmes de bout en bout.",
+            "image" : "/img/conception/1.png",
+            "hoverImage" : "/img/conception/1hover.png",
+            "contentImage" : "/img/conception/img1.png",
+            "content" : "Afin de développer le système le plus adapté à vos besoins, nous tenons compte de vos attentes et votre environnement afin d'allier le meilleur rapport débit et puissance énergétique et mettre en place l'architecture la plus efficace depuis sa conception jusqu'à son déploiement."
+        },
+        {
+            "id": "2",
+            "title": "Communication sans fil optimale.",
+            "image" : "/img/conception/2.png",
+            "hoverImage" : "/img/conception/2hover.png",
+            "contentImage" : "/img/conception/img2.png",
+            "content" : "Nous avons la possibilité de combiner différentes technologies sans fil comme le DASH7, LoRaWAN et cellulaire entre autres, afin d'optimiser les compromis entre le débit de données, la portée et la consommation d'énergie. Le succès de tout système IoT est de pouvoir répondre à ses différents paramètres en trouvant la meilleure combinaison pour votre cas d'usage spécifique."
+        },
+        {
+            "id": "3",
+            "title": "Localisation.",
+            "image" : "/img/conception/3.png",
+            "hoverImage" : "/img/conception/3hover.png",
+            "contentImage" : "/img/conception/img3.png",
+            "content" : "Le positionnement indoor/outdoor est au cœur de nombreuses applications professionnelles et privées. Nous avons développé une solide expertise en UWB sans fil, ce qui nous permet d'estimer des distances avec une précision inférieure au METRE. "
+        },
+        {
+            "id": "4",
+            "title": "Décisions évenementielles en cascade.",
+            "image" : "/img/conception/4.png",
+            "hoverImage" : "/img/conception/4hover.png",
+            "contentImage" : "/img/conception/img4.png",
+            "content" : "La consommation d'énergie de nos capteurs est dirigée et une fréquence d'éveil appliquée afin de préserver et d'optimiser leur durée d'utilisation. Nous allions une consommation faible à la meilleure valeur fonctionnelle de nos produits pour un rendement optimisé."
+        },
+        {
+            "id": "5",
+            "title": "Edge computing et algorithmes embarqués.",
+            "image" : "/img/conception/5.png",
+            "hoverImage" : "/img/conception/5hover.png",
+            "contentImage" : "/img/conception/img5.png",
+            "content" : "Les informations sont traitées et filtrées dans les nœuds périphériques, chaque fois que nécessaire, avec la possibilité de rediriger et d'agréger les flux de données. Cela permet d'optimiser le traitement à chaque étape, d'éviter les surcharges et de fournir uniquement des données significatives au service applicatif."
+        },
+        {
+            "id": "6",
+            "title": "Gestion centralisée de la flotte.",
+            "image" : "/img/conception/6.png",
+            "hoverImage" : "/img/conception/6hover.png",
+            "contentImage" : "/img/conception/img6.png",
+            "content" : "La supervision à distance est un service indispensable pour la gestion d'un système IoT. Toutes nos solutions sont conçues afin qu'elles soient accessibles tout au long de leur vie pour la maintenance, la reconfiguration, la sécurité et la mise à jour du firmware."
+        }
+    ]
+}

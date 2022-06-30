@@ -35,7 +35,7 @@ export default function Wizziteam() {
                         </div>
             </section>
             <section className='margin'>
-                <h3 className='padding-tb'>Notre équipe Lead</h3>
+                <h3 className='padding-tb'>Managing Team</h3>
                 <div className='content-col'>
                     <div className='column-3'>
                     <img src='/img/wizziteam/test.png'/>

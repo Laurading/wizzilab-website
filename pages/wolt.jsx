@@ -119,6 +119,24 @@ export default function Wolt() {
                     </div>
                 </div>
             </section>
+            <section className='margin'>
+                    <h3 className='padding-tb'>Ils nous ont fais confiance</h3>
+                    <div className='content-col'>
+                        <div className='column-4 partenaire'>
+                            <img src='/img/partenaires/faurecia.png'/>
+                        </div>
+                        <div className='column-4 partenaire'>
+                            <img src='/img/partenaires/stGobain.png'/>
+                        </div>
+                        <div className='column-4 partenaire'>
+                            <img src='/img/partenaires/lOreal.png'/>
+                        </div>
+                        <div className='column-4 partenaire'>
+                            <img src='/img/partenaires/daher.png'/>
+                        </div>
+                        
+                    </div>
+            </section>
             <Footer />
         </div>
     )

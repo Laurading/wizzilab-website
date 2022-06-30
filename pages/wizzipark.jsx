@@ -10,7 +10,7 @@ export default function Wizzipark() {
             <div className='margin-lr'>
             <div className='padding-tb'>
             <h2 className='test-weight'><span className='red'>WIZZIPARK</span></h2>
-            <h2>La solution de stationnement intelligent en temps réel</h2>
+            <h2>La solution de stationnement intelligent en temps réel sans fil</h2>
             <img className='solutions-img' src='/img/solutions/wizzipark.png' />
             </div>
             <p>
@@ -108,6 +108,30 @@ export default function Wizzipark() {
                         </ul>
                     </div>
                 </div>
+            </section>
+            <section className='margin'>
+                    <h3 className='padding-tb'>Ils nous ont fais confiance</h3>
+                    <div className='content-col'>
+                        <div className='column-6 partenaire'>
+                            <img src='/img/partenaires/postLuxembourg.png'/>
+                        </div>
+                        <div className='column-6 partenaire'>
+                            <img src='/img/partenaires/laPoste.png'/>
+                        </div>
+                        <div className='column-6 partenaire'>
+                            <img src='/img/partenaires/leclerc.png'/>
+                        </div>
+                        <div className='column-6 partenaire'>
+                            <img src='/img/partenaires/superU.png'/>
+                        </div>
+                        <div className='column-6 partenaire'>
+                            <img src='/img/partenaires/interSport.png'/>
+                        </div>
+                        <div className='column-6 partenaire'>
+                            <img src='/img/partenaires/decathlon.png'/>
+                        </div>
+                        
+                    </div>
             </section>
             <Footer/>
         </div>
