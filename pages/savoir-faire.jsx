@@ -10,6 +10,7 @@ export default function SavoirFaire() {
             <section className='section-one'>
                 <div className='lavender-bg padding-tb'>
                     <h2 className='denim'>Notre savoir-faire</h2>
+                    <br/>
                     <h3 className='center'>Du bureau d&apos;étude à nos solutions sur &ldquo;étagère&rdquo;</h3>
                 </div>
             </section>

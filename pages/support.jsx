@@ -15,8 +15,8 @@ export default function Wisp() {
         <div className='padding-tb'>
           <h3>Dash7</h3>
           <br/>
-          <p>Wizzilab est membre de l'alliance depuis 2011.</p>
-          <p>Toutes les infos sur le protocole DASH7 sont librement accessible sur le <span className='underline'><a href='https://wizzilab.com/wiki/#!dash7/dash7.md'>site de l'alliance</a></span>.</p>
+          <p>Wizzilab est membre de l&apos;alliance depuis 2011.</p>
+          <p>Toutes les infos sur le protocole DASH7 sont librement accessible sur le <span className='underline'><a href='https://wizzilab.com/wiki/#!dash7/dash7.md'>site de l&apos;alliance</a></span>.</p>
           {/* -> rediriger vers l'alliance : "Wizzilab est membre de la dash7 alliance + logo de l'alliance + le site de l'alliance : ici (https://www.dash7-alliance.org/)" */}
         </div>
       </section>
@@ -28,9 +28,15 @@ export default function Wisp() {
           <p>Vous pouvez consulter les pages dédiées à nos différents produits sur notre wiki : </p>
           </div>
           <div className='content-col'>
-            <div className='column-3'><h5>WOLT</h5></div>
-            <div className='column-3'><h5>WIZZIPARK</h5></div>
-            <div className='column-3'><h5>WISP</h5></div>
+            <div className='column-3'>
+              <h5><span className='blue'>WOLT</span></h5>
+              </div>
+            <div className='column-3'>
+              <h5><span className='red'>WIZZIPARK</span></h5>
+              </div>
+            <div className='column-3'>
+              <h5><span className='green'>WISP</span></h5>
+              </div>
             <div className='column-3'><h5>WIZZICLOUD</h5></div>
             <div className='column-3'><h5>WIZZIGATE</h5></div>
             <div className='column-3'><h5>WIZZIKIT</h5></div>

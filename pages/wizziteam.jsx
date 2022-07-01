@@ -9,6 +9,7 @@ export default function Wizziteam() {
             <section className='section-one'>
                 <div className='lavender-bg padding-tb'>
                         <h2 className='denim'>Wizziteam</h2>
+                        <br/>
                     <h3 className='center'>Notre vision : Améliorer votre environnement en digitalisant la donnée physique</h3>
                 </div>
             </section>
