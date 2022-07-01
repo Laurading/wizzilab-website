@@ -123,7 +123,7 @@ export default function SavoirFaire() {
                     <div className='content-col'>
                         <div className='column-3 no-gap six align-left denim-bg'>
                             <div className='content-padding'>
-                                <img classname='' src='/img/conception/medium1.png' />
+                                <img className='' src='/img/conception/medium1.png' />
                                 <h5 className='cultured'>Développement de systèmes de bout en bout.</h5>
                                 <p className='cultured'>
                                     Afin de développer le système le plus adapté à vos besoins, nous tenons
@@ -147,7 +147,7 @@ export default function SavoirFaire() {
                         </div>
                         <div className='column-3 no-gap six align-left white-bg'>
                             <div className='content-padding'>
-                                <img classname='' src='/img/conception/medium3.png' />
+                                <img className='' src='/img/conception/medium3.png' />
                                 <h5>Localisation.</h5>
                                 <p>Le positionnement indoor/outdoor est au cœur de nombreuses
                                     applications professionnelles et privées. Nous avons développé une
@@ -157,7 +157,7 @@ export default function SavoirFaire() {
                         </div>
                         <div className='column-3 no-gap six align-left white-bg'>
                             <div className='content-padding'>
-                            <img classname='' src='/img/conception/medium4.png' />
+                            <img className='' src='/img/conception/medium4.png' />
                                 <h5>Décisions évenementielles en cascade.</h5>
                                 <p>La consommation d&apos;énergie de nos capteurs est dirigée et une
                                     fréquence d&apos;éveil appliquée afin de préserver et d&apos;optimiser leur durée
@@ -167,7 +167,7 @@ export default function SavoirFaire() {
                         </div>
                         <div className='column-3 no-gap six align-left denim-bg'>
                             <div className='content-padding'>
-                                <img classname='' src='/img/conception/medium5.png' />
+                                <img className='' src='/img/conception/medium5.png' />
                                 <h5 className='cultured'>Edge computing et algorithmes embarqués.</h5>
 
                                 <p className='cultured'>Les informations sont traitées et filtrées
@@ -179,7 +179,7 @@ export default function SavoirFaire() {
                         </div>
                         <div className='column-3 no-gap six align-left lavender-bg'>
                             <div className='content-padding'>
-                            <img classname='' src='/img/conception/medium6.png' />
+                            <img className='' src='/img/conception/medium6.png' />
                                 <h5>Gestion centralisée de la flotte.</h5>
                                 <p>La supervision à distance est un service indispensable pour la gestion
                                     d&apos;un système IoT. Toutes nos solutions sont conçues afin qu&apos;elles soient
