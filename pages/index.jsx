@@ -16,7 +16,6 @@ export default function Home() {
             </div>
       </section>
       <Secteurs />
-      <div className='trait'></div>
       <section className='margin'>
         <div className='padding-tb'>
         <h3>Mise en place des solutions Wizzilab</h3>

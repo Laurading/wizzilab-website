@@ -50,7 +50,7 @@ const Header = () => {
             </ul>
           </li>
           <li>
-            <a href='https://wizzilab.com/wiki/#!index.md'>Support</a>
+            <Link href='/support'><a>Support</a></Link>
           </li>
           <li className='deroulant'>
             <a>A propos</a>
