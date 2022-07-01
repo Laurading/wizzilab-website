@@ -16,7 +16,7 @@ export default function Wisp() {
           <h3>Dash7</h3>
           <br/>
           <p>Wizzilab est membre de l&apos;alliance depuis 2011.</p>
-          <p>Toutes les infos sur le protocole DASH7 sont librement accessible sur le <span className='underline'><a href='https://wizzilab.com/wiki/#!dash7/dash7.md'>site de l&apos;alliance</a></span>.</p>
+          <p>Toutes les infos sur le protocole DASH7 sont librement accessible sur le <span className='underline'><a href='https://www.dash7-alliance.org'>site de l&apos;alliance</a></span>.</p>
           {/* -> rediriger vers l'alliance : "Wizzilab est membre de la dash7 alliance + logo de l'alliance + le site de l'alliance : ici (https://www.dash7-alliance.org/)" */}
         </div>
       </section>
@@ -29,17 +29,17 @@ export default function Wisp() {
           </div>
           <div className='content-col'>
             <div className='column-3'>
-              <h5><span className='blue'>WOLT</span></h5>
+              <h5><a href='https://wizzilab.com/wiki/#!index.md'><span className='blue'>WOLT</span></a></h5>
               </div>
             <div className='column-3'>
-              <h5><span className='red'>WIZZIPARK</span></h5>
+              <h5><a href='https://wizzilab.com/wiki/#!index.md'><span className='red'>WIZZIPARK</span></a></h5>
               </div>
             <div className='column-3'>
-              <h5><span className='green'>WISP</span></h5>
+              <h5><a href='https://wizzilab.com/wiki/#!index.md'><span className='green'>WISP</span></a></h5>
               </div>
-            <div className='column-3'><h5>WIZZICLOUD</h5></div>
-            <div className='column-3'><h5>WIZZIGATE</h5></div>
-            <div className='column-3'><h5>WIZZIKIT</h5></div>
+            <div className='column-3'><h5><a href='https://wizzilab.com/wiki/#!index.md'><span>WIZZICLOUD</span></a></h5></div>
+            <div className='column-3'><h5><a href='https://wizzilab.com/wiki/#!index.md'><span>WIZZIGATE</span></a></h5></div>
+            <div className='column-3'><h5><a href='https://wizzilab.com/wiki/#!index.md'><span>WIZZIKIT</span></a></h5></div>
           </div>
           <a href='https://wizzilab.com/wiki/#!wizzicloud/network.md'><h4></h4></a>
         </div>
