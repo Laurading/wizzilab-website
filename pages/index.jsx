@@ -63,7 +63,24 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section><section className='margin'>
+                    <h3 className='padding-tb'>Ils nous font confiance</h3>
+                    <div className='content-col'>
+                        <div className='column-4 partenaire'>
+                            <img src='/img/partenaires/zozio.png'/>
+                        </div>
+                        <div className='column-4 partenaire'>
+                            <img src='/img/partenaires/phidata.png'/>
+                        </div>
+                        <div className='column-4 partenaire'>
+                            <img src='/img/partenaires/postLuxembourg.png'/>
+                        </div>
+                        <div className='column-4 partenaire'>
+                            <img src='/img/partenaires/macq.png'/>
+                        </div>
+                        
+                    </div>
+            </section>
       <Footer />
     </div>
   )

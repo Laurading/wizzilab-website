@@ -29,6 +29,17 @@ export default function Wisp() {
                     </div>
                 </div>
             </section>
+            <section className='margin'>
+                    <h3 className='padding-tb'>Ils nous font confiance</h3>
+                    <div className='content-col'>
+                        <div className='column-2 partenaire'>
+                            <img src='/img/partenaires/nasekomo.png'/>
+                        </div>
+                        <div className='column-2 partenaire'>
+                            <img src='/img/partenaires/munichRe.png'/>
+                        </div>
+                    </div>
+            </section>
             <Footer />
         </div>
     )

@@ -120,7 +120,7 @@ export default function Wolt() {
                 </div>
             </section>
             <section className='margin'>
-                    <h3 className='padding-tb'>Ils nous ont fais confiance</h3>
+                    <h3 className='padding-tb'>Ils nous font confiance</h3>
                     <div className='content-col'>
                         <div className='column-4 partenaire'>
                             <img src='/img/partenaires/faurecia.png'/>
