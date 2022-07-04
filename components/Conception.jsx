@@ -8,8 +8,11 @@ const Conception = () => {
 	return (
 		<section className='lavender-bg'>
             <div className='margin-lr padding-bottom'>
-                <h3 className='padding-tb'>Une philosophie de conception</h3>
+                <div className='padding-tb'>
+				<h3 >Une philosophie de conception</h3>
+				<br/>
                 <p>Chez Wizzilab, nous avons une démarche spécifique pour accompagner nos clients dans leurs projets IoT :</p>
+				</div>
                 <br/>
 				<div className='content-col'>
 					{conception.tabs.map(tab => (

@@ -18,7 +18,7 @@ export default function SavoirFaire() {
         <div className='content-col'>
           <div className='column-2'>
             <div className='padding-tb'>
-              <h3>La WizziTeam vous accompagne dans votre transformation</h3>
+              <h3>Wizzilab vous accompagne dans votre transformation</h3>
               <br/>
               <ul>
                 <li>
@@ -26,21 +26,21 @@ export default function SavoirFaire() {
                 </li>
               </ul>
               <p>
-                Les nouvelles générations de composants électroniques et les nouvelles technologies sans fil révolutionnent notre capacité à saisir la réalité de notre environnement. Grâce à ces avancés, nous sommes capables de répondre aux enjeux actuels : optimiser les processus de production, réduire les risques et économiser les ressources.</p>
+                Les nouvelles générations de composants électroniques et les nouvelles technologies sans fil révolutionnent notre capacité à saisir la réalité de notre environnement. Grâce à ces avancées, nous sommes capables de répondre aux enjeux actuels : optimiser les processus de production, réduire les risques et économiser les ressources.</p>
               <ul>
                 <li>
-                  <h4>En maitrisant les technologies et la performance de nos systèmes</h4>
+                  <h4>En maitrisant les technologies et la performance de vos installations</h4>
                 </li>
               </ul>
               <p>
-                Apporter la solution spécifique aux cas d&apos;usages en adaptant la technologie aux besoins tels que : la consommation d&apos;énergie, le débit et les contraintes d&apos;environnement.
+                Nous apportons la solution spécifique aux cas d&apos;usages en adaptant la technologie aux besoins tels que : la consommation d&apos;énergie, le débit et les contraintes d&apos;environnement.
               </p>
               <ul>
                 <li>
-                  <h4>En fournissant les données nécessaires</h4>
+                  <h4>En fournissant des données utiles</h4>
                 </li>
               </ul>
-              <p>La donnée est la source clé pour réussir la transformation de son activité. Sa pertinence est corrélée à son niveau de précision, de fiabilité et de protection. Elle doit être délivrée au bon moment afin d&apos;impacter le processus d&apos;analyse et de prise de décisions.</p>
+              <p>La donnée est la source clé pour réussir la transformation de son activité. Sa pertinence est corrélée à son niveau de précision, de fiabilité et de protection. Elle doit être délivrée au bon moment afin d&apos;impacter le processus d&apos;analyse et de prise de décision.</p>
             </div>
 
           </div>
@@ -58,7 +58,7 @@ export default function SavoirFaire() {
           <div className='content-col'>
             <div className='column-3 six'>
               <img className='picto' src='/img/pictos/savoirfaire/1.svg' />
-              <p className='center'>Une solution technique qui a fait ses preuves</p>
+              <p className='center'>Une solution technique qui a fait ses preuves sur le terrain</p>
             </div>
             <div className='column-3 six'>
               <img className='picto' src='/img/pictos/savoirfaire/2.svg' />
@@ -84,13 +84,17 @@ export default function SavoirFaire() {
         </div>
       </section>
       <section className='margin'>
+        <div>
         <h3 className='padding-tb'>
           Notre expertise technique
         </h3>
-        <p>Sur le plan technologique, Wizzilab répond aux demandes de cas d&apos;usages spécifiques grâce à son équipe experte dans les systèmes embarqués basse consommation, technologies IoT sans fil, la sécurité et les services cloud.</p>
-        <p>
+        <p>Une équipe experte dans les systèmes embarqués à faible consommation, les technologies sans fil IoT, la sécurité et les services cloud est à votre écoute</p>
+        </div>
+        <br/>
+        <p className='underline'>
           Notre expertise technique comprend :
         </p>
+        <br/>
         <ul>
           <li>
             La conception de la carte avec contraintes RF
