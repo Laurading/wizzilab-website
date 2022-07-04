@@ -29,7 +29,7 @@ export default function SavoirFaire() {
                 Les nouvelles générations de composants électroniques et les nouvelles technologies sans fil révolutionnent notre capacité à saisir la réalité de notre environnement. Grâce à ces avancées, nous sommes capables de répondre aux enjeux actuels : optimiser les processus de production, réduire les risques et économiser les ressources.</p>
               <ul>
                 <li>
-                  <h4>En maitrisant les technologies et la performance de vos installations</h4>
+                  <h4>En maîtrisant les technologies et la performance de vos installations</h4>
                 </li>
               </ul>
               <p>
