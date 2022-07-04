@@ -52,7 +52,7 @@ export default function Wizziteam() {
                     <p className='center'>CTO</p>
                     </div>
                     <div className='column-3'>
-                    <img src='/img/wizziteam/test.png'/>
+                    <img src='/img/wizziteam/pe-blue.png'/>
                     <p className='center'><span>Pierre-Emmanuel CHARBONNIER</span></p>
                     <p className='center'>Sales Director</p>
                     </div>

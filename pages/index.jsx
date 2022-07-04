@@ -18,8 +18,8 @@ export default function Home() {
       <Secteurs />
       <section className='margin'>
         <div className='padding-tb'>
-        <h3>Mise en place des solutions Wizzilab</h3>
-        <h4>Solutions autonomes, sans fil et basse consommation</h4>
+        <h3>Solutions autonomes, sans fil et basse consommation</h3>
+        <h4>Processus de mise en place des solutions Wizzilab</h4>
         </div>
         
         <div className='content-col'>
@@ -33,13 +33,13 @@ export default function Home() {
             <h4 className='denim-bg'><span className='cultured'>2. DÉPLOYER</span></h4>
             <img src='/img/processus/deployer.png' />
             <br />
-            <p className='center'><span>Une installation simple, rapide</span></p>
+            <p className='center'><span>Installer simplement et rapidement</span></p>
           </div>
           <div className='column-3'>
             <h4 className='denim-bg'><span className='cultured'>3. RÉCOLTER</span></h4>
             <img src='/img/processus/recolter.png' />
             <br />
-            <p className='center'><span>Une supervision à distance
+            <p className='center'><span>Superviser à distance
               et des API pour récolter vos données</span></p>
           </div>
         </div>

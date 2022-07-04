@@ -65,7 +65,7 @@ export default function Wolt() {
                 <div className='content-col'>
                     <div className='column-4'>
                         <img src='/img/composants/wolt/1.png' />
-                        <h5 className='red'>Ancre</h5>
+                        <h5 className='red'>WOLT-ANCHOR : Ancre</h5>
                         <ul>
                             <li>Sert de repère fixe</li>
                             <li>Installation sans cablage</li>
@@ -74,7 +74,7 @@ export default function Wolt() {
                     </div>
                     <div className='column-4'>
                         <img src='/img/composants/wolt/2.png' />
-                        <h5 className='blue'>Tags</h5>
+                        <h5 className='blue'>WOLT-S/M/XL : Tags</h5>
                         <ul>
                             <li>Placé sur vos actifs, se repère par rapport ayx ancres</li>
                             <li>Communique avec le Cloud à travers le réseau local IoT crée par la Gateway</li>
@@ -84,7 +84,7 @@ export default function Wolt() {
                     </div>
                     <div className='column-4'>
                         <img src='/img/composants/wolt/3.png' />
-                        <h5 className='green'>Gateway</h5>
+                        <h5 className='green'>WGATE-PRO : Gateway</h5>
                         <ul>
                             <li>Passerelle enre le réseau sans fil local et le Cloud</li>
                         </ul>
