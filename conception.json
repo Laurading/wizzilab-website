@@ -6,7 +6,7 @@
             "image" : "/img/conception/1.png",
             "hoverImage" : "/img/conception/1hover.png",
             "contentImage" : "/img/conception/img1.png",
-            "content" : "Afin de développer le système le plus adapté à vos besoins, nous tenons compte de vos attentes et votre environnement afin d'allier le meilleur rapport débit et puissance énergétique et mettre en place l'architecture la plus efficace depuis sa conception jusqu'à son déploiement."
+            "content" : "Nous avons toujours à l'esprit la spécification globale, le coût et les défis de faible consommation d'énergie, de sorte que chaque composant est conçu pour fonctionner efficacement avec le reste du système."
         },
         {
             "id": "2",
@@ -14,7 +14,7 @@
             "image" : "/img/conception/2.png",
             "hoverImage" : "/img/conception/2hover.png",
             "contentImage" : "/img/conception/img2.png",
-            "content" : "Nous avons la possibilité de combiner différentes technologies sans fil comme le DASH7, LoRaWAN et cellulaire entre autres, afin d'optimiser les compromis entre le débit de données, la portée et la consommation d'énergie. Le succès de tout système IoT est de pouvoir répondre à ses différents paramètres en trouvant la meilleure combinaison pour votre cas d'usage spécifique."
+            "content" : "La disponibilité d'infrastructures réseau répondant aux exigences à grande échelle et à faible coût de l'IoT est une condition sine qua non au succès de tout système IoT. Nous combinons différentes technologies sans fil, DASH7, LoRaWAN et cellulaire entre autres, afin d'optimiser les compromis de débit de données, de portée et de consommation d'énergie. Nous avons un engagement particulier avec DASH7, une technologie spécialement conçue pour l'IoT moyenne portée. WizziLab est un membre actif de la DASH7 Alliance depuis 2011, préside le Protocol Action Group et développe des produits D7A."
         },
         {
             "id": "3",
@@ -22,7 +22,7 @@
             "image" : "/img/conception/3.png",
             "hoverImage" : "/img/conception/3hover.png",
             "contentImage" : "/img/conception/img3.png",
-            "content" : "Le positionnement indoor/outdoor est au cœur de nombreuses applications professionnelles et privées. Nous avons développé une solide expertise en UWB sans fil, ce qui nous permet d'estimer des distances avec une précision inférieure au mètre. "
+            "content" : "La localisation en intérieur et en extérieur est au cœur d'une multitude d'applications professionnelles et privées. Nous avons développé une forte expertise dans le sans fil UWB, et nous concevons des systèmes ultra efficaces ayant une précision submétrique."
         },
         {
             "id": "4",
@@ -30,7 +30,7 @@
             "image" : "/img/conception/4.png",
             "hoverImage" : "/img/conception/4hover.png",
             "contentImage" : "/img/conception/img4.png",
-            "content" : "La consommation d'énergie de nos capteurs est dirigée et une fréquence d'éveil appliquée afin de préserver et d'optimiser leur durée d'utilisation. Nous allions une consommation faible à la meilleure valeur fonctionnelle de nos produits pour un rendement optimisé."
+            "content" : "Nous utilisons des déclencheurs à faible consommation d'énergie pour réveiller des modes plus gourmand en énergie. Cela permet de   maintenir la consommation extrêmement faible, tout en offrant la meilleure valeur fonctionnelle."
         },
         {
             "id": "5",
@@ -38,7 +38,7 @@
             "image" : "/img/conception/5.png",
             "hoverImage" : "/img/conception/5hover.png",
             "contentImage" : "/img/conception/img5.png",
-            "content" : "Les informations sont traitées et filtrées dans les nœuds périphériques, chaque fois que nécessaire, avec la possibilité de rediriger et d'agréger les flux de données. Cela permet d'optimiser le traitement à chaque étape, d'éviter les surcharges et de fournir uniquement des données significatives au service applicatif."
+            "content" : "Les informations sont traitées et filtrées dans les nœuds périphériques, chaque fois que nécessaire, avec la possibilité de rediriger et d'agréger les flux de données. Cela permet d'optimiser le traitement à chaque étape, d’éviter les surcharges et de fournir uniquement des données significatives au service applicatif."
         },
         {
             "id": "6",
@@ -46,7 +46,7 @@
             "image" : "/img/conception/6.png",
             "hoverImage" : "/img/conception/6hover.png",
             "contentImage" : "/img/conception/img6.png",
-            "content" : "La supervision à distance est un service indispensable pour la gestion d'un système IoT. Toutes nos solutions sont conçues afin qu'elles soient accessibles tout au long de leur vie pour la maintenance, la reconfiguration, la sécurité et la mise à jour du firmware."
+            "content" : "Un système IoT efficace nécessite un moyen intuitif et simple de servir et de configurer la flotte IoT. Nous concevons nos systèmes pour garantir qu'ils soient accessibles tout au long de leur vie pour la maintenance, la reconfiguration, la sécurité et la mise à jour du firmware."
         }
     ]
 }
