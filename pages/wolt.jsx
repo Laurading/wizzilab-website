@@ -14,7 +14,9 @@ export default function Wolt() {
                     </div>
                     <img className='solutions-img' src='/img/solutions/wolt.png' />
                     <p>
-                        WOLT se compose de tags, d’ancres et de gateways. Le tag (capteur) se localise par rapport aux ancres à une fréquence prédéfinie en fonction du cas d’usage. La donnée est envoyée dans le cloud à travers la gateway.
+                    WOLT est une solution de localisation sur site basée sur une infrastructure ultra légère sans fil. WOLT permet une localisation avec une précision sub-métrique. Les tag ont une options de localisation globale sur le réseau LoRaWAN.
+                    {/* <br/>
+                    Elle se compose de tags, d&apos;ancres et de gateways. Le tag (capteur) se localise par rapport aux ancres à une fréquence prédéfinie en fonction du cas d’usage. La donnée est envoyée dans le cloud à travers la gateway. */}
                     </p>
                     <p>
                         <span>3 niveaux de précisions de localisation </span>
@@ -38,7 +40,7 @@ export default function Wolt() {
                         </div>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/wolt/2.svg' />
-                            <p className='center'>Installer facilement et rapidement notre système</p>
+                            <p className='center'>Installer facilement et rapidement notre solution</p>
                         </div>
                         <div className='column-3 six'>
                             <img className='picto' src='/img/pictos/wolt/3.svg' />

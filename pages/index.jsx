@@ -40,7 +40,7 @@ export default function Home() {
             <img src='/img/processus/recolter.png' />
             <br />
             <p className='center'><span>Superviser à distance
-              et des API pour récolter vos données</span></p>
+              et récolter vos données</span></p>
           </div>
         </div>
 

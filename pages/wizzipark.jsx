@@ -11,8 +11,8 @@ export default function Wizzipark() {
             <div className='padding-tb'>
             <h2 className='test-weight'><span className='red'>WIZZIPARK</span></h2>
             <h2>La solution de stationnement intelligent en temps réel sans fil</h2>
-            <img className='solutions-img' src='/img/solutions/wizzipark.png' />
             </div>
+            <img className='solutions-img' src='/img/solutions/wizzipark.png' />
             <p>
             Des capteurs de stationnement sans fils et autonomes détectent instantanément l&apos;arrivée ou le départ de véhicules et relaient l&apos;information vers le Wizzicloud au travers de la gateway. Les visiteurs ont accès en temps réel aux places disponibles qui peuvent être communiquées sur des afficheurs dynamiques.
             </p>
@@ -22,7 +22,7 @@ export default function Wizzipark() {
             </p>
             <ul>
             <li>
-            Le <span>capteur au sol</span>, détectant la présence d&apos;un véhicule.
+            Le <span>capteur au sol</span> (à coller ou à carotter), détectant la présence d&apos;un véhicule.
             </li>
             <li>
                 Le <span>capteur plafonnier</span>, sa LED change de couleur en fonction du statut de la place et du cas d&apos;usage.
@@ -73,7 +73,7 @@ export default function Wizzipark() {
                         <ul>
                         <li>Identifie la présence d&apos;un véhicule</li>
                         <li>Envoie l&apos;information de présence à la gateway</li>
-                        <li>Deux options d&apos;installation : à<span className='cultured'>-</span>coller ou à<span className='cultured'>-</span>encastrer</li>
+                        <li>Deux options d&apos;installation : à<span className='cultured'>-</span>coller ou à<span className='cultured'>-</span>carotter</li>
                         </ul>
                     </div>
                     <div className='column-4'>

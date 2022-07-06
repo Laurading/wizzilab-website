@@ -11,7 +11,7 @@ export default function Wizziteam() {
                         <div className='margin-lr'>
                         <h2 className='denim'>WizziTeam</h2>
                         <br/>
-                    <h3>Notre vision : Améliorer votre environnement en digitalisant la donnée physique</h3>
+                    <h3>Notre vision : Les données des capteurs seront au coeur de la transformation numérique</h3>
                     <h5><span>“Si vous ne pouvez pas le mesurer, vous ne pouvez pas l’améliorer” - Peter Drucker</span></h5>
                         </div>
                 </div>

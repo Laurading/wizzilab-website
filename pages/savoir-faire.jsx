@@ -18,7 +18,7 @@ export default function SavoirFaire() {
         <div className='content-col'>
           <div className='column-2'>
             <div className='padding-tb'>
-              <h3>Wizzilab vous accompagne dans votre transformation</h3>
+              <h3>Wizzilab vous accompagne dans votre transformation :</h3>
               <br/>
               <ul>
                 <li>
@@ -66,7 +66,7 @@ export default function SavoirFaire() {
             </div>
             <div className='column-3 six'>
               <img className='picto' src='/img/pictos/savoirfaire/3.svg' />
-              <p className='center'>Minimisant les interventions physiques</p>
+              <p className='center'>Minimisation des interventions physiques</p>
             </div>
             <div className='column-3 six'>
               <img className='picto' src='/img/pictos/savoirfaire/4.svg' />
@@ -88,7 +88,6 @@ export default function SavoirFaire() {
         <h3 className='padding-tb'>
           Notre expertise technique
         </h3>
-        <p>Une équipe experte dans les systèmes embarqués à faible consommation, les technologies sans fil IoT, la sécurité et les services cloud est à votre écoute</p>
         </div>
         <br/>
         <p className='underline'>
