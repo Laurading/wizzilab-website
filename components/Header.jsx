@@ -18,7 +18,7 @@ const Header = () => {
       }
 
       prevScrollY.current = currentScrollY;
-      console.log(goingUp, currentScrollY);
+      // console.log(goingUp, currentScrollY);
     };
 
     window.addEventListener("scroll", handleScroll);
