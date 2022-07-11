@@ -17,13 +17,9 @@
     width: 100%;
     max-width: var(--sectionWidth);
     background-color: white;
-    border-radius: 15px;
     overflow : auto;
 }
 
-.radius-right {
-    border-radius: 0px 15px 15px 0px;
-}
 
 .popup-inner .close-btn {
     position: absolute;

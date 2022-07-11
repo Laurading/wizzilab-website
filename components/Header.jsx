@@ -1,12 +1,19 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Contact from './Contact';
-import Link from 'next/link'
+import Link from 'next/link';
+import { useRouter } from "next/router";
 
 const Header = () => {
+  const { locale, locales } = useRouter();
+  const [data, setData] = useState();
+
+  fetch(`/locales/${locale}.json`)
+    .then(resp => resp.json())
+    .then(res => setData(res))
+
   const prevScrollY = useRef(0);
-
   const [goingUp, setGoingUp] = useState(false);
-
+  
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
@@ -26,48 +33,64 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [goingUp]);
 
-
   const [buttonPopup, setButtonPopup] = useState(false)
 
-
   return (
-    <header className={goingUp === false ? "onscroll" : ""}>
-      <nav className="margin">
-        <Link href='/'>
-          <a className='logo'>
-            <img src='/img/logo/wizzilab.png' />
-          </a>
-        </Link>
+    <>
+      {data && (
+        <div>
+          <header className={goingUp === false ? "onscroll" : ""}>
 
-        <ul className='margin-header'>
-          <li className='deroulant'>
-            <a>Nos solutions</a>
-            <ul className='sous'>
-              <li><Link href='/wolt'><a>Wolt</a></Link></li>
-              <li><Link href='/wizzipark'><a>Wizzipark</a></Link></li>
-              {/* <li><Link href='/u-guard'><a>U-Guard</a></Link></li> */}
-              <li><Link href='/wisp'><a>Wisp</a></Link></li>
+            <nav className="margin">
+              <div className='logo-content'>
+              <Link href='/'>
+                <a className='logo'>
+                  <img src='/img/logo/wizzilab.png' />
+                </a>
+              </Link>
+              </div>
+              <ul className='margin-header'>
+                <li className='deroulant'>
+                  <a>{data.header.solutions}</a>
+                  <ul className='sous'>
+                    <li><Link href='/wolt'><a>Wolt</a></Link></li>
+                    <li><Link href='/wizzipark'><a>Wizzipark</a></Link></li>
+                    {/* <li><Link href='/u-guard'><a>U-Guard</a></Link></li> */}
+                    <li><Link href='/wisp'><a>Wisp</a></Link></li>
+                  </ul>
+                </li>
+                <li>
+                  <Link href='/support'><a>Support</a></Link>
+                </li>
+                <li className='deroulant'>
+                  <a>{data.header.about}</a>
+                  <ul className='sous'>
+                    <li><Link href='/wizziteam'><a>Wizziteam</a></Link></li>
+                    <li><Link href='/savoir-faire'><a>{data.header.expertise}</a></Link></li>
+                  </ul>
+                </li>
+                <li>
+                  <a onClick={() => setButtonPopup(true)} className='contact-button'>Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <Contact trigger={buttonPopup} setTrigger={setButtonPopup} />
+          </header>
+
+          <div className='language-content'>
+            <ul>
+              {locales.map((loc) => (
+                <li>
+                  <Link key={loc} href="/" locale={loc}>
+                    <a className='language-link'>{loc}</a>
+                  </Link>
+                </li>
+              ))}
             </ul>
-          </li>
-          <li>
-            <Link href='/support'><a>Support</a></Link>
-          </li>
-          <li className='deroulant'>
-            <a>A propos</a>
-            <ul className='sous'>
-              <li><Link href='/wizziteam'><a>Wizziteam</a></Link></li>
-              <li><Link href='/savoir-faire'><a>Notre savoir-faire</a></Link></li>
-
-            </ul>
-          </li>
-          <li>
-            <a onClick={() => setButtonPopup(true)} className='contact-button'>Contact</a>
-          </li>
-        </ul>
-
-      </nav>
-      <Contact trigger={buttonPopup} setTrigger={setButtonPopup} />
-    </header>
+          </div>
+        </div>
+        )}
+    </>
   )
 }
 

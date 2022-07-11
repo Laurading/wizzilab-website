@@ -22,7 +22,7 @@ header nav {
 }
 
 .margin-header {
-    margin-left: 30%;
+    margin-left: 25%;
 }
 
 header nav ul {
@@ -36,7 +36,7 @@ header nav ul {
 
 header nav ul a {
     padding-bottom: 50%;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .sous {
@@ -71,11 +71,12 @@ nav > ul li:hover .sous {
     }
 }
 
+
+
 .contact-button {
     background-color: var(--denimColor);
     color: white;
-    padding: 12px 20px;
-    border-radius: 15px;
+    padding: 16px 24px;
 }
 
 
@@ -98,6 +99,11 @@ nav > ul li:hover .sous {
     header nav ul a {
         font-size: 15px;
     }
+
+    .logo-content{
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width : 600px) {
@@ -108,7 +114,6 @@ nav > ul li:hover .sous {
         background-color: var(--denimColor);
         color: white;
         padding: 8px 16px;
-        border-radius: 15px;
     }
     header nav ul a {
         font-size: 13px;

@@ -64,7 +64,7 @@ const Contact = (props) => {
         <div className='popup-inner'>
           <button onClick={() => props.setTrigger(false)} className='close-btn'><img src='/img/close.svg' /></button>
           <div className='content-col-contact'>
-            <div className='column-3 left denim-bg radius-right'>
+            <div className='column-3 left denim-bg'>
               <div className='content-col'>
                 <div className='padding-tb'>
                   <h4 className='cultured mobile-hidden'>CONTACT</h4>

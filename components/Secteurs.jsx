@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
-import secteurs from '../secteurs.json';
+import secteurs from '../public/locales/secteurs.json';
 import Link from 'next/link';
 
 
 const Secteurs = () => {
 	const [active, setActive] = useState(null);
 	return (
-		<section className='lavender-bg'>
-			<div className='margin-lr padding-tb'>
-				<h1>La <span className='denim'>Donnée temps réel</span> au service de la <span className='denim'>Performance</span></h1>
+		
 				<div className='content-col'>
 					{secteurs.secteurs.map(secteur => (
 						<div onClick={(() => setActive(secteur))} key={secteur.name} className={`${active != null ? 'column-6' : 'column-3'} ${active === secteur ? 'selected' : ''} onhover`}>
@@ -58,10 +56,7 @@ const Secteurs = () => {
 							</>
 						}
 					</div>
-
 				</div>
-			</div>
-		</section>
 	)
 }
 

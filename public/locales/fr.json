@@ -1,0 +1,43 @@
+{
+  "header": {
+    "solutions": "Nos solutions",
+    "about": "A propos",
+    "expertise": "Notre savoir-faire"
+  },
+  "landing": {
+    "mission": "Fournisseur de Données d'objets connectés",
+    "promise": "La Donnée temps réel au service de la Performance",
+    "process": "Solutions autonomes, sans fil et basse consommation",
+    "": "CIBLER",
+    "": "Comprendre et définir vos besoins",
+    "": "DÉPLOYER",
+    "": "Installer simplement et rapidement",
+    "": "RÉCOLTER",
+    "6bubbles": [
+      {
+        "text": "Superviser à distance et récolter vos données",
+        "img" : "/img/pictos/savoirfaire/1.svg"
+      },
+      {
+        "text" : "Des systèmes IoT efficaces",
+        "img" : "/img/pictos/savoirfaire/2.svg"
+      },
+      {
+        "text" : "Prouvés sur le terrain",
+        "img" : "/img/pictos/savoirfaire/3.svg"
+      },
+      {
+        "text" : "Rapides à installer",
+        "img" : "/img/pictos/savoirfaire/4.svg"
+      },
+      {
+        "text" : "Facile à entretenir, configurer et mettre à jour à distance",
+        "img" : "/img/pictos/savoirfaire/5.svg"
+      },
+      {
+        "text" : "Scalables et évolutifs",
+        "img" : "/img/pictos/savoirfaire/6.svg"
+      }
+    ]
+  }
+}

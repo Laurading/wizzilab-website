@@ -9,7 +9,7 @@ const Conception = () => {
 		<section className='lavender-bg'>
             <div className='margin-lr padding-bottom'>
                 <div className='padding-tb'>
-				<h3 >Une philosophie de conception</h3>
+				<h3 >Notre philosophie de conception</h3>
 				<br/>
                 <p>Chez Wizzilab, nous avons une démarche spécifique pour accompagner nos clients dans leurs projets IoT :</p>
 				</div>

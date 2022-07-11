@@ -1,7 +1,3 @@
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-
-
 export default function Wizzipark() {
     return (
         <div>
@@ -14,7 +10,7 @@ export default function Wizzipark() {
             </div>
             <img className='solutions-img' src='/img/solutions/wizzipark.png' />
             <p>
-            Des capteurs de stationnement sans fils et autonomes détectent instantanément l&apos;arrivée ou le départ de véhicules et relaient l&apos;information vers le Wizzicloud au travers de la gateway. Les visiteurs ont accès en temps réel aux places disponibles qui peuvent être communiquées sur des afficheurs dynamiques.
+            Des capteurs de stationnement sans fils et autonomes détectent instantanément l&apos;arrivée ou le départ de véhicules et relaient l&apos;information vers le WizziCloud au travers de la gateway. Les visiteurs ont accès en temps réel aux places disponibles qui peuvent être communiquées sur des afficheurs dynamiques.
             </p>
             <p>
                 <span>2 types de capteurs </span>
@@ -22,7 +18,7 @@ export default function Wizzipark() {
             </p>
             <ul>
             <li>
-            Le <span>capteur au sol</span> (à coller ou à carotter), détectant la présence d&apos;un véhicule.
+            Le <span>capteur au sol</span> (à coller ou à carotter).
             </li>
             <li>
                 Le <span>capteur plafonnier</span>, sa LED change de couleur en fonction du statut de la place et du cas d&apos;usage.
@@ -81,7 +77,7 @@ export default function Wizzipark() {
                         <h5 className='red'>WP200 : Capteur plafonnier</h5>
                         <ul>
                             <li>Identifie la présence d’un véhicule</li>
-                            <li>Affiche le statut de la place par retour lumineux</li>
+                            <li>Affiche le statut de la place par retour lumineux intégré</li>
                             <li>Envoie l&apos;information de présence à la gateway</li>
                         </ul>
                     </div>
@@ -91,7 +87,7 @@ export default function Wizzipark() {
                          <ul>
                              <li>Passerelle IoT</li>
                              <li>Récolte les informations des capteurs</li>
-                             <li>Envoie les informations au cloud</li>
+                             <li>Envoie les informations vers le cloud</li>
                              <li>Permet les interventions à distance</li>
                              <li>Deux options de connexion : mobile ou Ethernet</li>
                          </ul>

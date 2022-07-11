@@ -15,8 +15,9 @@ export default function Wisp() {
         <div className='padding-tb'>
           <h3>Dash7</h3>
           <br/>
-          <p>Wizzilab est membre de l&apos;alliance depuis 2011.</p>
+          <p>Nous avons un engagement particulier avec DASH7, une technologie spécialement conçue pour l'IoT moyenne portée. WizziLab est un membre actif de la DASH7 Alliance depuis 2011, préside le Protocol Action Group et développe des produits D7A.</p>
           <p>Toutes les infos sur le protocole DASH7 sont librement accessible sur le <span className='underline'><a href='https://www.dash7-alliance.org'>site de l&apos;alliance</a></span>.</p>
+          
           {/* -> rediriger vers l'alliance : "Wizzilab est membre de la dash7 alliance + logo de l'alliance + le site de l'alliance : ici (https://www.dash7-alliance.org/)" */}
         </div>
       </section>

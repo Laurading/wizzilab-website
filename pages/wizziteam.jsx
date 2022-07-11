@@ -24,7 +24,7 @@ export default function Wizziteam() {
                             <div className='column-3'>
                             <h4 className='denim-bg cultured'><span>CRÉATIVITÉ</span></h4>
                             <img src='/img/valeurs/Creativite.png'/>
-                            <p className='margin-top'> Allier le potentiel de la Technologie à l&apos;inventivité de notre équipe pour répondre aux challenges de nos utilisateurs</p>
+                            <p className='margin-top'> Allier le potentiel de la Technologie à l&apos;inventivité de notre équipe pour répondre à vos challenges</p>
                             </div>
                             <div className='column-3'>
                             <h4 className='denim-bg cultured'><span>ÉCOUTE</span></h4>
@@ -34,7 +34,7 @@ export default function Wizziteam() {
                             <div className='column-3'>
                                 <h4 className='denim-bg cultured'><span>ENGAGEMENT</span></h4>
                                 <img src='/img/valeurs/Engagement.png'/>
-                            <p className='margin-top'> Accompagner et soutenir nos partenaires dans leur projet en leur apportant le meilleur service</p>
+                            <p className='margin-top'>Vous accompagner et vous soutenir dans vos projets en apportant le meilleur service</p>
                             </div>
                         </div>
             </section>

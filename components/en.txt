@@ -1,0 +1,39 @@
+"connected object data provider",
+"Real-time Data at the service of Performance",
+
+"Install our Indoor/Outdoor sensors to activate the guidance instead, report the information on displays to improve the customer experience and supervise/manage the activity thanks to our platform (Wizzicloud)"
+"Improve your industrial performance thanks to our sensors which will provide you with the data necessary for your modernization."
+"Localize your equipment for better use and efficiency of the patient/staff journey."
+"
+Organize and optimize the management of your premises and equipment. Manage and adapt your parking needs (specific spaces: electric, disabled, etc.)."
+"Indoor tracing of your tools on site for better management of your budgets. Detect the presence of your machines."
+"Develop, analyze and transform your activity thanks to our different types of sensors."
+
+"Easily and quickly locate your equipment (asset tracking)"
+"Connected solutions for managing your parking spaces"
+"Connect your environment to better analyze it"
+
+"Autonomous, wireless and low-power solutions"
+"Wizzilab solutions implementation process"
+
+"Understand and define your needs"
+"Install simply and quickly"
+"Remotely supervise and collect your data"
+
+"Since 2011"
+"200 000 sensors deployed"
+"1 billion messages exchanged on the dash7board"
+"+38,000 remote update"
+
+"They trust us"
+
+------------WOLT----------------
+
+"The autonomous, ultra light and wireless RTLS solution"
+"WOLT is an on-site location solution based on an ultra-lightweight wireless infrastructure. WOLT allows localization with sub-meter precision. The tags have a global location option on the LoRaWAN network.
+
+3 levels of location accuracy are possible:
+
+Positioning, the most precise of the 3 levels, which makes it possible to identify the exact position of the asset
+The proximity which allows to know the approximate position of a tag in relation to the anchors
+The presence that allows to know if an asset in an area of ​​interest"

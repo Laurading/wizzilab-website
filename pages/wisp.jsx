@@ -20,10 +20,10 @@ export default function Wisp() {
                         WISP digitalise vos données telles que la température, la pression, l&apos;humidité, la luminosité, ...
                     </p>
                     <p>
-                        Ses informations vous permettent d&apos;analyser les indicateurs choisis afin de compléter et améliorer votre processus de prise de décision.
+                        Ces informations vous permettent d&apos;analyser les indicateurs choisis afin de compléter et améliorer votre processus de prise de décision.
                     </p>
                     <p>
-                        Wizzilab peut s&apos;appuyer sur cette solution “sur étagère” pour répondre aux cas d&apos;usage spécifiques grâce à son expérience de bureau d’étude.
+                        Wizzilab peut s&apos;appuyer sur cette solution “sur étagère” pour répondre aux cas d&apos;usage spécifiques.
                     </p>
 
                     </div>

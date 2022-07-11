@@ -1,27 +1,30 @@
-import Header from '../components/Header'
-import Secteurs from '../components/Secteurs'
-import Footer from '../components/Footer'
-
+import Header from '../components/Header';
+import Secteurs from '../components/Secteurs';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
     <div>
       <Header />
+      
       <section className='section-one'>
-      <div className='denim-bg'>
-                <div className="margin-lr">
-                <h2 className='center cultured padding-tb'>Fournisseur de Données d&apos;objets connectés</h2>
-                <img className="landing-img" src="/img/landing.png"/>
-                </div>
-            </div>
-      </section>
-      <Secteurs />
-      <section className='margin'>
-        <div className='padding-tb'>
-        <h3>Solutions autonomes, sans fil et basse consommation</h3>
-        <h4>Processus de mise en place des solutions Wizzilab</h4>
+        <div className='denim-bg'>
+          <div className="margin-lr">
+            <h2 className='center cultured padding-tb'>Fournisseur de Données d&apos;objets connectés</h2>
+            <img className="landing-img" src="/img/landing.png" />
+          </div>
         </div>
-        
+      </section>
+
+      <section className='lavender-bg'>
+        <div className='margin-lr padding-tb'>
+          <h2 className='padding-tb'>La Donnée temps réel au service de la Performance</h2>
+          <Secteurs />
+        </div>
+      </section>
+
+      <section className='margin'>
+        <h3 className='padding-tb'>Solutions autonomes, sans fil et basse consommation</h3>
         <div className='content-col'>
           <div className='column-3 '>
             <h4 className='denim-bg'><span className='cultured'>1. CIBLER</span></h4>
@@ -43,8 +46,59 @@ export default function Home() {
               et récolter vos données</span></p>
           </div>
         </div>
-
       </section>
+
+      <section className='lavender-bg'>
+        <div className='margin'>
+          <h3 className='padding-tb'>Des systèmes IoT efficaces</h3>
+          <div className='content-col'>
+            <div className='column-3 six'>
+              <img className='picto' src='/img/pictos/savoirfaire/1.svg' />
+              <p className='center'>Prouvés sur le terrain</p>
+            </div>
+            <div className='column-3 six'>
+              <img className='picto' src='/img/pictos/savoirfaire/2.svg' />
+              <p className='center'>Rapides à installer</p>
+            </div>
+            <div className='column-3 six'>
+              <img className='picto' src='/img/pictos/savoirfaire/3.svg' />
+              <p className='center'>Faciles à entretenir, configurer et mettre à jour à distance</p>
+            </div>
+            <div className='column-3 six'>
+              <img className='picto' src='/img/pictos/savoirfaire/4.svg' />
+              <p className='center'>Scalables et évolutifs</p>
+            </div>
+            <div className='column-3 six'>
+              <img className='picto' src='/img/pictos/savoirfaire/5.svg' />
+              <p className='center'>Sécurisés de bout en bout</p>
+            </div>
+            <div className='column-3 six'>
+              <img className='picto' src='/img/pictos/savoirfaire/6.svg' />
+              <p className='center'>Supervisés via le Cloud</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='margin'>
+        <h3 className='padding-tb'>Ils nous font confiance</h3>
+        <div className='content-col'>
+          <div className='column-4 partenaire'>
+            <img src='/img/partenaires/zozio.png' />
+          </div>
+          <div className='column-4 partenaire'>
+            <img src='/img/partenaires/phidata.png' />
+          </div>
+          <div className='column-4 partenaire'>
+            <img src='/img/partenaires/postLuxembourg.png' />
+          </div>
+          <div className='column-4 partenaire'>
+            <img src='/img/partenaires/macq.png' />
+          </div>
+
+        </div>
+      </section>
+
       <section className='lavender-bg'>
         <div className='margin-lr'>
           <h3 className='padding-tb'>Depuis 2011</h3>
@@ -63,24 +117,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section><section className='margin'>
-                    <h3 className='padding-tb'>Ils nous font confiance</h3>
-                    <div className='content-col'>
-                        <div className='column-4 partenaire'>
-                            <img src='/img/partenaires/zozio.png'/>
-                        </div>
-                        <div className='column-4 partenaire'>
-                            <img src='/img/partenaires/phidata.png'/>
-                        </div>
-                        <div className='column-4 partenaire'>
-                            <img src='/img/partenaires/postLuxembourg.png'/>
-                        </div>
-                        <div className='column-4 partenaire'>
-                            <img src='/img/partenaires/macq.png'/>
-                        </div>
-                        
-                    </div>
-            </section>
+      </section>
+
       <Footer />
     </div>
   )

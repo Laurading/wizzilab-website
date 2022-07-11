@@ -123,19 +123,10 @@ padding: 32px 0;
     justify-content: center;
 }
 
-.thin {
-    font-weight: 300;
-}
-
-.bold {
-    font-weight: 700;
-}
-
 .buy-button {
     padding: 12px 20px;
     background-color: var(--denimColor);
     color: var(--culturedColor);
-    border-radius: 15px;
 }
 
 .test-weight {
@@ -152,4 +143,23 @@ padding: 32px 0;
 
 .underline {
     text-decoration: underline;
+}
+
+.language-content {
+    position: fixed;
+    right: 0;
+    bottom: 80px;
+    background-color: var(--denimColor);
+    text-align: center;
+}
+
+.language-content ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px 16px;
+    border: solid 1px var(--culturedColor);
+}
+
+.language-link {
+    color: var(--culturedColor);
 }

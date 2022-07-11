@@ -10,22 +10,22 @@ export default function Wolt() {
                 <div className='margin-lr'>
                     <div className='padding-tb'>
                     <h2 className='test-weight'><span className='blue'>WOLT</span></h2>
-                    <h2>La solution RTLS autonome, ultra légère et sans fil</h2>
+                    <h2>La solution RTLS autonome et ultra légère</h2>
                     </div>
                     <img className='solutions-img' src='/img/solutions/wolt.png' />
                     <p>
-                    WOLT est une solution de localisation sur site basée sur une infrastructure ultra légère sans fil. WOLT permet une localisation avec une précision sub-métrique. Les tag ont une options de localisation globale sur le réseau LoRaWAN.
+                    WOLT est une solution de localisation sur site basée sur une infrastructure ultra légère sans fil. Les tags ont une option de localisation globale sur le réseau LoRaWAN.
                     {/* <br/>
                     Elle se compose de tags, d&apos;ancres et de gateways. Le tag (capteur) se localise par rapport aux ancres à une fréquence prédéfinie en fonction du cas d’usage. La donnée est envoyée dans le cloud à travers la gateway. */}
                     </p>
                     <p>
-                        <span>3 niveaux de précisions de localisation </span>
+                        <span>3 niveaux de précisions </span>
                         sont possibles :
                     </p>
                     <ul>
-                        <li>Le <span className='red'>positionnement</span>, le plus précis des 3 niveaux, qui permet d&apos;identifier la position exacte de l&apos;actif</li>
-                        <li>La <span className='orange'>proximité</span> qui permet de connaître la position approximative d&apos;un tag par rapport aux ancres</li>
-                        <li>La <span className='yellow'>présence</span> qui permet de savoir si un actif dans une zone d&apos;intérêt</li>
+                        <li>Le <span className='red'>positionnement</span> permet une localisation des actifs avec une précision sub-métrique</li>
+                        <li>La <span className='orange'>proximité</span> permet de connaître la position approximative d&apos;un tag par rapport aux ancres</li>
+                        <li>La <span className='yellow'>présence</span> permet de savoir si un actif dans une zone d&apos;intérêt</li>
                     </ul>
                 </div>
             </section>
@@ -76,9 +76,9 @@ export default function Wolt() {
                     </div>
                     <div className='column-4'>
                         <img src='/img/composants/wolt/2.png' />
-                        <h5 className='blue'>WOLT-S/M/XL : Tags</h5>
+                        <h5 className='blue'>WOLT-S/M/XL : Tag</h5>
                         <ul>
-                            <li>Placé sur vos actifs, se repère par rapport ayx ancres</li>
+                            <li>Placé sur vos actifs, se repère par rapport aux ancres</li>
                             <li>Communique avec le Cloud à travers le réseau local IoT crée par la Gateway</li>
                             <li>Alimenté sur batteries</li>
                             <li>Trois tailles / capacités possibles en fonction de l&apos;usage</li>
@@ -88,12 +88,16 @@ export default function Wolt() {
                         <img src='/img/composants/wolt/3.png' />
                         <h5 className='green'>WGATE-PRO : Gateway</h5>
                         <ul>
-                            <li>Passerelle enre le réseau sans fil local et le Cloud</li>
-                        </ul>
+                             <li>Passerelle IoT</li>
+                             <li>Récolte les informations des capteurs</li>
+                             <li>Envoie les informations vers le cloud</li>
+                             <li>Permet les interventions à distance</li>
+                             <li>Deux options de connexion : mobile ou Ethernet</li>
+                         </ul>
                     </div>
                     <div className='column-4'>
                         <img src='/img/composants/wolt/4.png' />
-                        <h5 className='yellow'>Cloud</h5>
+                        <h5 className='yellow'>WizziCloud</h5>
                         <ul>
                             <li>Ensemble de services virtualisés de localisation et de gestion de la solution</li>
                         </ul>
