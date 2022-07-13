@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 export default function Wizziteam() {
     return (
         <div>
-            <Header />
+            <Header  data={data}/>
             <section className='section-one'>
                 <div className='lavender-bg padding-tb'>
                         <div className='margin-lr'>

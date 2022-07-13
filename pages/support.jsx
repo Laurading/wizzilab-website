@@ -1,11 +1,23 @@
+import React, { useState } from 'react';
+import { useRouter } from "next/router";
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-
 export default function Wisp() {
+
+  const { locale } = useRouter();
+  const [data, setData] = useState();
+
+  fetch(`/locales/${locale}.json`)
+    .then(resp => resp.json())
+    .then(res => setData(res))
+    
   return (
-    <div>
-      <Header />
+    <>
+    {
+      data && (
+        <div>
+      <Header  data={data}/>
       <section className='section-one'>
         <div className='lavender-bg padding-tb'>
           <h2 className='denim'>Support</h2>
@@ -15,10 +27,8 @@ export default function Wisp() {
         <div className='padding-tb'>
           <h3>Dash7</h3>
           <br/>
-          <p>Nous avons un engagement particulier avec DASH7, une technologie spécialement conçue pour l'IoT moyenne portée. WizziLab est un membre actif de la DASH7 Alliance depuis 2011, préside le Protocol Action Group et développe des produits D7A.</p>
-          <p>Toutes les infos sur le protocole DASH7 sont librement accessible sur le <span className='underline'><a href='https://www.dash7-alliance.org'>site de l&apos;alliance</a></span>.</p>
-          
-          {/* -> rediriger vers l'alliance : "Wizzilab est membre de la dash7 alliance + logo de l'alliance + le site de l'alliance : ici (https://www.dash7-alliance.org/)" */}
+          <p>{data.support.dash7text}</p>
+          <p>{data.support.dash7info} <span className='underline'><a href='https://www.dash7-alliance.org'>{data.support.dash7link}</a></span></p>
         </div>
       </section>
       <section className='lavender-bg'>
@@ -26,7 +36,7 @@ export default function Wisp() {
           <div className='padding-tb'>
           <h3 className=''>Wizzilab solutions</h3>
           <br/>
-          <p>Vous pouvez consulter les pages dédiées à nos différents produits sur notre wiki : </p>
+          <p>{data.support.wikitext}</p>
           </div>
           <div className='content-col'>
             <div className='column-3'>
@@ -49,9 +59,11 @@ export default function Wisp() {
       <section className='margin'>
         <h3>Contact</h3>
         <br/>
-        <p>Vous pouvez contacter notre support technique : <span>support@wizzilab.fr</span></p>
+        <p>{data.support.contacttext} : <span>{data.support.contactspan}</span></p>
       </section>
       <Footer />
     </div>
+      )
+    }</>
   )
 }

@@ -1,135 +1,75 @@
-export default function Wizzipark() {
-    return (
-        <div>
-            <Header />
-            <section className='section-one'>
-            <div className='margin-lr'>
-            <div className='padding-tb'>
-            <h2 className='test-weight'><span className='red'>WIZZIPARK</span></h2>
-            <h2>La solution de stationnement intelligent en temps réel sans fil</h2>
-            </div>
-            <img className='solutions-img' src='/img/solutions/wizzipark.png' />
-            <p>
-            Des capteurs de stationnement sans fils et autonomes détectent instantanément l&apos;arrivée ou le départ de véhicules et relaient l&apos;information vers le WizziCloud au travers de la gateway. Les visiteurs ont accès en temps réel aux places disponibles qui peuvent être communiquées sur des afficheurs dynamiques.
-            </p>
-            <p>
-                <span>2 types de capteurs </span>
-                sont disponibles :
-            </p>
-            <ul>
-            <li>
-            Le <span>capteur au sol</span> (à coller ou à carotter).
-            </li>
-            <li>
-                Le <span>capteur plafonnier</span>, sa LED change de couleur en fonction du statut de la place et du cas d&apos;usage.
-            </li>
-            </ul>
-                
-            </div>
-            </section>
-       
-            <section className='lavender-bg'>
-                <div className='margin'>
-                <h3  className='padding-tb'>Vos avantages</h3>
-                <div className='content-col'>
-                    <div className='column-3 six'>
-                        <img className='picto' src='/img/pictos/wizzipark/1.svg'/>
-                        <p className='center'>Améliorer le processus d&apos;accueil et la satisfaction des conducteurs</p>
-                    </div>
-                    <div className='column-3 six'>
-                        <img className='picto' src='/img/pictos/wizzipark/2.svg'/>
-                        <p className='center'>Identifier les voitures ventouses</p>
-                    </div>
-                    <div className='column-3 six'>
-                        <img className='picto' src='/img/pictos/wizzipark/3.svg'/>
-                        <p className='center'>Optimiser le taux de remplissage de votre parking</p>
-                    </div>
-                    <div className='column-3 six'>
-                        <img className='picto' src='/img/pictos/wizzipark/4.svg'/>
-                        <p className='center'>Exploiter un système de réservation de places de parking</p>
-                    </div>
-                    <div className='column-3 six'>
-                        <img className='picto' src='/img/pictos/wizzipark/5.svg'/>
-                        <p className='center'>Informer les visiteurs sur les emplacements spécifiques du parking</p>
-                    </div>
-                    <div className='column-3 six'>
-                        <img className='picto' src='/img/pictos/wizzipark/6.svg'/>
-                        <p className='center'>Réduire le temps de recherche d&apos;une place de stationnement</p>
-                    </div>
-                </div>
-                </div>
-            </section>
-            <section className='margin'>
-                <h3 className='padding-tb'>Nos composants</h3>
+import React, { useState } from 'react';
+import { useRouter } from "next/router";
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import LavenderPicto from '../components/LavenderPicto'
 
-                <div className='content-col'>
-                    <div className='column-4'>
-                        <img src='/img/composants/wizzipark/1.png'/>
-                        <h5 className='blue'>WP100 : Capteur au sol</h5>
-                        <ul>
-                        <li>Identifie la présence d&apos;un véhicule</li>
-                        <li>Envoie l&apos;information de présence à la gateway</li>
-                        <li>Deux options d&apos;installation : à<span className='cultured'>-</span>coller ou à<span className='cultured'>-</span>carotter</li>
-                        </ul>
-                    </div>
-                    <div className='column-4'>
-                    <img src='/img/composants/wizzipark/2.png'/>
-                        <h5 className='red'>WP200 : Capteur plafonnier</h5>
-                        <ul>
-                            <li>Identifie la présence d’un véhicule</li>
-                            <li>Affiche le statut de la place par retour lumineux intégré</li>
-                            <li>Envoie l&apos;information de présence à la gateway</li>
-                        </ul>
-                    </div>
-                    <div className='column-4'>
-                    <img src='/img/composants/wizzipark/3.png'/>
-                         <h5 className='green'>WGATE-PRO : Gateway</h5>
-                         <ul>
-                             <li>Passerelle IoT</li>
-                             <li>Récolte les informations des capteurs</li>
-                             <li>Envoie les informations vers le cloud</li>
-                             <li>Permet les interventions à distance</li>
-                             <li>Deux options de connexion : mobile ou Ethernet</li>
-                         </ul>
-                    </div>
-                    <div className='column-4'>
-                    <img src='/img/composants/wizzipark/4.png'/>
-                        <h5 className='yellow'>Wizzipark : Cloud</h5>
-                        <ul>
-                            <li>Récupère les informations transitant la / les gateway(s)</li>
-                            <li>Affiche les informations sur les places</li>
-                            <li>Permet de configurer les capteurs et la gateway</li>
-                            <li>Fournit des statistiques d&apos;activité (nombre de visiteurs, taux d&apos;occupation,...)</li>
-                            <li>L&apos;ensemble de vos parkings en supervision sur une seule interface</li>
-                        </ul>
-                    </div>
+export default function Wizzipark() {
+
+  const { locale } = useRouter();
+  const [data, setData] = useState();
+
+  fetch(`/locales/${locale}.json`)
+    .then(resp => resp.json())
+    .then(res => setData(res))
+  return (
+
+    <>
+      {data && (
+        <div>
+          <Header  data={data}/>
+          <section className='section-one'>
+            <div className='margin-lr'>
+              <div className='padding-tb'>
+                <h2 className='test-weight'><span className='red'>WIZZIPARK</span></h2>
+                <h2>{data.wizzipark.title}</h2>
+              </div>
+              <img className='solutions-img' src={data.wizzipark.img} />
+              <p>
+                {data.wizzipark.text}
+              </p>
+              <p>
+                <span>{data.wizzipark.bullettitlespan} </span>
+                {data.wizzipark.bullettitle}
+              </p>
+              <ul>
+                {data.wizzipark.bulletpoints.map(bulletpoint => (
+                  <li key={bulletpoint.span}><span className={bulletpoint.color}>{bulletpoint.span}</span> {bulletpoint.text}</li>
+                ))}
+              </ul>
+            </div>
+          </section>
+          <LavenderPicto bubble="wizzipark" />
+          <section className='margin'>
+            <h3 className='padding-tb'>{data.wizzipark.componentstitle}</h3>
+
+            <div className='content-col'>
+              {data.wizzipark.components.map(component => (
+                <div key={component.name} className='column-4'>
+                  <img src={component.img} />
+                  <h5 className={component.color}>{component.name}</h5>
+                  <ul>
+                    {component.descriptions.map(description => (
+                      <li key={description.list}>{description.list}</li>
+                    ))}
+                  </ul>
                 </div>
-            </section>
-            <section className='margin'>
-                    <h3 className='padding-tb'>Ils nous font confiance</h3>
-                    <div className='content-col'>
-                        <div className='column-6 partenaire'>
-                            <img src='/img/partenaires/postLuxembourg.png'/>
-                        </div>
-                        <div className='column-6 partenaire'>
-                            <img src='/img/partenaires/laPoste.png'/>
-                        </div>
-                        <div className='column-6 partenaire'>
-                            <img src='/img/partenaires/leclerc.png'/>
-                        </div>
-                        <div className='column-6 partenaire'>
-                            <img src='/img/partenaires/superU.png'/>
-                        </div>
-                        <div className='column-6 partenaire'>
-                            <img src='/img/partenaires/interSport.png'/>
-                        </div>
-                        <div className='column-6 partenaire'>
-                            <img src='/img/partenaires/decathlon.png'/>
-                        </div>
-                        
-                    </div>
-            </section>
-            <Footer/>
+              ))}
+            </div>
+
+          </section>
+          <section className='margin'>
+            <h3 className='padding-tb'>{data.wizzipark.partnertitle}</h3>
+            <div className='content-col'>
+              {data.wizzipark.partners.map(partner => (
+                <div key={partner.id} className='column-6 partenaire'>
+                  <img src={partner.logo} />
+                </div>
+              ))}
+            </div>
+          </section>
+          <Footer />
         </div>
-    )
+      )}</>
+  )
 }

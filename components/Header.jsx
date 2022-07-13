@@ -13,7 +13,7 @@ const Header = () => {
 
   const prevScrollY = useRef(0);
   const [goingUp, setGoingUp] = useState(false);
-  
+
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
@@ -80,8 +80,8 @@ const Header = () => {
           <div className='language-content'>
             <ul>
               {locales.map((loc) => (
-                <li>
-                  <Link key={loc} href="/" locale={loc}>
+                <li key={loc}>
+                  <Link href="/" locale={loc}>
                     <a className='language-link'>{loc}</a>
                   </Link>
                 </li>

@@ -1,149 +1,97 @@
+import React, { useState } from 'react';
+import { useRouter } from "next/router";
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import LavenderPicto from '../components/LavenderPicto'
 
 
 export default function Wolt() {
-    return (
-        <div>
-            <Header />
-            <section className='section-one'>
-                <div className='margin-lr'>
-                    <div className='padding-tb'>
-                    <h2 className='test-weight'><span className='blue'>WOLT</span></h2>
-                    <h2>La solution RTLS autonome et ultra légère</h2>
-                    </div>
-                    <img className='solutions-img' src='/img/solutions/wolt.png' />
-                    <p>
-                    WOLT est une solution de localisation sur site basée sur une infrastructure ultra légère sans fil. Les tags ont une option de localisation globale sur le réseau LoRaWAN.
-                    {/* <br/>
-                    Elle se compose de tags, d&apos;ancres et de gateways. Le tag (capteur) se localise par rapport aux ancres à une fréquence prédéfinie en fonction du cas d’usage. La donnée est envoyée dans le cloud à travers la gateway. */}
-                    </p>
-                    <p>
-                        <span>3 niveaux de précisions </span>
-                        sont possibles :
-                    </p>
-                    <ul>
-                        <li>Le <span className='red'>positionnement</span> permet une localisation des actifs avec une précision sub-métrique</li>
-                        <li>La <span className='orange'>proximité</span> permet de connaître la position approximative d&apos;un tag par rapport aux ancres</li>
-                        <li>La <span className='yellow'>présence</span> permet de savoir si un actif dans une zone d&apos;intérêt</li>
-                    </ul>
-                </div>
-            </section>
 
-            <section className='lavender-bg'>
-                <div className='margin'>
-                    <h3  className='padding-tb'>Vos avantages</h3>
-                    <div className='content-col'>
-                        <div className='column-3 six'>
-                            <img className='picto' src='/img/pictos/wolt/1.svg' />
-                            <p className='center'>Localiser les actifs et diminuer les pertes</p>
-                        </div>
-                        <div className='column-3 six'>
-                            <img className='picto' src='/img/pictos/wolt/2.svg' />
-                            <p className='center'>Installer facilement et rapidement notre solution</p>
-                        </div>
-                        <div className='column-3 six'>
-                            <img className='picto' src='/img/pictos/wolt/3.svg' />
-                            <p className='center'>Identifier les points de congestion et réduire et temps mort</p>
-                        </div>
-                        <div className='column-3 six'>
-                            <img className='picto' src='/img/pictos/wolt/4.svg' />
-                            <p className='center'>Adapter les besoins de localisation aux différents cas d&apos;usage</p>
-                        </div>
-                        <div className='column-3 six'>
-                            <img className='picto' src='/img/pictos/wolt/5.svg' />
-                            <p className='center'>Optimiser les déplacements de vos actifs / itinéraires</p>
-                        </div>
-                        <div className='column-3 six'>
-                            <img className='picto' src='/img/pictos/wolt/6.svg' />
-                            <p className='center'>Améliorer la performance de votre activité</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className='margin'>
-                <h3 className='padding-tb'>Nos composants</h3>
+  const { locale } = useRouter();
+  const [data, setData] = useState();
 
-                <div className='content-col'>
-                    <div className='column-4'>
-                        <img src='/img/composants/wolt/1.png' />
-                        <h5 className='red'>WOLT-ANCHOR : Ancre</h5>
-                        <ul>
-                            <li>Sert de repère fixe</li>
-                            <li>Installation sans cablage</li>
-                            <li>Alimentée sur batteries</li>
-                        </ul>
-                    </div>
-                    <div className='column-4'>
-                        <img src='/img/composants/wolt/2.png' />
-                        <h5 className='blue'>WOLT-S/M/XL : Tag</h5>
-                        <ul>
-                            <li>Placé sur vos actifs, se repère par rapport aux ancres</li>
-                            <li>Communique avec le Cloud à travers le réseau local IoT crée par la Gateway</li>
-                            <li>Alimenté sur batteries</li>
-                            <li>Trois tailles / capacités possibles en fonction de l&apos;usage</li>
-                        </ul>
-                    </div>
-                    <div className='column-4'>
-                        <img src='/img/composants/wolt/3.png' />
-                        <h5 className='green'>WGATE-PRO : Gateway</h5>
-                        <ul>
-                             <li>Passerelle IoT</li>
-                             <li>Récolte les informations des capteurs</li>
-                             <li>Envoie les informations vers le cloud</li>
-                             <li>Permet les interventions à distance</li>
-                             <li>Deux options de connexion : mobile ou Ethernet</li>
-                         </ul>
-                    </div>
-                    <div className='column-4'>
-                        <img src='/img/composants/wolt/4.png' />
-                        <h5 className='yellow'>WizziCloud</h5>
-                        <ul>
-                            <li>Ensemble de services virtualisés de localisation et de gestion de la solution</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section className='lavender-bg'>
-                <div className='margin-lr'>
-                    <div className='content-col'>
-                        <div className='column-2'>
-                            <h3 className='padding-tb'>Commander notre Starter kit</h3>
-                            <p>Notre kit se compose de:</p>
-                            <ul>
-                                <li>4 ancres</li>
-                                <li>2 tags</li>
-                                <li>1 gateway</li>
-                            </ul>
-                            <div className='padding-tb'>
-                                <a className="buy-button" href='https://wizzilab.com/shop'>Commander</a>
-                            </div>
-                        </div>
-                        <div className='column-2 padding-tb'>
-                            <img src='/img/composants/kit/kitwolt.png' />
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className='margin'>
-                    <h3 className='padding-tb'>Ils nous font confiance</h3>
-                    <div className='content-col'>
-                        <div className='column-4 partenaire'>
-                            <img src='/img/partenaires/faurecia.png'/>
-                        </div>
-                        <div className='column-4 partenaire'>
-                            <img src='/img/partenaires/stGobain.png'/>
-                        </div>
-                        <div className='column-4 partenaire'>
-                            <img src='/img/partenaires/lOreal.png'/>
-                        </div>
-                        <div className='column-4 partenaire'>
-                            <img src='/img/partenaires/daher.png'/>
-                        </div>
-                        
-                    </div>
-            </section>
-            <Footer />
+  fetch(`/locales/${locale}.json`)
+    .then(resp => resp.json())
+    .then(res => setData(res))
+
+  return (
+    <>
+    {data && (
+      <div>
+      <Header  data={data}/>
+      <section className='section-one'>
+        <div className='margin-lr'>
+          <div className='padding-tb'>
+            <h2 className='test-weight'><span className='blue'>WOLT</span></h2>
+            <h2>{data.wolt.title}</h2>
+          </div>
+          <img className='solutions-img' src={data.wolt.img} />
+          <p>
+            {data.wolt.text}
+          </p>
+          <p>
+            <span>{data.wolt.bullettitlespan} </span>
+            {data.wolt.bullettitle}
+          </p>
+          <ul>
+            {data.wolt.bulletpoints.map(bulletpoint => (
+                    <li key={bulletpoint.span}><span className={bulletpoint.color}>{bulletpoint.span}</span> {bulletpoint.text}</li>
+            ))}
+          </ul>
         </div>
-    )
+      </section>
+      <LavenderPicto bubble="wolt" />
+      <section className='margin'>
+        <h3 className='padding-tb'>{data.wolt.componentstitle}</h3>
+
+        <div className='content-col'>
+        {data.wolt.components.map(component => (
+                <div key={component.name} className='column-4'>
+                  <img src={component.img} />
+                  <h5 className={component.color}>{component.name}</h5>
+                  <ul>
+                  {component.descriptions.map(description => (
+                    <li key={description.list}>{description.list}</li>
+                  ))}
+                  </ul>
+                </div>
+              ))}
+        </div>
+
+      </section>
+      <section className='lavender-bg'>
+        <div className='margin-lr'>
+          <div className='content-col'>
+            <div className='column-2'>
+              <h3 className='padding-tb'>{data.wolt.kittitle}</h3>
+              <p>{data.wolt.kittext}</p>
+              <ul>
+                  {data.wolt.kitul.map(kitli => (
+                    <li key={kitli.list}>{kitli.kitli}</li>
+                  ))}
+                  </ul>
+              <div className='padding-tb'>
+                <a className="buy-button" href='https://wizzilab.com/shop'>{data.wolt.buy}</a>
+              </div>
+            </div>
+            <div className='column-2 padding-tb'>
+              <img src={data.wolt.kitimg} />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='margin'>
+            <h3 className='padding-tb'>{data.wolt.partnertitle}</h3>
+            <div className='content-col'>
+              {data.wolt.partners.map(partner => (
+                <div key={partner.id} className='column-4 partenaire'>
+                  <img src={partner.logo}/>
+                </div>
+              ))}
+            </div>
+          </section>
+      <Footer />
+    </div>
+    )}</>
+  )
 }

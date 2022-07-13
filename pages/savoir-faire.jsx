@@ -6,7 +6,7 @@ import Conception from '../components/Conception'
 export default function SavoirFaire() {
   return (
     <div>
-      <Header />
+      <Header  data={data}/>
       <section className='section-one'>
         <div className='lavender-bg padding-tb'>
           <h2 className='denim'>Notre savoir-faire</h2>

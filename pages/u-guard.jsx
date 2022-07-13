@@ -4,7 +4,7 @@ import Header from '../components/Header'
 export default function Uguard() {
     return (
         <div>
-            <Header />
+            <Header  data={data}/>
             {/* <section className='section-one'>
                 <div className='margin-lr'>
                     <h2><span className='orange'>U-GUARD : </span> La solution &ldquo;Proximity&rdquo;</h2>
