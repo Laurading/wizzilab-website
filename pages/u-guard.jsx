@@ -4,8 +4,8 @@ import Header from '../components/Header'
 export default function Uguard() {
     return (
         <div>
-            <Header  data={data}/>
-            {/* <section className='section-one'>
+            {/* <Header  data={data}/>
+            <section className='section-one'>
                 <div className='margin-lr'>
                     <h2><span className='orange'>U-GUARD : </span> La solution &ldquo;Proximity&rdquo;</h2>
                     <img className='solutions-img' src='/img/solutions/u-guard.png' />
@@ -102,7 +102,7 @@ export default function Uguard() {
                     </div>
                 </div>
             </section>
-            <Footer /> */}
+            <Footer />  */}
         </div>
     )
 }

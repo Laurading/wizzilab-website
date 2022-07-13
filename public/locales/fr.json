@@ -420,5 +420,45 @@
     "wikitext" : "Vous pouvez consulter les pages dédiées à nos différents produits sur notre wiki :",
     "contacttext" : "Vous pouvez contacter notre support technique : " ,
     "contactspan" : "support@wizzilab.fr"
+  },
+  "wizziteam" : {
+    "vision" : "Notre vision : Les données des capteurs seront au coeur de la transformation numérique",
+    "quote" : "“Si vous ne pouvez pas le mesurer, vous ne pouvez pas l’améliorer” - Peter Drucker",
+    "valuestitle" : "Nos valeurs",
+    "values" : [
+      {
+        "name" : "CRÉATIVITÉ",
+        "img" : "img/valeurs/creativite.png",
+        "text" : "Allier le potentiel de la Technologie à l'inventivité de notre équipe pour répondre à vos challenges"
+      },
+      {
+        "name" : "ÉCOUTE",
+        "img" : "img/valeurs/ecoute.png",
+        "text" : "Savoir nous adapter à vos contraintes afin d'apporter une solution appropriée"
+      },
+      {
+        "name" : "ENGAGEMENT",
+        "img" : "img/valeurs/engagement.png",
+        "text" : "Vous accompagner et vous soutenir dans vos projets en apportant le meilleur service"
+      }
+    ]
+  },
+  "expertise" : {
+    "title" : "Notre savoir-faire",
+    "howtitle" : "Depuis 10 ans, Wizzilab vous accompagne dans votre transformation",
+    "actions" : [
+      {
+        "title" : "En libérant les capacités extraodinaires de l'IoT",
+        "text" : "Les nouvelles technologies révolutionnent notre capacité à saisir la réalité de notre environnement. Grâce à ces avancées, nous sommes capables de répondre aux enjeux actuels : optimiser les processus de production, réduire les risques et économiser les ressources."
+      },
+      {
+        "title" : "En maîtrisant les technologies et la performance de vos installations",
+        "text" : "Nous apportons la solution optimale en adaptant la technologie aux besoins tels que : la consommation d'énergie, le débit et les contraintes d'environnement."
+      },
+      {
+        "title" : "En fournissant des données utiles",
+        "text" : "La donnée est la source clé pour réussir la transformation de votre activité. Sa pertinence est corrélée à son niveau de précision, de fiabilité et de protection. Elle doit être délivrée au bon moment afin d'impacter le processus d'analyse et de prise de décision."
+      }
+    ]
   }
 }
