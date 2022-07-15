@@ -3,13 +3,9 @@ import Contact from './Contact';
 import Link from 'next/link';
 import { useRouter } from "next/router";
 
-const Header = () => {
-  const { locale, locales } = useRouter();
-  const [data, setData] = useState();
+const Header = ({data}) => {
 
-  fetch(`/locales/${locale}.json`)
-    .then(resp => resp.json())
-    .then(res => setData(res))
+  const { locales } = useRouter();
 
   const prevScrollY = useRef(0);
   const [goingUp, setGoingUp] = useState(false);

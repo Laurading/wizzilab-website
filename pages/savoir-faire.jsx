@@ -1,17 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useRouter } from "next/router";
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Conception from '../components/Conception'
+import * as locales from '../assets/locales';
 
 export default function SavoirFaire() {
 
-  const { locale, locales } = useRouter();
-  const [data, setData] = useState();
+  const { locale } = useRouter();
+  const [data, setData] = useState(null);
 
-  fetch(`/locales/${locale}.json`)
-    .then(resp => resp.json())
-    .then(res => setData(res))
+  useEffect(() => {
+    setData(locales[locale])
+  },[locale])
     
   return (
     <>

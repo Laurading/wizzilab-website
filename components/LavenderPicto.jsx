@@ -1,14 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useRouter } from "next/router";
+import * as locales from '../assets/locales';
 
 const LavenderPicto = (props) => {
 
-  const { locale } = useRouter();
-  const [data, setData] = useState();
+    const { locale } = useRouter();
+  const [data, setData] = useState(null);
 
-  fetch(`/locales/${locale}.json`)
-    .then(resp => resp.json())
-    .then(res => setData(res))
+  useEffect(() => {
+    setData(locales[locale])
+  },[locale])
   
   return (
     <>

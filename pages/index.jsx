@@ -1,18 +1,19 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useRouter } from "next/router";
 import Header from '../components/Header';
 import Secteurs from '../components/Secteurs';
 import Footer from '../components/Footer';
 import LavenderPicto from '../components/LavenderPicto';
+import * as locales from '../assets/locales';
 
 export default function Home() {
 
   const { locale } = useRouter();
-  const [data, setData] = useState();
+  const [data, setData] = useState(null);
 
-  fetch(`/locales/${locale}.json`)
-    .then(resp => resp.json())
-    .then(res => setData(res))
+  useEffect(() => {
+    setData(locales[locale])
+  },[locale])
 
   return (
     <>

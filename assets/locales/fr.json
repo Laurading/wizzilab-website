@@ -1,0 +1,464 @@
+{
+  "header": {
+    "solutions": "Nos solutions",
+    "about": "A propos",
+    "expertise": "Notre savoir-faire"
+  },
+  "landing": {
+    "mission": "Fournisseur de Données d'objets connectés",
+    "promise": "La Donnée temps réel au service de la Performance",
+    "process": "Solutions autonomes, sans fil et basse consommation",
+    "target": "1. CIBLER",
+    "targettext": "Comprendre et définir vos besoins",
+    "deploy": "2. DÉPLOYER",
+    "deploytext": "Installer simplement et rapidement",
+    "collect": "3. RÉCOLTER",
+    "collecttext": "Superviser à distance et récolter vos données",
+    "bubblestitle": "Des systèmes IoT efficaces",
+    "bubbles": [
+      {
+        "text": "Prouvés sur le terrain",
+        "img": "/img/pictos/savoirfaire/1.svg"
+      },
+      {
+        "text": "Rapides à installer",
+        "img": "/img/pictos/savoirfaire/2.svg"
+      },
+      {
+        "text": "Faciles à entretenir, configurer et mettre à jour à distance",
+        "img": "/img/pictos/savoirfaire/3.svg"
+      },
+      {
+        "text": "Scalables et évolutifs",
+        "img": "/img/pictos/savoirfaire/4.svg"
+      },
+      {
+        "text": "Sécurisés de bout en bout",
+        "img": "/img/pictos/savoirfaire/5.svg"
+      },
+      {
+        "text": "Supervisés via le Cloud",
+        "img": "/img/pictos/savoirfaire/6.svg"
+      }
+    ],
+    "partnertitle": "Ils nous font confiance",
+    "partners": [
+      {
+        "id": "1",
+        "logo": "/img/partenaires/zozio.png"
+      },
+      {
+        "id": "2",
+        "logo": "/img/partenaires/phidata.png"
+      },
+      {
+        "id": "3",
+        "logo": "/img/partenaires/postLuxembourg.png"
+      },
+      {
+        "id": "4",
+        "logo": "/img/partenaires/macq.png"
+      }
+    ],
+    "xptitle": "Depuis 2011",
+    "xp": [
+      {
+        "img": "/img/pictos/home/1.svg",
+        "number": "+200 000",
+        "text": "capteurs déployés"
+      },
+      {
+        "img": "/img/pictos/home/2.svg",
+        "number": "+1 milliard",
+        "text": "de messages échangés sur le dash7board"
+      },
+      {
+        "img": "/img/pictos/home/3.svg",
+        "number": "+38 000",
+        "text": "mise à jour distance"
+      }
+    ]
+  },
+  "wolt": {
+    "title": "La solution RTLS autonome et ultra légère",
+    "img": "/img/solutions/wolt-fr.png",
+    "text": "WOLT est une solution de localisation sur site basée sur une infrastructure ultra légère sans fil. Les tags ont une option de localisation globale sur le réseau LoRaWAN.",
+    "bullettitlespan": "3 niveaux de précisions",
+    "bullettitle": "sont possibles :",
+    "bulletpoints": [
+      {
+        "span": "Le positionnement",
+        "color": "red",
+        "text": "permet une localisation des actifs avec une précision sub-métrique"
+      },
+      {
+        "span": "La proximité",
+        "color": "orange",
+        "text": "permet de connaître la position approximative d'un tag par rapport aux ancres"
+      },
+      {
+        "span": "La présence",
+        "color": "yellow",
+        "text": "permet de savoir si un actif dans une zone d'intérêt"
+      }
+    ],
+    "bubblestitle": "Vos avantages",
+    "bubbles": [
+      {
+        "text": "Localiser les actifs et diminuer les pertes",
+        "img": "/img/pictos/wolt/1.svg"
+      },
+      {
+        "text": "Installer facilement et rapidement notre solution",
+        "img": "/img/pictos/wolt/2.svg"
+      },
+      {
+        "text": "Identifier les points de congestion et réduire et temps mort",
+        "img": "/img/pictos/wolt/3.svg"
+      },
+      {
+        "text": "Adapter les besoins de localisation aux différents cas d'usage",
+        "img": "/img/pictos/wolt/4.svg"
+      },
+      {
+        "text": "Optimiser les déplacements de vos actifs / itinéraires",
+        "img": "/img/pictos/wolt/5.svg"
+      },
+      {
+        "text": "Améliorer la performance de votre activité",
+        "img": "/img/pictos/wolt/6.svg"
+      }
+    ],
+    "componentstitle": "Nos composants",
+    "components": [
+      {
+        "img": "/img/composants/wolt/1.png",
+        "name": "WOLT-ANCHOR : Ancre",
+        "color": "red",
+        "descriptions": [
+          {
+            "list": "Sert de repère fixe"
+          },
+          {
+            "list": "Installation sans cablage"
+          },
+          {
+            "list": "Alimentée sur batteries"
+          }
+        ]
+      },
+      {
+        "img": "/img/composants/wolt/2.png",
+        "name": "WOLT-S/M/XL : Tag",
+        "color": "blue",
+        "descriptions": [
+          {
+            "list": "Placé sur vos actifs, se repère par rapport aux ancres"
+          },
+          {
+            "list": "Communique avec le Cloud à travers le réseau local IoT crée par la Gateway"
+          },
+          {
+            "list": "Alimenté sur batteries"
+          },
+          {
+            "list": "Trois tailles / capacités possibles en fonction de l'usage"
+          }
+        ]
+      },
+      {
+        "img": "/img/composants/wolt/3.png",
+        "name": "WGATE-PRO : Gateway",
+        "color": "green",
+        "descriptions": [
+          {
+            "list": "Passerelle IoT"
+          },
+          {
+            "list": "Récolte les informations des capteurs"
+          },
+          {
+            "list": "Envoie les informations vers le cloud"
+          },
+          {
+            "list": "Permet les interventions à distance"
+          },
+          {
+            "list": "Deux options de connexion : mobile ou Ethernet"
+          }
+        ]
+      },
+      {
+        "img": "/img/composants/wolt/4.png",
+        "name": "WGATE-PRO : Gateway",
+        "color": "yellow",
+        "descriptions": [
+          {
+            "list": "Ensemble de services virtualisés de localisation et de gestion de la solution"
+          }
+        ]
+      }
+    ],
+    "kittitle": "Commander notre Starter kit",
+    "kittext" : "Notre kit se compose de:",
+    "kitul" : [
+      {
+        "kitli" : "4 ancres"
+      },
+      {
+        "kitli" : "2 tags"
+      },
+      {
+        "kitli" : "1 gateway"
+      }
+    ],
+    "buy" : "commander",
+    "kitimg" : "/img/composants/kit/kitwolt.png",
+    "partnertitle": "Ils nous font confiance",
+    "partners": [
+      {
+        "id": "1",
+        "logo": "/img/partenaires/faurecia.png"
+      },
+      {
+        "id": "2",
+        "logo": "/img/partenaires/stGobain.png"
+      },
+      {
+        "id": "3",
+        "logo": "/img/partenaires/lOreal.png"
+      },
+      {
+        "id": "4",
+        "logo": "/img/partenaires/daher.png"
+      }
+    ]
+  },
+  "wizzipark": {
+    "title": "La solution de stationnement intelligent en temps réel sans fil",
+    "img": "/img/solutions/wizzipark-fr.png",
+    "text": "Des capteurs de stationnement sans fils et autonomes détectent instantanément l'arrivée ou le départ de véhicules et relaient l'information vers le WizziCloud au travers de la gateway. Les visiteurs ont accès en temps réel aux places disponibles qui peuvent être communiquées sur des afficheurs dynamiques.",
+    "bullettitlespan": "2 types de capteurs",
+    "bullettitle": "sont disponibles :",
+    "bulletpoints": [
+      {
+        "span": "Le capteur au sol",
+        "text": "(à coller ou à carotter)."
+      },
+      {
+        "span": "Le capteur plafonnier,",
+        "text": "sa LED change de couleur en fonction du statut de la place et du cas d'usage."
+      }
+    ],
+    "bubblestitle": "Vos avantages",
+    "bubbles": [
+      {
+        "text": "Améliorer le processus d'accueil et la satisfaction des conducteurs",
+        "img": "/img/pictos/wizzipark/1.svg"
+      },
+      {
+        "text": "Identifier les voitures ventouses",
+        "img": "/img/pictos/wizzipark/2.svg"
+      },
+      {
+        "text": "Optimiser le taux de remplissage de votre parking",
+        "img": "/img/pictos/wizzipark/3.svg"
+      },
+      {
+        "text": "Exploiter un système de réservation de places de parking",
+        "img": "/img/pictos/wizzipark/4.svg"
+      },
+      {
+        "text": "Informer les visiteurs sur les emplacements spécifiques du parking",
+        "img": "/img/pictos/wizzipark/5.svg"
+      },
+      {
+        "text": "Réduire le temps de recherche d'une place de stationnement",
+        "img": "/img/pictos/wizzipark/6.svg"
+      }
+    ],
+    "componentstitle": "Nos composants",
+    "components": [
+      {
+        "img": "/img/composants/wizzipark/1.png",
+        "name": "WP100 : Capteur au sol",
+        "color": "blue",
+        "descriptions": [
+          {
+            "list": "Identifie la présence d'un véhicule"
+          },
+          {
+            "list": "Envoie l'information de présence à la gateway"
+          },
+          {
+            "list": "Deux options d'installation : à coller ou à carotter"
+          }
+        ]
+      },
+      {
+        "img": "/img/composants/wizzipark/2.png",
+        "name": "WP200 : Capteur plafonnier",
+        "color": "red",
+        "descriptions": [
+          {
+            "list": "Identifie la présence d’un véhicule"
+          },
+          {
+            "list": "Affiche le statut de la place par retour lumineux intégré"
+          },
+          {
+            "list": "Envoie l'information de présence à la gateway"
+          }
+        ]
+      },
+      {
+        "img": "/img/composants/wizzipark/3.png",
+        "name": "WGATE-PRO : Gateway",
+        "color": "green",
+        "descriptions": [
+          {
+            "list": "Passerelle IoT"
+          },
+          {
+            "list": "Récolte les informations des capteurs"
+          },
+          {
+            "list": "Envoie les informations vers le cloud"
+          },
+          {
+            "list": "Permet les interventions à distance"
+          },
+          {
+            "list": "Deux options de connexion : mobile ou Ethernet"
+          }
+        ]
+      },
+      {
+        "img": "/img/composants/wizzipark/4.png",
+        "name": "WGATE-PRO : Gateway",
+        "color": "yellow",
+        "descriptions": [
+          {
+            "list": "Récupère les informations transitant la / les gateway(s)"
+          },
+          {
+            "list": "Affiche les informations sur les places"
+          },
+          {
+            "list": "Permet de configurer les capteurs et la gateway"
+          },
+          {
+            "list": "Fournit des statistiques d'activité (nombre de visiteurs, taux d'occupation,...)"
+          },
+          {
+            "list": "L'ensemble de vos parkings en supervision sur une seule interface"
+          }
+        ]
+      }
+    ],
+    "partnertitle": "Ils nous font confiance",
+    "partners": [
+      {
+        "id": "1",
+        "logo": "/img/partenaires/postLuxembourg.png"
+      },
+      {
+        "id": "2",
+        "logo": "/img/partenaires/laPoste.png"
+      },
+      {
+        "id": "3",
+        "logo": "/img/partenaires/leclerc.png"
+      },
+      {
+        "id": "4",
+        "logo": "/img/partenaires/superU.png"
+      },
+      {
+        "id": "5",
+        "logo": "/img/partenaires/interSport.png"
+      },
+      {
+        "id": "6",
+        "logo": "/img/partenaires/decathlon.png"
+      }
+    ]
+  },
+  "wisp": {
+    "title": "La solution qui se connecte à votre environnement",
+    "img": "/img/solutions/wisp-fr.png",
+    "text": [
+      {
+        "p" : "A l'aide de capteurs d'environnement, des données sont collectées puis transmises sous forme d'indicateurs." 
+      },
+      {
+        "p" : "WISP digitalise vos données telles que la température, la pression, l'humidité, la luminosité, ..." 
+      },
+      {
+        "p" : "Ces informations vous permettent d'analyser les indicateurs choisis afin de compléter et améliorer votre processus de prise de décision." 
+      },
+      {
+        "p" : "Wizzilab peut s'appuyer sur cette solution “sur étagère” pour répondre aux cas d'usage spécifiques." 
+      }
+    ],
+    "partnertitle": "Ils nous font confiance",
+    "partners": [
+      {
+        "id": "1",
+        "logo": "/img/partenaires/nasekomo.png"
+      },
+      {
+        "id": "2",
+        "logo": "/img/partenaires/munichRe.png"
+      }
+    ]
+  },
+  "support" : {
+    "dash7text" : "Nous avons un engagement particulier avec DASH7, une technologie spécialement conçue pour l'IoT moyenne portée. WizziLab est un membre actif de la DASH7 Alliance depuis 2011, préside le Protocol Action Group et développe des produits D7A.",
+    "dash7info" : "Toutes les infos sur le protocole DASH7 sont librement accessible sur le",
+    "dash7link" : "site de l'alliance.",
+    "wikitext" : "Vous pouvez consulter les pages dédiées à nos différents produits sur notre wiki :",
+    "contacttext" : "Vous pouvez contacter notre support technique : " ,
+    "contactspan" : "support@wizzilab.fr"
+  },
+  "wizziteam" : {
+    "vision" : "Notre vision : Les données des capteurs seront au coeur de la transformation numérique",
+    "quote" : "“Si vous ne pouvez pas le mesurer, vous ne pouvez pas l’améliorer” - Peter Drucker",
+    "valuestitle" : "Nos valeurs",
+    "values" : [
+      {
+        "name" : "CRÉATIVITÉ",
+        "img" : "img/valeurs/creativite.png",
+        "text" : "Allier le potentiel de la Technologie à l'inventivité de notre équipe pour répondre à vos challenges"
+      },
+      {
+        "name" : "ÉCOUTE",
+        "img" : "img/valeurs/ecoute.png",
+        "text" : "Savoir nous adapter à vos contraintes afin d'apporter une solution appropriée"
+      },
+      {
+        "name" : "ENGAGEMENT",
+        "img" : "img/valeurs/engagement.png",
+        "text" : "Vous accompagner et vous soutenir dans vos projets en apportant le meilleur service"
+      }
+    ]
+  },
+  "expertise" : {
+    "title" : "Notre savoir-faire",
+    "howtitle" : "Depuis 10 ans, Wizzilab vous accompagne dans votre transformation",
+    "actions" : [
+      {
+        "title" : "En libérant les capacités extraodinaires de l'IoT",
+        "text" : "Les nouvelles technologies révolutionnent notre capacité à saisir la réalité de notre environnement. Grâce à ces avancées, nous sommes capables de répondre aux enjeux actuels : optimiser les processus de production, réduire les risques et économiser les ressources."
+      },
+      {
+        "title" : "En maîtrisant les technologies et la performance de vos installations",
+        "text" : "Nous apportons la solution optimale en adaptant la technologie aux besoins tels que : la consommation d'énergie, le débit et les contraintes d'environnement."
+      },
+      {
+        "title" : "En fournissant des données utiles",
+        "text" : "La donnée est la source clé pour réussir la transformation de votre activité. Sa pertinence est corrélée à son niveau de précision, de fiabilité et de protection. Elle doit être délivrée au bon moment afin d'impacter le processus d'analyse et de prise de décision."
+      }
+    ]
+  }
+}
