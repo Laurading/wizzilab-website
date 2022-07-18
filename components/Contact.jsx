@@ -91,7 +91,7 @@ const Contact = (props) => {
             </div>
             <div className='column-3x2'>
               <div className='padding-contact'>
-                <h3 className='padding-top'>N’HESITEZ PAS, CONTACTEZ-NOUS!</h3>
+                <h3 className='padding-top'>CONTACTEZ-NOUS!</h3>
               </div>
               <form method="post" onSubmit={(e) =>  SendMail(e,content)}>
                 <div className='content-col-contact'>
