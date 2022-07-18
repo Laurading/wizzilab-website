@@ -176,11 +176,11 @@
         ]
     }
     ],
-    "process": "Stand alone Wireless and low consumption solutions",
+    "process": "Stand alone, wireless and low-consumption solutions",
     "target": "1. TARGET",
     "targettext": "Analyze and adress your specific needs",
     "deploy": "2. DEPLOY",
-    "deploytext": "Installer simplement et rapidement : Install and play easily",
+    "deploytext": "Install and play easily",
     "collect": "3. HARVEST",
     "collecttext": "Supervise remotely and collect your data",
     "bubblestitle": "Efficient IoT Systems",
@@ -190,7 +190,7 @@
         "img": "/img/pictos/savoirfaire/1.svg"
       },
       {
-        "text": "Fast to install",
+        "text": "Quickly to install",
         "img": "/img/pictos/savoirfaire/2.svg"
       },
       {
@@ -234,17 +234,17 @@
       {
         "img": "/img/pictos/home/1.svg",
         "number": "+200 000",
-        "text": "capteurs déployés"
+        "text": "sensors deployed"
       },
       {
         "img": "/img/pictos/home/2.svg",
         "number": "+1 milliard",
-        "text": "de messages échangés sur le dash7board"
+        "text": "of messages exchanged on the dash7board"
       },
       {
         "img": "/img/pictos/home/3.svg",
         "number": "+38 000",
-        "text": "mise à jour distance"
+        "text": "remote update"
       }
     ]
   },
