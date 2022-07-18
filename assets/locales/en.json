@@ -1,7 +1,7 @@
 {
   "header": {
     "solutions": "Our solutions",
-    "about": "About",
+    "about": "About us",
     "expertise": "Our expertise"
   },
   "landing": {
@@ -194,7 +194,7 @@
         "img": "/img/pictos/savoirfaire/2.svg"
       },
       {
-        "text": "Easy to maintain, to configure and remote control",
+        "text": "Easy to maintain, to configure and to remote control",
         "img": "/img/pictos/savoirfaire/3.svg"
       },
       {
@@ -234,17 +234,17 @@
       {
         "img": "/img/pictos/home/1.svg",
         "number": "+200 000",
-        "text": "sensors deployed"
+        "text": "devices deployed"
       },
       {
         "img": "/img/pictos/home/2.svg",
-        "number": "+1 milliard",
-        "text": "of messages exchanged on the dash7board"
+        "number": "+1 billion",
+        "text": "of messages relayed tough the WizziCloud"
       },
       {
         "img": "/img/pictos/home/3.svg",
         "number": "+38 000",
-        "text": "remote update"
+        "text": "FUOTA Upgrades over the air"
       }
     ]
   },
@@ -359,7 +359,7 @@
       },
       {
         "img": "/img/composants/wolt/4.png",
-        "name": "WGATE-PRO : Gateway",
+        "name": "WizziCloud",
         "color": "yellow",
         "descriptions": [
           {
@@ -504,7 +504,7 @@
       },
       {
         "img": "/img/composants/wizzipark/4.png",
-        "name": "WGATE-PRO : Gateway",
+        "name": "Wizzipark : Cloud",
         "color": "yellow",
         "descriptions": [
           {
