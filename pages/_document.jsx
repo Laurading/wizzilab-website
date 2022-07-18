@@ -8,7 +8,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-<Script src='axeptio.jsx'/>
+        <Script src='axeptio.jsx'/>
       </body>
     </Html>
   )
