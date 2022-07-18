@@ -67,7 +67,7 @@ export default function Home() {
             <h3 className='padding-tb'>{data.landing.partnertitle}</h3>
             <div className='content-col'>
               {data.landing.partners.map(partner => (
-                <div key={partner.id} className='column-4 partenaire'>
+                <div key={partner.id} className='column-6 partenaire'>
                   <img src={partner.logo}/>
                 </div>
               ))}

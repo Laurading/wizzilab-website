@@ -7,6 +7,175 @@
   "landing": {
     "mission": "Fournisseur de Données d'objets connectés",
     "promise": "La Donnée temps réel au service de la Performance",
+    "activities" : [
+      {
+        "id": "1",
+        "name": "Parking",
+        "image" : "/img/secteurs/parking.png",
+        "content" : "Installer nos capteurs Indoor/Outdoor pour activer le guidage à la place, reporter les informations sur des afficheurs pour améliorer l'expérience client et superviser/piloter l'activité grâce à notre plateforme (Wizzicloud)",
+        "column" : "column-2",
+        "solutions" : [
+            {
+                "name" : "Wizzipark",
+                "color" : "red",
+                "img" : "/img/secteurs/wizzipark.png",
+                "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
+                "href" : "/wizzipark"
+            },
+            {
+                "name" : "Wolt",
+                "color" : "blue",
+                "img" : "/img/secteurs/wolt.png",
+                "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
+                "href" : "/wolt"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Industrie",
+        "image" : "/img/secteurs/industrie.png",
+        "content" : "Améliorer votre performance industrielle grâce à nos capteurs qui vous fourniront la donnée nécessaire à votre modernisation.",
+        "column" : "column-3",
+        "solutions" : [
+            {
+                "name" : "Wizzipark",
+                "color" : "red",
+                "img" : "/img/secteurs/wizzipark.png",
+                "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
+                "href" : "/wizzipark"
+            },
+            {
+                "name" : "Wolt",
+                "color" : "blue",
+                "img" : "/img/secteurs/wolt.png",
+                "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
+                "href" : "/wolt"
+            },
+            {
+                "name" : "Wisp",
+                "color" : "green",
+                "img" : "/img/secteurs/wisp.png",
+                "text" : "Connecter votre environnement pour mieux l'analyser",
+                "href" : "/wisp"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Santé",
+        "image" : "/img/secteurs/sante.png",
+        "content" : "Localiser votre matériel pour une meilleure utilisation et efficience du parcours patient/personnel. ",
+        "column" : "column-3",
+        "solutions" : [
+            {
+                "name" : "Wolt",
+                "color" : "blue", 
+                "img" : "/img/secteurs/wolt.png",
+                "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
+                "href" : "/wolt"
+            },
+            {
+                "name" : "Wizzipark",
+                "color" : "red",
+                "img" : "/img/secteurs/wizzipark.png",
+                "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
+                "href" : "/wizzipark"
+            },
+            {
+                "name" : "Wisp",
+                "color" : "green",
+                "img" : "/img/secteurs/wisp.png",
+                "text" : "Connecter votre environnement pour mieux l'analyser",
+                "href" : "/wisp"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Flex Office",
+        "image" : "/img/secteurs/flexoffice.png",
+        "content" : "Organiser et optimiser la gestion de vos locaux et matériels. Piloter et adapter vos besoins de stationnement (places spécifiques : électriques, handicapées, ...).",
+        "column" : "column-2",
+        "solutions" : [
+            {
+                "name" : "Wizzipark",
+                "color" : "red",
+                "img" : "/img/secteurs/wizzipark.png",
+                "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
+                "href" : "/wizzipark"
+            },
+            {
+                "name" : "Wolt",
+                "color" : "blue", 
+                "img" : "/img/secteurs/wolt.png",
+                "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
+                "href" : "/wolt"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Building",
+        "image" : "/img/secteurs/building.png",
+        "content" : "Le tracage indoor de votre outillage sur site pour une meilleure gestion de vos budgets. Détectez la présence de vos engins.",
+        "column" : "column-3",
+        "solutions" : [
+            {
+                "name" : "Wolt",
+                "color" : "blue", 
+                "img" : "/img/secteurs/wolt.png",
+                "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
+                "href" : "/wolt"
+            },
+            {
+                "name" : "Wizzipark",
+                "color" : "red",
+                "img" : "/img/secteurs/wizzipark.png",
+                "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
+                "href" : "/wizzipark"
+            },
+            {
+                "name" : "Wisp",
+                "color" : "green",
+                "img" : "/img/secteurs/wisp.png",
+                "text" : "Connecter votre environnement pour mieux l'analyser",
+                "href" : "/wisp"
+                
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Agriculture",
+        "image" : "/img/secteurs/agriculture.png",
+        "content" : "Développer, analyser et transformer votre activité grâce a nos différents types de capteurs.",
+        "column" : "column-3",
+        "solutions" : [
+            {
+                "name" : "Wisp",
+                "color" : "green",
+                "img" : "/img/secteurs/wisp.png",
+                "text" : "Connecter votre environnement pour mieux l'analyser",
+                "href" : "/wisp"
+            },
+            {
+                "name" : "Wizzipark",
+                "color" : "red",
+                "img" : "/img/secteurs/wizzipark.png",
+                "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
+                "href" : "/wizzipark"
+            },
+            {
+                "name" : "Wolt",
+                "color" : "blue", 
+                "img" : "/img/secteurs/wolt.png",
+                "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
+                "href" : "/wolt"
+            }
+        ]
+    }
+    ],
     "process": "Solutions autonomes, sans fil et basse consommation",
     "target": "1. CIBLER",
     "targettext": "Comprendre et définir vos besoins",
@@ -58,6 +227,38 @@
       {
         "id": "4",
         "logo": "/img/partenaires/macq.png"
+      },
+      {
+        "id": "5",
+        "logo": "/img/partenaires/crowdscan.png"
+      },
+      {
+        "id": "6",
+        "logo": "/img/partenaires/nasekomo.png"
+      },
+      {
+        "id": "7",
+        "logo": "/img/partenaires/aiforsite.png"
+      },
+      {
+        "id": "8",
+        "logo": "/img/partenaires/novanta.png"
+      },
+      {
+        "id": "9",
+        "logo": "/img/partenaires/vestfoldAudio.png"
+      },
+      {
+        "id": "10",
+        "logo": "/img/partenaires/kawantech.png"
+      },
+      {
+        "id": "11",
+        "logo": "/img/partenaires/munichRe.png"
+      },
+      {
+        "id": "12",
+        "logo": "/img/partenaires/daher.png"
       }
     ],
     "xptitle": "Depuis 2011",
