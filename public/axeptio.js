@@ -1,5 +1,6 @@
 window.axeptioSettings = {
-  clientId: "62d4fe9b80344fcbce1de1d5",
+  clientId: "62d519a042b7648659966a53",
+  cookiesVersion: "préprod-fr",
 };
  
 (function(d, s) {
