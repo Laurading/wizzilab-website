@@ -210,7 +210,7 @@
         "img": "/img/pictos/savoirfaire/6.svg"
       }
     ],
-    "partnertitle": "Ils nous font confiance",
+    "partnertitle": "They trust us",
     "partners": [
       {
         "id": "1",
@@ -229,7 +229,7 @@
         "logo": "/img/partenaires/macq.png"
       }
     ],
-    "xptitle": "Depuis 2011",
+    "xptitle": "Since 2011",
     "xp": [
       {
         "img": "/img/pictos/home/1.svg",
@@ -249,56 +249,56 @@
     ]
   },
   "wolt": {
-    "title": "La solution RTLS autonome et ultra légère",
+    "title": "Wireless and ultra-light RTLS Solutions",
     "img": "/img/solutions/wolt-fr.png",
-    "text": "WOLT est une solution de localisation sur site basée sur une infrastructure ultra légère sans fil. Les tags ont une option de localisation globale sur le réseau LoRaWAN.",
-    "bullettitlespan": "3 niveaux de précisions",
-    "bullettitle": "sont possibles :",
+    "text": "WOLT is an on-premise location solution based on ultra-ligh wireless infrastructure. Tags have a global location option on the LoRaWAN network.",
+    "bullettitlespan": "3 levels of precision",
+    "bullettitle": "are possible :",
     "bulletpoints": [
       {
-        "span": "Le positionnement",
+        "span": "Positioning",
         "color": "red",
-        "text": "permet une localisation des actifs avec une précision sub-métrique"
+        "text": "enables asset location with sub-metric accuracy"
       },
       {
-        "span": "La proximité",
+        "span": "Proximity",
         "color": "orange",
-        "text": "permet de connaître la position approximative d'un tag par rapport aux ancres"
+        "text": "to know the approximate position of a tag in relation to the anchors."
       },
       {
-        "span": "La présence",
+        "span": "Presence",
         "color": "yellow",
-        "text": "permet de savoir si un actif dans une zone d'intérêt"
+        "text": "if an asset in an area of interest"
       }
     ],
     "bubblestitle": "Vos avantages",
     "bubbles": [
       {
-        "text": "Localiser les actifs et diminuer les pertes",
+        "text": "Locate assets and reduce losses",
         "img": "/img/pictos/wolt/1.svg"
       },
       {
-        "text": "Installer facilement et rapidement notre solution",
+        "text": "Install our solution easily and quickly",
         "img": "/img/pictos/wolt/2.svg"
       },
       {
-        "text": "Identifier les points de congestion et réduire et temps mort",
+        "text": "Identify congestion points and reduce downtime",
         "img": "/img/pictos/wolt/3.svg"
       },
       {
-        "text": "Adapter les besoins de localisation aux différents cas d'usage",
+        "text": "Adapt location needs to different use cases",
         "img": "/img/pictos/wolt/4.svg"
       },
       {
-        "text": "Optimiser les déplacements de vos actifs / itinéraires",
+        "text": "Optimize the moves of your assets / routes",
         "img": "/img/pictos/wolt/5.svg"
       },
       {
-        "text": "Améliorer la performance de votre activité",
+        "text": "Improve the performance of your business",
         "img": "/img/pictos/wolt/6.svg"
       }
     ],
-    "componentstitle": "Nos composants",
+    "componentstitle": "Our components",
     "components": [
       {
         "img": "/img/composants/wolt/1.png",
