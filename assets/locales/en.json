@@ -1,12 +1,12 @@
 {
   "header": {
-    "solutions": "Nos solutions",
-    "about": "A propos",
-    "expertise": "Notre savoir-faire"
+    "solutions": "Our solutions",
+    "about": "About",
+    "expertise": "Our expertise"
   },
   "landing": {
     "mission": "IoT DATA provider",
-    "promise": "Real time data to build your Performance",
+    "promise": "Real time data to improve your Performance",
     "activities" : [
       {
         "id": "1",
