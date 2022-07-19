@@ -302,17 +302,17 @@
     "components": [
       {
         "img": "/img/composants/wolt/1.png",
-        "name": "WOLT-ANCHOR : Ancre",
+        "name": "WOLT-ANCHOR : Anchor",
         "color": "red",
         "descriptions": [
           {
-            "list": "Sert de repère fixe"
+            "list": "Reference point"
           },
           {
-            "list": "Installation sans cablage"
+            "list": "Wireless"
           },
           {
-            "list": "Alimentée sur batteries"
+            "list": "On battery"
           }
         ]
       },
@@ -328,10 +328,10 @@
             "list": "Communique avec le Cloud à travers le réseau local IoT crée par la Gateway"
           },
           {
-            "list": "Alimenté sur batteries"
+            "list": "On battery"
           },
           {
-            "list": "Trois tailles / capacités possibles en fonction de l'usage"
+            "list": "Three sizes with differents capacities according to the use"
           }
         ]
       },
@@ -341,19 +341,16 @@
         "color": "green",
         "descriptions": [
           {
-            "list": "Passerelle IoT"
+            "list": "Collect informations from tags"
           },
           {
-            "list": "Récolte les informations des capteurs"
+            "list": "Send informations to the cloud"
           },
           {
-            "list": "Envoie les informations vers le cloud"
+            "list": "Enable remote intervention"
           },
           {
-            "list": "Permet les interventions à distance"
-          },
-          {
-            "list": "Deux options de connexion : mobile ou Ethernet"
+            "list": "Two connexion options : mobile or Ethernet"
           }
         ]
       },
@@ -363,16 +360,16 @@
         "color": "yellow",
         "descriptions": [
           {
-            "list": "Ensemble de services virtualisés de localisation et de gestion de la solution"
+            "list": "Set of virtualized localization and management services"
           }
         ]
       }
     ],
-    "kittitle": "Commander notre Starter kit",
-    "kittext" : "Notre kit se compose de:",
+    "kittitle": "Order our Starter kit",
+    "kittext" : "Our kit included :",
     "kitul" : [
       {
-        "kitli" : "4 ancres"
+        "kitli" : "4 anchors"
       },
       {
         "kitli" : "2 tags"
@@ -383,7 +380,7 @@
     ],
     "buy" : "commander",
     "kitimg" : "/img/composants/kit/kitwolt.png",
-    "partnertitle": "Ils nous font confiance",
+    "partnertitle": "They trust us",
     "partners": [
       {
         "id": "1",
