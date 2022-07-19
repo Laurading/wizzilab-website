@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from "next/router";
-import secteurs from '../public/locales/secteurs.json';
 import Link from 'next/link';
 import * as locales from '../assets/locales';
 
@@ -15,6 +14,7 @@ const Secteurs = () => {
   useEffect(() => {
     setData(locales[locale])
   },[locale])
+	
 	return (
 		<>
 		{ data && (
@@ -41,7 +41,7 @@ const Secteurs = () => {
 								<h3 className='padding-tb'>{active.name}</h3>
 								<p>{active.content}</p>
 								<div className='content-col margin-top'>
-									{secteurs.secteurs[active.id - 1].solutions.map(solution => (
+									{data.landing.activities[active.id - 1].solutions.map(solution => (
 										<Link href={solution.href} key={solution.name}>
 											<div className='column-2 onhover'>
 												<div className='padding-lr'>
