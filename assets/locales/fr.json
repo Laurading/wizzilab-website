@@ -165,13 +165,6 @@
                 "img" : "/img/secteurs/wisp.png",
                 "text" : "Mesurer les paramètres de votre environnement pour mieux l'analyser",
                 "href" : "/wisp"
-            },
-            {
-                "name" : "Wolt",
-                "color" : "blue", 
-                "img" : "/img/secteurs/wolt.png",
-                "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
-                "href" : "/wolt"
             }
         ]
     }
