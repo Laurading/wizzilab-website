@@ -51,7 +51,7 @@ const Secteurs = () => {
 															<img src={solution.img} />
 														</div>
 
-														<p className='margin-bottom'>{solution.text}</p>
+														<p className='margin-bottom align-left'>{solution.text}</p>
 
 													</div>
 												</div>
