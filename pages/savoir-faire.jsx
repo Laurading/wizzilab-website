@@ -45,12 +45,15 @@ export default function SavoirFaire() {
         </div>
       </section>
       <Conception />
-      <section className='margin'>
+      <section className='margin-lr padding-tb'>
         <div>
-        <h3 className='padding-tb'>
+        <h3 className='padding-bottom'>
           Notre expertise technique
         </h3>
+        <br/>
+        <br/>
         </div>
+        <div>
         <ul>
           <li>
             La conception de cartes électroniques avec contraintes RF
@@ -73,7 +76,7 @@ export default function SavoirFaire() {
           <li>
             La gestion de la production à grande échelle
           </li>
-        </ul>
+        </ul> </div>
       </section>
       
       <Footer />

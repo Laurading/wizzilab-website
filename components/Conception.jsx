@@ -7,17 +7,17 @@ const Conception = () => {
 	const [active, setActive] = useState(conception.tabs[0]);
 	return (
 		<section className='lavender-bg'>
-            <div className='margin-lr padding-bottom'>
-                <div className='padding-tb'>
-				<h3 >Notre philosophie de conception</h3>
-				<br/>
-                <p>Chez Wizzilab, nous avons une démarche spécifique pour accompagner nos clients dans leurs projets IoT :</p>
+			<div className='margin-lr padding-tb'>
+				<div className='padding-tb'>
+					<h3 >Notre philosophie de conception</h3>
+					<br />
+					<p>Chez Wizzilab, nous avons une démarche spécifique pour accompagner nos clients dans leurs projets IoT :</p>
 				</div>
-                <br/>
+				<br />
 				<div className='content-col'>
 					{conception.tabs.map(tab => (
 						<div onClick={(() => setActive(tab))} key={tab.id} className='column-6'>
-							<img src={active === tab ? tab.hoverImage : tab.image}/>
+							<img src={active === tab ? tab.hoverImage : tab.image} />
 							<h4>{tab.name}</h4>
 						</div>
 					))}
