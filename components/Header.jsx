@@ -70,7 +70,7 @@ const Header = ({data}) => {
                 </li>
               </ul>
             </nav>
-            <Contact trigger={buttonPopup} setTrigger={setButtonPopup} />
+            <Contact trigger={buttonPopup} setTrigger={setButtonPopup} data={data}/>
           </header>
 
           <div className='language-content'>

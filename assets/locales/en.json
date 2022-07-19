@@ -2,7 +2,14 @@
   "header": {
     "solutions": "Our solutions",
     "about": "About us",
-    "expertise": "Our expertise"
+    "expertise": "Our expertise",
+    "contact" : {
+      "contactus" : "CONTACT US!",
+      "society" : "Society",
+      "name" : "Name",
+      "phonenumber" : "Phone number",
+      "send" : "Send"
+    }
   },
   "landing": {
     "mission": "IoT Data provider",
@@ -227,6 +234,38 @@
       {
         "id": "4",
         "logo": "/img/partenaires/macq.png"
+      },
+      {
+        "id": "5",
+        "logo": "/img/partenaires/crowdscan.png"
+      },
+      {
+        "id": "6",
+        "logo": "/img/partenaires/nasekomo.png"
+      },
+      {
+        "id": "7",
+        "logo": "/img/partenaires/aiforsite.png"
+      },
+      {
+        "id": "8",
+        "logo": "/img/partenaires/novanta.png"
+      },
+      {
+        "id": "9",
+        "logo": "/img/partenaires/vestfoldAudio.png"
+      },
+      {
+        "id": "10",
+        "logo": "/img/partenaires/kawantech.png"
+      },
+      {
+        "id": "11",
+        "logo": "/img/partenaires/munichRe.png"
+      },
+      {
+        "id": "12",
+        "logo": "/img/partenaires/daher.png"
       }
     ],
     "xptitle": "Since 2011",
