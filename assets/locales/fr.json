@@ -227,7 +227,7 @@
       },
       {
         "id": "6",
-        "logo": "/img/partenaires/nasekomo.png"
+        "logo": "/img/partenaires/munichRe.png"
       },
       {
         "id": "7",
@@ -247,7 +247,7 @@
       },
       {
         "id": "11",
-        "logo": "/img/partenaires/munichRe.png"
+        "logo": "/img/partenaires/nasekomo.png"
       },
       {
         "id": "12",
@@ -276,7 +276,7 @@
   "wolt": {
     "title": "La solution RTLS autonome et ultra légère",
     "img": "/img/solutions/wolt-fr.png",
-    "text": "WOLT est une solution de localisation sur site basée sur une infrastructure ultra légère sans fil. Les tags ont une option de localisation globale sur le réseau LoRaWAN.",
+    "text": "WOLT est une solution de localisation sur site basée sur une infrastructure ultra légère sans fil. Hors site, les tags peuvent se localisés grâce au réseau LoRaWAN.",
     "bullettitlespan": "3 niveaux de précisions",
     "bullettitle": "sont possibles :",
     "bulletpoints": [
@@ -293,7 +293,7 @@
       {
         "span": "La présence",
         "color": "yellow",
-        "text": "permet de savoir si un actif dans une zone d'intérêt"
+        "text": "permet de savoir si un actif est dans une zone d'intérêt"
       }
     ],
     "bubblestitle": "Vos avantages",
