@@ -50,10 +50,14 @@ export default function Wisp() {
             <section className='lavender-bg'>
               <div className='margin-lr'>
                 <div className='padding-tb'>
-                  <h3>Dash7</h3>
+                  <h3>DASH7</h3>
                   <br />
-                  <p>{data.support.dash7text}</p>
+                    <p>{data.support.dash7text}</p>
                   <p>{data.support.dash7info} <span className='underline'><a href='https://www.dash7-alliance.org'>{data.support.dash7link}</a></span></p>
+                  <br/>
+                    <div className='d7a'>
+                      <img src='/img/d7aMember.png'/>
+                    </div>
                 </div>
               </div>
 
