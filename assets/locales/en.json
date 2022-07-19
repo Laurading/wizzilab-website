@@ -633,17 +633,17 @@
     "values" : [
       {
         "name" : "CRÉATIVITÉ",
-        "img" : "img/valeurs/creativite.png",
+        "img" : "img/valeurs/Creativite.png",
         "text" : "Allier le potentiel de la Technologie à l'inventivité de notre équipe pour répondre à vos challenges"
       },
       {
         "name" : "ÉCOUTE",
-        "img" : "img/valeurs/ecoute.png",
+        "img" : "img/valeurs/Ecoute.png",
         "text" : "Savoir nous adapter à vos contraintes afin d'apporter une solution appropriée"
       },
       {
         "name" : "ENGAGEMENT",
-        "img" : "img/valeurs/engagement.png",
+        "img" : "img/valeurs/Engagement.png",
         "text" : "Vous accompagner et vous soutenir dans vos projets en apportant le meilleur service"
       }
     ]
