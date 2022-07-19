@@ -282,7 +282,7 @@
   },
   "wolt": {
     "title": "Wireless and ultra-light RTLS Solutions",
-    "img": "/img/solutions/wolt-fr.png",
+    "img": "/img/solutions/wolt-en.png",
     "text": "WOLT is an on-premise location solution based on ultra-ligh wireless infrastructure. Tags have a global location option on the LoRaWAN network.",
     "bullettitlespan": "3 levels of precision",
     "bullettitle": "are possible :",
@@ -303,7 +303,7 @@
         "text": "if an asset in an area of interest"
       }
     ],
-    "bubblestitle": "Vos avantages",
+    "bubblestitle": "Your advantages",
     "bubbles": [
       {
         "text": "Locate assets and reduce losses",
@@ -433,45 +433,45 @@
     ]
   },
   "wizzipark": {
-    "title": "La solution de stationnement intelligent en temps réel sans fil",
-    "img": "/img/solutions/wizzipark-fr.png",
-    "text": "Des capteurs de stationnement sans fils et autonomes détectent instantanément l'arrivée ou le départ de véhicules et relaient l'information vers le WizziCloud au travers de la gateway. Les visiteurs ont accès en temps réel aux places disponibles qui peuvent être communiquées sur des afficheurs dynamiques.",
-    "bullettitlespan": "2 types de capteurs",
-    "bullettitle": "sont disponibles :",
+    "title": "The smart wireless real-time parking solution",
+    "img": "/img/solutions/wizzipark-en.png",
+    "text": "Wireless and autonomous parking sensors instantly detect the arrival or departure of vehicles and relay the information to the WizziCloud through the gateway. Visitors have real-time access to available places that can be communicated on dynamic displays.",
+    "bullettitlespan": "2 types of sensors",
+    "bullettitle": "are available :",
     "bulletpoints": [
       {
-        "span": "Le capteur au sol",
-        "text": "(à coller ou à carotter)."
+        "span": "surface or flush mount sensor",
+        "text": ""
       },
       {
-        "span": "Le capteur plafonnier,",
-        "text": "sa LED change de couleur en fonction du statut de la place et du cas d'usage."
+        "span": "ceiling sensor",
+        "text": "its LED changes color depending on the status of the place and the use case."
       }
     ],
-    "bubblestitle": "Vos avantages",
+    "bubblestitle": "Your advantages",
     "bubbles": [
       {
-        "text": "Améliorer le processus d'accueil et la satisfaction des conducteurs",
+        "text": "Improve the reception process and driver satisfaction",
         "img": "/img/pictos/wizzipark/1.svg"
       },
       {
-        "text": "Identifier les voitures ventouses",
+        "text": "Identify stuck cars",
         "img": "/img/pictos/wizzipark/2.svg"
       },
       {
-        "text": "Optimiser le taux de remplissage de votre parking",
+        "text": "Optimize the occupancy rate of your car park",
         "img": "/img/pictos/wizzipark/3.svg"
       },
       {
-        "text": "Exploiter un système de réservation de places de parking",
+        "text": "Operate a parking space reservation system",
         "img": "/img/pictos/wizzipark/4.svg"
       },
       {
-        "text": "Informer les visiteurs sur les emplacements spécifiques du parking",
+        "text": "Inform visitors about the specific space of the car park",
         "img": "/img/pictos/wizzipark/5.svg"
       },
       {
-        "text": "Réduire le temps de recherche d'une place de stationnement",
+        "text": "Reduce search time for a parking space available.",
         "img": "/img/pictos/wizzipark/6.svg"
       }
     ],
@@ -483,13 +483,13 @@
         "color": "blue",
         "descriptions": [
           {
-            "list": "Identifie la présence d'un véhicule"
+            "list": "Car detection"
           },
           {
-            "list": "Envoie l'information de présence à la gateway"
+            "list": "Sends presence information to the gateway"
           },
           {
-            "list": "Deux options d'installation : à coller ou à carotter"
+            "list": "2 installation options : surface or flush"
           }
         ]
       },
@@ -499,13 +499,13 @@
         "color": "red",
         "descriptions": [
           {
-            "list": "Identifie la présence d’un véhicule"
+            "list": "Car detection"
           },
           {
-            "list": "Affiche le statut de la place par retour lumineux intégré"
+            "list": "Displays the status of the space by integrated light feedback"
           },
           {
-            "list": "Envoie l'information de présence à la gateway"
+            "list": "Sends presence information to the gateway"
           }
         ]
       },
@@ -515,19 +515,16 @@
         "color": "green",
         "descriptions": [
           {
-            "list": "Passerelle IoT"
+            "list": "Collect informations from tags"
           },
           {
-            "list": "Récolte les informations des capteurs"
+            "list": "Send informations to the cloud"
           },
           {
-            "list": "Envoie les informations vers le cloud"
+            "list": "Enable remote intervention"
           },
           {
-            "list": "Permet les interventions à distance"
-          },
-          {
-            "list": "Deux options de connexion : mobile ou Ethernet"
+            "list": "Two connexion options : mobile or Ethernet"
           }
         ]
       },
@@ -537,24 +534,24 @@
         "color": "yellow",
         "descriptions": [
           {
-            "list": "Récupère les informations transitant la / les gateway(s)"
+            "list": "Retrieves the information passing through the gateway(s)"
           },
           {
-            "list": "Affiche les informations sur les places"
+            "list": "Displays seat information"
           },
           {
-            "list": "Permet de configurer les capteurs et la gateway"
+            "list": "Allow to configure the sensors and the gateway"
           },
           {
-            "list": "Fournit des statistiques d'activité (nombre de visiteurs, taux d'occupation,...)"
+            "list": "Provides activity statistics (number of visitors, occupancy rate,...)"
           },
           {
-            "list": "L'ensemble de vos parkings en supervision sur une seule interface"
+            "list": "All of your car parks supervised on a single interface"
           }
         ]
       }
     ],
-    "partnertitle": "Ils nous font confiance",
+    "partnertitle": "They trust us",
     "partners": [
       {
         "id": "1",
@@ -584,7 +581,7 @@
   },
   "wisp": {
     "title": "La solution qui se connecte à votre environnement",
-    "img": "/img/solutions/wisp-fr.png",
+    "img": "/img/solutions/wisp-en.png",
     "text": [
       {
         "p" : "A l'aide de capteurs d'environnement, des données sont collectées puis transmises sous forme d'indicateurs." 
