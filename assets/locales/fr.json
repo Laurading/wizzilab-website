@@ -2,7 +2,14 @@
   "header": {
     "solutions": "Nos solutions",
     "about": "A propos",
-    "expertise": "Notre savoir-faire"
+    "expertise": "Notre savoir-faire",
+    "contact" : {
+      "contactus" : "CONTACTEZ-NOUS!",
+      "society" : "Société",
+      "name" : "Nom",
+      "phonenumber" : "Téléphone",
+      "send" : "Envoyer"
+    }
   },
   "landing": {
     "mission": "Fournisseur de Données d'objets connectés",
