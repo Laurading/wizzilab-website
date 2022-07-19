@@ -20,16 +20,19 @@ export default function Wizziteam() {
       <section className='section-one'>
         <div className='lavender-bg padding-tb'>
           <div className='margin-lr'>
-            <h2 className='denim'>WizziTeam</h2>
-            <br />
-            <h3 className='center'>{data.wizziteam.vision}</h3>
-            <h5 className='center'><span>{data.wizziteam.quote}</span></h5>
+          <h2 className='denim'>WizziTeam</h2>
           </div>
         </div>
       </section>
+
       <section className='margin'>
+        <h3 className='padding-tb'>{data.wizziteam.vision}</h3>
+        <h4><span>{data.wizziteam.visiontext}</span></h4>
+        <br/>
+        <p>{data.wizziteam.quote}</p>
+      </section>
 
-
+      <section className='margin'>
         <h3 className='padding-tb'>{data.wizziteam.valuestitle}</h3>
         <div className='content-col'>
           

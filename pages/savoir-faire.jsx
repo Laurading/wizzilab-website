@@ -53,10 +53,10 @@ export default function SavoirFaire() {
         </div>
         <ul>
           <li>
-            La conception de la carte avec contraintes RF
+            La conception de cartes électroniques avec contraintes RF
           </li>
           <li>
-            Le développement du firmware embarqué ultra basse consommation
+            Le développement de firmware embarqué ultra-basse consommation
           </li>
           <li>
             La gestion des technologies IoT sans fil

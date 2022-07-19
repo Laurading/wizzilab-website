@@ -14,7 +14,7 @@
             "image" : "/img/conception/2.png",
             "hoverImage" : "/img/conception/2hover.png",
             "contentImage" : "/img/conception/img2.png",
-            "content" : "La disponibilité de réseaux répondant aux exigences de grande échelle et de faible coût est une condition sine qua non au succès de tout système IoT. Nous combinons différentes technologies sans fil, DASH7, LoRaWAN et cellulaire entre autres, afin d'optimiser les compromis de débit de données, de portée et de consommation d'énergie."
+            "content" : "La disponibilité de réseaux répondant aux exigences de grande échelle et de faible coût est une condition dispensable au succès de tout système IoT. Nous combinons différentes technologies sans fil, DASH7, LoRaWAN et cellulaires entre autres, afin d'optimiser les compromis de débit de données, de portée et de consommation d'énergie."
         },
         {
             "id": "3",
@@ -30,7 +30,7 @@
             "image" : "/img/conception/4.png",
             "hoverImage" : "/img/conception/4hover.png",
             "contentImage" : "/img/conception/img4.png",
-            "content" : "Nous utilisons des déclencheurs à faible consommation d'énergie pour réveiller des modes plus gourmand en énergie. Cela permet de   maintenir la consommation extrêmement faible, tout en offrant la meilleure valeur fonctionnelle."
+            "content" : "Nous utilisons des déclencheurs à faible consommation d'énergie pour réveiller des modes plus gourmands en énergie. Cela permet de maintenir une consommation extrêmement faible, tout en offrant la meilleure valeur fonctionnelle."
         },
         {
             "id": "5",

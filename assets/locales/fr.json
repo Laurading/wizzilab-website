@@ -437,7 +437,7 @@
     "bulletpoints": [
       {
         "span": "Le capteur au sol",
-        "text": "(à coller ou à carotter)."
+        "text": "(posé ou encastré)."
       },
       {
         "span": "Le capteur plafonnier,",
@@ -485,7 +485,7 @@
             "list": "Envoie l'information de présence à la gateway"
           },
           {
-            "list": "Deux options d'installation : à coller ou à carotter"
+            "list": "2 options d'installation, posé ou encastré"
           }
         ]
       },
@@ -523,7 +523,7 @@
             "list": "Permet les interventions à distance"
           },
           {
-            "list": "Deux options de connexion : mobile ou Ethernet"
+            "list": "2 options de connexion, Cellulaire ou Ethernet"
           }
         ]
       },
@@ -608,7 +608,7 @@
     ]
   },
   "support" : {
-    "dash7text" : "Nous avons un engagement particulier avec DASH7, une technologie spécialement conçue pour l'IoT moyenne portée. WizziLab est un membre actif de la DASH7 Alliance depuis 2011, préside le Protocol Action Group et développe des produits D7A.",
+    "dash7text" : "DASH7 est une technologie spécialement conçue pour l'IoT moyenne portée qui nous permet de répondre a un grand nombre de cas d'usage. Wizzilab est un membre actif de la DASH7 Alliance depuis 2011 et préside le Protocol Action Group.",
     "dash7info" : "Toutes les infos sur le protocole DASH7 sont librement accessible sur le",
     "dash7link" : "site de l'alliance.",
     "wikitext" : "Vous pouvez consulter les pages dédiées à nos différents produits sur notre wiki :",
@@ -616,7 +616,8 @@
     "contactspan" : "support@wizzilab.fr"
   },
   "wizziteam" : {
-    "vision" : "Notre vision : Les données des capteurs seront au coeur de la transformation numérique",
+    "vision" : "Notre vision",
+    "visiontext" : "Les données des capteurs seront au coeur de la transformation numérique",
     "quote" : "“Si vous ne pouvez pas le mesurer, vous ne pouvez pas l’améliorer” - Peter Drucker",
     "valuestitle" : "Nos valeurs",
     "values" : [
