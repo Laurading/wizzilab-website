@@ -152,13 +152,6 @@
                     "href" : "/wisp"
                 },
                 {
-                    "name" : "Wizzipark",
-                    "color" : "red",
-                    "img" : "/img/secteurs/wizzipark.png",
-                    "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
-                    "href" : "/wizzipark"
-                },
-                {
                     "name" : "Wolt",
                     "color" : "blue", 
                     "img" : "/img/secteurs/wolt.png",
