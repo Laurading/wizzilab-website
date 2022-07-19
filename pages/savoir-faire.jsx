@@ -12,76 +12,58 @@ export default function SavoirFaire() {
 
   useEffect(() => {
     setData(locales[locale])
-  },[locale])
-    
+  }, [locale])
+
   return (
     <>
-    {data && (
-      <div>
-      <Header  data={data}/>
-      <section className='section-one'>
-        <div className='lavender-bg padding-tb'>
-          <h2 className='denim'>{data.expertise.title}</h2>
-        </div>
-      </section>
-      <section className='margin'>
-        <div className='content-col'>
-          <div className='column-2'>
-            <div className='padding-tb'>
-              <h3>{data.expertise.howtitle}</h3>
-              <br/>
-                  {data.expertise.actions.map(action => (
+      {data && (
+        <div>
+          <Header data={data} />
+          <section className='section-one'>
+            <div className='lavender-bg padding-tb'>
+              <h2 className='denim'>{data.knowhow.title}</h2>
+            </div>
+          </section>
+          <section className='margin'>
+            <div className='content-col'>
+              <div className='column-2'>
+                <div className='padding-tb'>
+                  <h3>{data.knowhow.howtitle}</h3>
+                  <br />
+                  {data.knowhow.actions.map(action => (
                     <div key={action.title}>
                       <h4>{action.title}</h4>
                       <p>{action.text}</p>
                     </div>
                   ))}
-            </div>
+                </div>
 
-          </div>
-          <div className='column-2'>
-            <img className='padding-iot' src='/img/IoT.png' />
-          </div>
+              </div>
+              <div className='column-2'>
+                <img className='padding-iot' src='/img/IoT.png' />
+              </div>
+            </div>
+          </section>
+          <Conception />
+          <section className='margin-lr padding-tb'>
+            <div>
+              <h3 className='padding-bottom'>
+                {data.knowhow.expertisetitle}
+              </h3>
+              <br />
+              <br />
+            </div>
+            <div>
+              <ul>
+                {data.knowhow.descriptions.map(description => (
+                  <li key={description.list}>{description.list}</li>
+                ))}
+              </ul>
+            </div>
+          </section>
+          <Footer />
         </div>
-      </section>
-      <Conception />
-      <section className='margin-lr padding-tb'>
-        <div>
-        <h3 className='padding-bottom'>
-          Notre expertise technique
-        </h3>
-        <br/>
-        <br/>
-        </div>
-        <div>
-        <ul>
-          <li>
-            La conception de cartes électroniques avec contraintes RF
-          </li>
-          <li>
-            Le développement de firmware embarqué ultra-basse consommation
-          </li>
-          <li>
-            La gestion des technologies IoT sans fil
-          </li>
-          <li>
-            Le traitement efficace des données
-          </li>
-          <li>
-            La séléction de réseaux et services cloud adaptés
-          </li>
-          <li>
-            La certification et l&apos;industrialisation
-          </li>
-          <li>
-            La gestion de la production à grande échelle
-          </li>
-        </ul> </div>
-      </section>
-      
-      <Footer />
-    </div>
-    )}
+      )}
     </>
   )
 }

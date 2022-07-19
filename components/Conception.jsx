@@ -1,12 +1,22 @@
-import React, { useState } from 'react';
-import conception from '../conception.json';
-import Link from 'next/link';
-
+import React, { useEffect, useState } from 'react';
+import { useRouter } from "next/router";
+import * as locales from '../assets/locales';
 
 const Conception = () => {
-	const [active, setActive] = useState(conception.tabs[0]);
+
+	const { locale } = useRouter();
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    setData(locales[locale])
+  },[locale])
+	
+	const [active, setActive] = useState();
+
 	return (
-		<section className='lavender-bg'>
+		<>
+		{data && (
+			<section className='lavender-bg'>
 			<div className='margin-lr padding-tb'>
 				<div className='padding-tb'>
 					<h3 >Notre philosophie de conception</h3>
@@ -15,7 +25,7 @@ const Conception = () => {
 				</div>
 				<br />
 				<div className='content-col'>
-					{conception.tabs.map(tab => (
+					{data.knowhow.tabs.map(tab => (
 						<div onClick={(() => setActive(tab))} key={tab.id} className='column-6'>
 							<img src={active === tab ? tab.hoverImage : tab.image} />
 							<h4>{tab.name}</h4>
@@ -45,6 +55,8 @@ const Conception = () => {
 				</div>
 			</div>
 		</section>
+		)}
+		</>
 	)
 }
 

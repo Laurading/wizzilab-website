@@ -62,7 +62,7 @@ const Header = ({data}) => {
                   <a>{data.header.about}</a>
                   <ul className='sous'>
                     <li><Link href='/wizziteam'><a>Wizziteam</a></Link></li>
-                    <li><Link href='/savoir-faire'><a>{data.header.expertise}</a></Link></li>
+                    <li><Link href='/savoir-faire'><a>{data.header.knowhow}</a></Link></li>
                   </ul>
                 </li>
                 <li>

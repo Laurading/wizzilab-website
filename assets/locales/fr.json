@@ -2,172 +2,171 @@
   "header": {
     "solutions": "Nos solutions",
     "about": "A propos",
-    "expertise": "Notre savoir-faire",
-    "contact" : {
-      "contactus" : "CONTACTEZ-NOUS!",
-      "society" : "Société",
-      "name" : "Nom",
-      "phonenumber" : "Téléphone",
-      "send" : "Envoyer"
+    "knowhow": "Notre savoir-faire",
+    "contact": {
+      "contactus": "CONTACTEZ-NOUS!",
+      "society": "Société",
+      "name": "Nom",
+      "phonenumber": "Téléphone",
+      "send": "Envoyer"
     }
   },
   "landing": {
     "mission": "Fournisseur de Données d'objets connectés",
     "promise": "La Donnée temps réel au service de la Performance",
-    "activities" : [
+    "activities": [
       {
         "id": "1",
         "name": "Parking",
-        "image" : "/img/secteurs/parking.png",
-        "content" : "Installer nos capteurs Indoor/Outdoor pour activer le guidage à la place, reporter les informations sur des afficheurs pour améliorer l'expérience client et superviser/piloter l'activité grâce à notre plateforme (Wizzicloud)",
-        "column" : "column-2",
-        "solutions" : [
-            {
-                "name" : "Wizzipark",
-                "color" : "red",
-                "img" : "/img/secteurs/wizzipark.png",
-                "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
-                "href" : "/wizzipark"
-            },
-            {
-                "name" : "Wolt",
-                "color" : "blue",
-                "img" : "/img/secteurs/wolt.png",
-                "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
-                "href" : "/wolt"
-            }
+        "image": "/img/secteurs/parking.png",
+        "content": "Installer nos capteurs Indoor/Outdoor pour activer le guidage à la place, reporter les informations sur des afficheurs pour améliorer l'expérience client et superviser/piloter l'activité grâce à notre plateforme (Wizzicloud)",
+        "column": "column-2",
+        "solutions": [
+          {
+            "name": "Wizzipark",
+            "color": "red",
+            "img": "/img/secteurs/wizzipark.png",
+            "text": "Des solutions connectées pour la gestion de vos places de stationnement",
+            "href": "/wizzipark"
+          },
+          {
+            "name": "Wolt",
+            "color": "blue",
+            "img": "/img/secteurs/wolt.png",
+            "text": "Localiser facilement et rapidement votre materiel (asset tracking)",
+            "href": "/wolt"
+          }
         ]
-    },
-    {
+      },
+      {
         "id": "2",
         "name": "Industrie",
-        "image" : "/img/secteurs/industrie.png",
-        "content" : "Améliorer votre performance industrielle grâce à nos capteurs qui vous fourniront la donnée nécessaire à votre modernisation.",
-        "column" : "column-3",
-        "solutions" : [
-            {
-                "name" : "Wizzipark",
-                "color" : "red",
-                "img" : "/img/secteurs/wizzipark.png",
-                "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
-                "href" : "/wizzipark"
-            },
-            {
-                "name" : "Wolt",
-                "color" : "blue",
-                "img" : "/img/secteurs/wolt.png",
-                "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
-                "href" : "/wolt"
-            },
-            {
-                "name" : "Wisp",
-                "color" : "green",
-                "img" : "/img/secteurs/wisp.png",
-                "text" : "Mesurer les paramètres de votre environnement pour mieux l'analyser",
-                "href" : "/wisp"
-            }
+        "image": "/img/secteurs/industrie.png",
+        "content": "Améliorer votre performance industrielle grâce à nos capteurs qui vous fourniront la donnée nécessaire à votre modernisation.",
+        "column": "column-3",
+        "solutions": [
+          {
+            "name": "Wizzipark",
+            "color": "red",
+            "img": "/img/secteurs/wizzipark.png",
+            "text": "Des solutions connectées pour la gestion de vos places de stationnement",
+            "href": "/wizzipark"
+          },
+          {
+            "name": "Wolt",
+            "color": "blue",
+            "img": "/img/secteurs/wolt.png",
+            "text": "Localiser facilement et rapidement votre materiel (asset tracking)",
+            "href": "/wolt"
+          },
+          {
+            "name": "Wisp",
+            "color": "green",
+            "img": "/img/secteurs/wisp.png",
+            "text": "Mesurer les paramètres de votre environnement pour mieux l'analyser",
+            "href": "/wisp"
+          }
         ]
-    },
-    {
+      },
+      {
         "id": "3",
         "name": "Santé",
-        "image" : "/img/secteurs/sante.png",
-        "content" : "Localiser votre matériel pour une meilleure utilisation et efficience du parcours patient/personnel. ",
-        "column" : "column-3",
-        "solutions" : [
-            {
-                "name" : "Wolt",
-                "color" : "blue", 
-                "img" : "/img/secteurs/wolt.png",
-                "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
-                "href" : "/wolt"
-            },
-            {
-                "name" : "Wizzipark",
-                "color" : "red",
-                "img" : "/img/secteurs/wizzipark.png",
-                "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
-                "href" : "/wizzipark"
-            },
-            {
-                "name" : "Wisp",
-                "color" : "green",
-                "img" : "/img/secteurs/wisp.png",
-                "text" : "Mesurer les paramètres de votre environnement pour mieux l'analyser",
-                "href" : "/wisp"
-            }
+        "image": "/img/secteurs/sante.png",
+        "content": "Localiser votre matériel pour une meilleure utilisation et efficience du parcours patient/personnel. ",
+        "column": "column-3",
+        "solutions": [
+          {
+            "name": "Wolt",
+            "color": "blue",
+            "img": "/img/secteurs/wolt.png",
+            "text": "Localiser facilement et rapidement votre materiel (asset tracking)",
+            "href": "/wolt"
+          },
+          {
+            "name": "Wizzipark",
+            "color": "red",
+            "img": "/img/secteurs/wizzipark.png",
+            "text": "Des solutions connectées pour la gestion de vos places de stationnement",
+            "href": "/wizzipark"
+          },
+          {
+            "name": "Wisp",
+            "color": "green",
+            "img": "/img/secteurs/wisp.png",
+            "text": "Mesurer les paramètres de votre environnement pour mieux l'analyser",
+            "href": "/wisp"
+          }
         ]
-    },
-    {
+      },
+      {
         "id": "4",
         "name": "Flex Office",
-        "image" : "/img/secteurs/flexoffice.png",
-        "content" : "Organiser et optimiser la gestion de vos locaux et matériels. Piloter et adapter vos besoins de stationnement (places spécifiques : électriques, handicapées, ...).",
-        "column" : "column-2",
-        "solutions" : [
-            {
-                "name" : "Wizzipark",
-                "color" : "red",
-                "img" : "/img/secteurs/wizzipark.png",
-                "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
-                "href" : "/wizzipark"
-            },
-            {
-                "name" : "Wolt",
-                "color" : "blue", 
-                "img" : "/img/secteurs/wolt.png",
-                "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
-                "href" : "/wolt"
-            }
+        "image": "/img/secteurs/flexoffice.png",
+        "content": "Organiser et optimiser la gestion de vos locaux et matériels. Piloter et adapter vos besoins de stationnement (places spécifiques : électriques, handicapées, ...).",
+        "column": "column-2",
+        "solutions": [
+          {
+            "name": "Wizzipark",
+            "color": "red",
+            "img": "/img/secteurs/wizzipark.png",
+            "text": "Des solutions connectées pour la gestion de vos places de stationnement",
+            "href": "/wizzipark"
+          },
+          {
+            "name": "Wolt",
+            "color": "blue",
+            "img": "/img/secteurs/wolt.png",
+            "text": "Localiser facilement et rapidement votre materiel (asset tracking)",
+            "href": "/wolt"
+          }
         ]
-    },
-    {
+      },
+      {
         "id": "5",
         "name": "Building",
-        "image" : "/img/secteurs/building.png",
-        "content" : "Le tracage indoor de votre outillage sur site pour une meilleure gestion de vos budgets. Détectez la présence de vos engins.",
-        "column" : "column-3",
-        "solutions" : [
-            {
-                "name" : "Wolt",
-                "color" : "blue", 
-                "img" : "/img/secteurs/wolt.png",
-                "text" : "Localiser facilement et rapidement votre materiel (asset tracking)",
-                "href" : "/wolt"
-            },
-            {
-                "name" : "Wizzipark",
-                "color" : "red",
-                "img" : "/img/secteurs/wizzipark.png",
-                "text" : "Des solutions connectées pour la gestion de vos places de stationnement",
-                "href" : "/wizzipark"
-            },
-            {
-                "name" : "Wisp",
-                "color" : "green",
-                "img" : "/img/secteurs/wisp.png",
-                "text" : "Mesurer les paramètres de votre environnement pour mieux l'analyser",
-                "href" : "/wisp"
-                
-            }
+        "image": "/img/secteurs/building.png",
+        "content": "Le tracage indoor de votre outillage sur site pour une meilleure gestion de vos budgets. Détectez la présence de vos engins.",
+        "column": "column-3",
+        "solutions": [
+          {
+            "name": "Wolt",
+            "color": "blue",
+            "img": "/img/secteurs/wolt.png",
+            "text": "Localiser facilement et rapidement votre materiel (asset tracking)",
+            "href": "/wolt"
+          },
+          {
+            "name": "Wizzipark",
+            "color": "red",
+            "img": "/img/secteurs/wizzipark.png",
+            "text": "Des solutions connectées pour la gestion de vos places de stationnement",
+            "href": "/wizzipark"
+          },
+          {
+            "name": "Wisp",
+            "color": "green",
+            "img": "/img/secteurs/wisp.png",
+            "text": "Mesurer les paramètres de votre environnement pour mieux l'analyser",
+            "href": "/wisp"
+          }
         ]
-    },
-    {
+      },
+      {
         "id": "6",
         "name": "Agriculture",
-        "image" : "/img/secteurs/agriculture.png",
-        "content" : "Développer, analyser et transformer votre activité grâce a nos différents types de capteurs.",
-        "column" : "column-3",
-        "solutions" : [
-            {
-                "name" : "Wisp",
-                "color" : "green",
-                "img" : "/img/secteurs/wisp.png",
-                "text" : "Mesurer les paramètres de votre environnement pour mieux l'analyser",
-                "href" : "/wisp"
-            }
+        "image": "/img/secteurs/agriculture.png",
+        "content": "Développer, analyser et transformer votre activité grâce a nos différents types de capteurs.",
+        "column": "column-3",
+        "solutions": [
+          {
+            "name": "Wisp",
+            "color": "green",
+            "img": "/img/secteurs/wisp.png",
+            "text": "Mesurer les paramètres de votre environnement pour mieux l'analyser",
+            "href": "/wisp"
+          }
         ]
-    }
+      }
     ],
     "process": "Solutions autonomes, sans fil et basse consommation",
     "target": "1. CIBLER",
@@ -394,20 +393,20 @@
       }
     ],
     "kittitle": "Commander notre Starter kit",
-    "kittext" : "Notre kit se compose de:",
-    "kitul" : [
+    "kittext": "Notre kit se compose de:",
+    "kitul": [
       {
-        "kitli" : "4 ancres"
+        "kitli": "4 ancres"
       },
       {
-        "kitli" : "2 tags"
+        "kitli": "2 tags"
       },
       {
-        "kitli" : "1 gateway"
+        "kitli": "1 gateway"
       }
     ],
-    "buy" : "commander",
-    "kitimg" : "/img/composants/kit/kitwolt.png",
+    "buy": "commander",
+    "kitimg": "/img/composants/kit/kitwolt.png",
     "partnertitle": "Ils nous font confiance",
     "partners": [
       {
@@ -583,16 +582,16 @@
     "img": "/img/solutions/wisp-fr.png",
     "text": [
       {
-        "p" : "A l'aide de capteurs d'environnement, des données sont collectées puis transmises sous forme d'indicateurs." 
+        "p": "A l'aide de capteurs d'environnement, des données sont collectées puis transmises sous forme d'indicateurs."
       },
       {
-        "p" : "WISP digitalise vos données telles que la température, la pression, l'humidité, la luminosité, ..." 
+        "p": "WISP digitalise vos données telles que la température, la pression, l'humidité, la luminosité, ..."
       },
       {
-        "p" : "Ces informations vous permettent d'analyser les indicateurs choisis afin de compléter et améliorer votre processus de prise de décision." 
+        "p": "Ces informations vous permettent d'analyser les indicateurs choisis afin de compléter et améliorer votre processus de prise de décision."
       },
       {
-        "p" : "Wizzilab peut s'appuyer sur cette solution “sur étagère” pour répondre aux cas d'usage spécifiques." 
+        "p": "Wizzilab peut s'appuyer sur cette solution “sur étagère” pour répondre aux cas d'usage spécifiques."
       }
     ],
     "partnertitle": "Ils nous font confiance",
@@ -607,52 +606,128 @@
       }
     ]
   },
-  "support" : {
-    "dash7text" : "DASH7 est une technologie spécialement conçue pour l'IoT moyenne portée qui nous permet de répondre a un grand nombre de cas d'usage. Wizzilab est un membre actif de la DASH7 Alliance depuis 2011 et préside le Protocol Action Group.",
-    "dash7info" : "Toutes les infos sur le protocole DASH7 sont librement accessible sur le",
-    "dash7link" : "site de l'alliance.",
-    "wikitext" : "Vous pouvez consulter les pages dédiées à nos différents produits sur notre wiki :",
-    "contacttext" : "Vous pouvez contacter notre support technique" ,
-    "contactspan" : "support@wizzilab.fr"
+  "support": {
+    "dash7text": "DASH7 est une technologie spécialement conçue pour l'IoT moyenne portée qui nous permet de répondre a un grand nombre de cas d'usage. Wizzilab est un membre actif de la DASH7 Alliance depuis 2011 et préside le Protocol Action Group.",
+    "dash7info": "Toutes les infos sur le protocole DASH7 sont librement accessible sur le",
+    "dash7link": "site de l'alliance.",
+    "wikitext": "Vous pouvez consulter les pages dédiées à nos différents produits sur notre wiki :",
+    "contacttext": "Vous pouvez contacter notre support technique",
+    "contactspan": "support@wizzilab.fr"
   },
-  "wizziteam" : {
-    "vision" : "Notre vision",
-    "visiontext" : "Les données des capteurs seront au coeur de la transformation numérique",
-    "quote" : "“Si vous ne pouvez pas le mesurer, vous ne pouvez pas l’améliorer” - Peter Drucker",
-    "valuestitle" : "Nos valeurs",
-    "values" : [
+  "wizziteam": {
+    "vision": "Notre vision",
+    "visiontext": "Les données des capteurs seront au coeur de la transformation numérique",
+    "quote": "“Si vous ne pouvez pas le mesurer, vous ne pouvez pas l’améliorer” - Peter Drucker",
+    "valuestitle": "Nos valeurs",
+    "values": [
       {
-        "name" : "CRÉATIVITÉ",
-        "img" : "img/valeurs/Creativite.png",
-        "text" : "Allier le potentiel de la Technologie à l'inventivité de notre équipe pour répondre à vos challenges"
+        "name": "CRÉATIVITÉ",
+        "img": "img/valeurs/Creativite.png",
+        "text": "Allier le potentiel de la Technologie à l'inventivité de notre équipe pour répondre à vos challenges"
       },
       {
-        "name" : "ÉCOUTE",
-        "img" : "img/valeurs/Ecoute.png",
-        "text" : "Savoir nous adapter à vos contraintes afin d'apporter une solution appropriée"
+        "name": "ÉCOUTE",
+        "img": "img/valeurs/Ecoute.png",
+        "text": "Savoir nous adapter à vos contraintes afin d'apporter une solution appropriée"
       },
       {
-        "name" : "ENGAGEMENT",
-        "img" : "img/valeurs/Engagement.png",
-        "text" : "Vous accompagner et vous soutenir dans vos projets en apportant le meilleur service"
+        "name": "ENGAGEMENT",
+        "img": "img/valeurs/Engagement.png",
+        "text": "Vous accompagner et vous soutenir dans vos projets en apportant le meilleur service"
       }
     ]
   },
-  "expertise" : {
-    "title" : "Notre savoir-faire",
-    "howtitle" : "Depuis 10 ans, Wizzilab vous accompagne dans votre transformation",
-    "actions" : [
+  "knowhow": {
+    "title": "Notre savoir-faire",
+    "howtitle": "Depuis 10 ans, Wizzilab vous accompagne dans votre transformation",
+    "actions": [
       {
-        "title" : "En libérant les capacités extraodinaires de l'IoT",
-        "text" : "Les nouvelles technologies révolutionnent notre capacité à saisir la réalité de notre environnement. Grâce à ces avancées, nous sommes capables de répondre aux enjeux actuels : optimiser les processus de production, réduire les risques et économiser les ressources."
+        "title": "En libérant les capacités extraodinaires de l'IoT",
+        "text": "Les nouvelles technologies révolutionnent notre capacité à saisir la réalité de notre environnement. Grâce à ces avancées, nous sommes capables de répondre aux enjeux actuels : optimiser les processus de production, réduire les risques et économiser les ressources."
       },
       {
-        "title" : "En maîtrisant les technologies et la performance de vos installations",
-        "text" : "Nous apportons la solution optimale en adaptant la technologie aux besoins tels que : la consommation d'énergie, le débit et les contraintes d'environnement."
+        "title": "En maîtrisant les technologies et la performance de vos installations",
+        "text": "Nous apportons la solution optimale en adaptant la technologie aux besoins tels que : la consommation d'énergie, le débit et les contraintes d'environnement."
       },
       {
-        "title" : "En fournissant des données utiles",
-        "text" : "La donnée est la source clé pour réussir la transformation de votre activité. Sa pertinence est corrélée à son niveau de précision, de fiabilité et de protection. Elle doit être délivrée au bon moment afin d'impacter le processus d'analyse et de prise de décision."
+        "title": "En fournissant des données utiles",
+        "text": "La donnée est la source clé pour réussir la transformation de votre activité. Sa pertinence est corrélée à son niveau de précision, de fiabilité et de protection. Elle doit être délivrée au bon moment afin d'impacter le processus d'analyse et de prise de décision."
+      }
+    ],
+    "conceptiontitle" : "Notre philosophie de conception",
+    "conceptiontext" : "Chez Wizzilab, nous avons une démarche spécifique pour accompagner nos clients dans leurs projets IoT :",
+    "tabs": [
+      {
+        "id": "1",
+        "title": "Développement de systèmes de bout en bout.",
+        "image": "/img/conception/1.png",
+        "hoverImage": "/img/conception/1hover.png",
+        "contentImage": "/img/conception/img1.png",
+        "content": "Nous avons toujours à l'esprit la spécification globale, le coût et les défis de faible consommation d'énergie, de sorte que chaque composant est conçu pour fonctionner efficacement avec le reste du système."
+      },
+      {
+        "id": "2",
+        "title": "Communication sans fil optimale.",
+        "image": "/img/conception/2.png",
+        "hoverImage": "/img/conception/2hover.png",
+        "contentImage": "/img/conception/img2.png",
+        "content": "La disponibilité de réseaux répondant aux exigences de grande échelle et de faible coût est une condition dispensable au succès de tout système IoT. Nous combinons différentes technologies sans fil, DASH7, LoRaWAN et cellulaires entre autres, afin d'optimiser les compromis de débit de données, de portée et de consommation d'énergie."
+      },
+      {
+        "id": "3",
+        "title": "Localisation.",
+        "image": "/img/conception/3.png",
+        "hoverImage": "/img/conception/3hover.png",
+        "contentImage": "/img/conception/img3.png",
+        "content": "La localisation en intérieur et en extérieur est au cœur d'une multitude d'applications professionnelles et privées. Nous avons développé une forte expertise en UWB, et nous concevons des systèmes ultra efficaces ayant une précision submétrique."
+      },
+      {
+        "id": "4",
+        "title": "Décisions évenementielles en cascade.",
+        "image": "/img/conception/4.png",
+        "hoverImage": "/img/conception/4hover.png",
+        "contentImage": "/img/conception/img4.png",
+        "content": "Nous utilisons des déclencheurs à faible consommation d'énergie pour réveiller des modes plus gourmands en énergie. Cela permet de maintenir une consommation extrêmement faible, tout en offrant la meilleure valeur fonctionnelle."
+      },
+      {
+        "id": "5",
+        "title": "Edge computing et algorithmes embarqués.",
+        "image": "/img/conception/5.png",
+        "hoverImage": "/img/conception/5hover.png",
+        "contentImage": "/img/conception/img5.png",
+        "content": "Les informations sont traitées et filtrées dans les nœuds périphériques, chaque fois que nécessaire, avec la possibilité de rediriger et d'agréger les flux de données. Cela permet d'optimiser le traitement à chaque étape, d’éviter les surcharges et de fournir uniquement des données significatives au service applicatif."
+      },
+      {
+        "id": "6",
+        "title": "Gestion centralisée de la flotte.",
+        "image": "/img/conception/6.png",
+        "hoverImage": "/img/conception/6hover.png",
+        "contentImage": "/img/conception/img6.png",
+        "content": "Un système IoT efficace nécessite un moyen intuitif et simple de servir et de configurer la flotte IoT. Nous concevons nos systèmes pour garantir qu'ils soient accessibles tout au long de leur vie pour la maintenance, la reconfiguration, la sécurité et la mise à jour du firmware."
+      }
+    ],
+    "expertisetitle" : "Notre expertise technique",
+    "descriptions" : [
+      {
+        "list" : "La conception de cartes électroniques avec contraintes RF"
+      },
+      {
+        "list" : "Le développement de firmware embarqué ultra-basse consommation"
+      },
+      {
+        "list" : "La gestion des technologies IoT sans fil"
+      },
+      {
+        "list" : "Le traitement efficace des données"
+      },
+      {
+        "list" : "La séléction de réseaux et services cloud adaptés"
+      },
+      {
+        "list" : "La certification et l'industrialisation"
+      },
+      {
+        "list" : "La gestion de la production à grande échelle"
       }
     ]
   }
