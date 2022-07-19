@@ -17,7 +17,7 @@ const LavenderPicto = (props) => {
     (
       <section className='lavender-bg'>
     <div className='margin'>
-      <h3 className='padding-tb'>{data.landing.bubblestitle}</h3>
+      <h3 className='padding-tb'>{data[props.bubble].bubblestitle}</h3>
       <div className='content-col'>
         {data[props.bubble].bubbles.map(picto => (
           <div key={picto.text} className='column-3 six'>

@@ -81,6 +81,11 @@ nav > ul li:hover .sous {
 
 
 @media only screen and (max-width : 1000px) {
+
+    header {
+        padding-bottom: 16px;
+      }
+
     .logo {
         height: 6vh;
         text-align: center;
