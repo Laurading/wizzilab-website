@@ -23,7 +23,7 @@ export default function Wizziteam() {
             <h2 className='denim'>WizziTeam</h2>
             <br />
             <h3 className='center'>{data.wizziteam.vision}</h3>
-            <h5><span>{data.wizziteam.quote}</span></h5>
+            <h5 className='center'><span>{data.wizziteam.quote}</span></h5>
           </div>
         </div>
       </section>
