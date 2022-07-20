@@ -26,16 +26,16 @@ const Footer = () => {
               </div>
               <div className="column-5 wrap">
               <Link href="/privacypolicy">
-                  <a className="cultured footer-text">{data.footer.privacypolicy}</a>
+                  <a className="cultured footer-text center">{data.footer.privacypolicy}</a>
                 </Link>
               </div>
               <div className="column-5 wrap">
               <Link href="/cgv">
-                  <a className="cultured footer-text">{data.footer.cgv}</a>
+                  <a className="cultured footer-text center">{data.footer.cgv}</a>
                 </Link>
               </div>
               <div className="column-5 wrap">
-              <a className="cultured footer-text nothinghover">© Copyright WizziLab</a>
+              <a className="cultured footer-text nothinghover center">© Copyright WizziLab</a>
               </div>
             </div>
 

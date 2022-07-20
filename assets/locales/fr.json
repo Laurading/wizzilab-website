@@ -377,7 +377,7 @@
             "list": "Permet les interventions à distance"
           },
           {
-            "list": "Deux options de connexion : mobile ou Ethernet"
+            "list": "2 options de connexion : Cellulaire ou Ethernet"
           }
         ]
       },
@@ -740,10 +740,94 @@
     ]
   },
   "privacypolicy" : {
-    "title" : "Mentions légales"
+    "title" : "Mentions Légales",
+    "wizzilab" : "Wizzilab",
+    "capital" : "SAS au capital de 20 000Euros",
+    "rcs" : "R.C.S. Paris 529 970 352",
+    "headoffice" : "Siège social : 64 rue Greneta - 72002 PARIS",
+    "chargeof" : "Responsable de la publication",
+    "chargeofname" : "M. Michael André",
+    "tel" : "Tel: +33 (0) 6 30 57 96 12",
+    "email" : "contact@wizzilab.com",
+    "creation" : "Création du site",
+    "hosting" : "Hébergement",
+    "hostingtext" : "1and1",
+    "rgpd" : "Protection des données personnelles",
+    "rgpdtext" : "Numéro d’inscription à la CNIL : 1610284 v 0. Vous disposez d’un droit d’accès, de modification, de rectification et de suppression des données qui vous concernent (art. 34 de la loi « Informatique et Libertés » du 6 janvier 1978). Vous pouvez, à tout moment , demander à exercer ce droit soit en nous contactant à cette adresse mail contact@wizzilab.com, soit en nous adressant un courrier à l’adresse suivante : WizziLab SARL – 64 rue Greneta – 75002 Paris – FRANCE",
+    "copyright" : "Copyright et Propriété intellectuelle",
+    "copyrighttext1" : "L’ensemble des éléments figurant sur notre site sont protégés par les dispositions du Code de la Propriété Intellectuelle. En conséquence, toute reproduction de ceux-ci, totale ou partielle, ou imitation, sans notre accord exprès, préalable et écrit, est interdite.",
+    "copyrighttext2" : "Il est formellement interdit de collecter et d’utiliser les informations disponibles sur le site à des fins commerciales. Cette interdiction s’étend notamment, sans que cette liste ne soit limitative, à tout élément rédactionnel figurant sur le site, à la présentation des écrans, aux logiciels nécessaires à l’exploitation, aux logos, images, photos, graphiques, de quelque nature qu’ils soient."
   },
   "cgv" : {
-    "title" : "CGV"
+    "title" : "CONDITIONS GENERALES DE VENTE WIZZILAB SAS 2022",
+    "preambletitle" : "Généralités.",
+    "préambletext" : "Les présentes Conditions Générales de Vente (CGV) définissent la relation contractuelle établie entre les parties, WIZZILAB SAS (ci-après “WIZZILAB”) et son client, (ci-après “CLIENT”) dans la vente de marchandises et de services. Toute dérogation à ces CGV doit avoir été préalablement et expressément acceptée par écrit par WIZZILAB (définies comme Conditions Particulières de Vente). Les présentes Conditions Générales de Vente constituent, conformément à l’article L 441-1 du Code du Commerce, le socle unique de la relation commerciale entre les parties.",
+    "clause1" : {
+      "title" : "Clause 1 : Commande.",
+      "ul" : "Les commandes sont passées par le CLIENT :",
+      "li1" : "Soit par l’acceptation d’un devis réalisé par WIZZILAB. Dans ce cas, LE CLIENT vérifie l’exactitude des informations transmises et signale tout modification à y apporter. LE CLIENT renvoie la proposition dûment datée et signée en apposant le mot “Bon pour accord” pendant la période de validité du devis. Un devis devient nul s’il n’est pas accepté par LE CLIENT dans la période de validité de trente (30) jours à compter de son émission.",
+      "li2" : "Soit en envoyant directement un bon de commande. Le bon de commande doit faire mention des coordonnées du CLIENT, de son numéro de TVA, du nom et de la référence du produit commandé, de la quantité par référence, du prix unitaire Hors Taxes par référence, du lieu de livraison, de la date de livraison attendue et du montant total de la commande accompagnés de la signature de la personne autorisée et du cachet commercial du CLIENT.",
+      "para1" : "WIZZILAB notifiera l’acceptation de la commande en envoyant une confirmation de commande au CLIENT spécifiant les conditions de paiement et le délai estimé de mise à disposition des marchandises ou services commandés. ",
+      "para2" : "Quand un acompte est requis pour lancer la commande, la date de début de la commande est la date à laquelle le montant correspondant à l’acompte apparaît sur le compte en banque de WIZZILAB. Dans tous les autres cas, la date de début de la commande est la date de la confirmation de commande. La date de disponibilité est calculée par rapport à la date de début de la commande. Si la quantité de produits commandés est supérieure au stock chez WIZZILAB , un délai minimum de quatorze (14) semaines entre la confirmation de la commande et la date de livraison, en lien avec les délais de production, sera de fait appliqué.",
+      "para3" : "Toute modification de commande sera soumise à l’acceptation préalable de WIZZILAB et peut entraîner des coûts et des retards supplémentaires à ceux préalablement annoncés. Ils seront communiqués au CLIENT pour accord."
+    },
+    "clause2" : {
+      "title" : "Clause 2 : Prix",
+      "para1" : "Les prix des marchandises et services vendus sont ceux confirmés dans la confirmation de commande. Ils sont libellés en euros et calculés hors taxes ou autres frais. En conséquence, ils seront augmentés du taux de TVA, des frais d’emballage spécifiques, des frais d’expédition et de manutention le cas échéant.",
+      "para2" : "WIZZILAB se donne le droit de modifier ses tarifs à tout moment. Toutefois, WIZZILAB s’engage à facturer les marchandises commandées aux prix indiqués dans la confirmation de commande lors de l’enregistrement de la commande."
+    },
+    "clause3" : {
+      "title" : "Clause 3 : Remises et rabais",
+      "para" : "Les prix proposés comprennent toutes les remises et rabais accordés par WIZZILAB. Aucun escompte ne sera accordé en cas de paiement anticipé."
+    },
+    "clause4" : {
+      "title" : "Clause 4 : Délais de paiement",
+      "para1" : "Le paiement des commandes se fait par virement bancaire ou paiement SEPA. Aucune autre méthode de règlement n’est autorisée.",
+      "para2" : "Tous les frais bancaires sont entièrement à la charge du CLIENT, frais bancaires à l’étranger inclus. Dans ce cas, Wizzilab ne couvrira que ses frais bancaires locaux.",
+      "para3" : "Lors de l’acceptation de la commande, sauf indication contraire dans la confirmation de commande, LE CLIENT doit payer un acompte de 30% pour les marchandises et de 50% pour le service afin de confirmer la commande. Comme dit précédemment, le délai de disponibilité commence à la date à laquelle l’acompte apparaît sur le compte de WIZZILAB. Le solde est facturé à la date de disponibilité de la marchandise ou d’exécution du service commandé. Le paiement du solde doit être effectué dans les 30 jours NET de la facture."
+    },
+    "clause5" : {
+      "title" : "Clause 5 : Retard de paiement",
+      "para1" : "Toute facture non payée à l’échéance donnera, automatiquement et sans préavis, droit à des pénalités pour retard de paiement des sommes dues, à un taux égal à trois (3) fois le taux d’intérêt légal en vigueur, à compter du jour suivant la date d’échéance jusqu’au paiement intégral du montant dû. Conformément aux dispositions des articles L.441-3 et L.441-6 du Code de commerce Français, tout retard de paiement entraîne automatiquement le versement d’une indemnité forfaitaire pour frais de recouvrement, actuellement fixée à quarante (40) euros par an. Article D.441-5 du Code de commerce. Le taux d’intérêt légal retenu est celui en vigueur le jour de la livraison des marchandises ou le premier jour de l’exécution des services.",
+      "para2" : "Lorsque le paiement de la commande est effectué en plusieurs fois, le non-paiement de l’un de ces versements entraîne le paiement immédiat de la totalité du montant de la dette, sans donner lieu à aucune mise en demeure.",
+      "para3" : "En cas de factures en retard, WIZZILAB se réserve le droit de suspendre la livraison des marchandises ou l’exécution du service ou de l’assistance jusqu’au paiement intégral de toutes les factures en attente.",
+      "para4" : "Si dans les quinze (15) jours suivant la mise en œuvre de la clause « Retard de paiement », le CLIENT n’a pas payé les sommes restant dues, la vente sera résolue de plein droit et WIZZILAB aura droit à des dommages et intérêts"
+    },
+    "clause6" : {
+      "title" : "Clause 6 : Réserve de propriété.",
+      "para" : "WIZZILAB conserve la propriété des marchandises vendues ou des livrables du service jusqu’au paiement intégral du prix, en principal et accessoire. A ce titre, si LE CLIENT fait l’objet d’un recours juridique ou d’une liquidation, WIZZILAB se réserve le droit de réclamer, dans le cadre de la procédure collective, les biens et livrables vendus et restés impayés."
+    },
+     "clause7" : {
+      "title" : "Clause 7 : Annulation de commande.",
+      "para1" : "Toutes les commandes de marchandises sont irrévocables (NA/NR/NR - Non annulable, Non retournable, Non repositionnable - en anglais NCNRNR Non-Cancelable, Non-Returnable, NonReschedulable).",
+      "para2" : "En cas d’annulation de la commande, l’acompte reste dû. Le montant total est converti en indemnités non soumises à la TVA",
+      "para3" : "Si l’annulation provient du CLIENT, pour quelque raison que ce soit, en plus de l’acompte intégral,WIZZILAB se réserve le droit de demander des indemnités supplémentaires couvrant tous les frais déjà engagés pour l’exécution de la commande",
+      "para4" : "Dans le cas de prestations de service, ces indemnités supplémentaires correspondent aux jours de service déjà effectués mais non payés par le CLIENT."
+      },
+      "clause8" : {
+        "title" : "Clause 8 : Livraison.",
+        "para1" : "Sauf accord contraire entre les deux parties, le lieu de livraison des marchandises est les locaux deWIZZILAB ou les installations de production de WIZZILAB. La livraison s’effectue Ex Works (EXW) (Incoterms 2020). Le prix des produits inclut un emballage standard de type carton avec calage. Toute demande spécifique d’emballage sera facturée en sus. L’adresse du lieu de livraison est notifiée au CLIENT dans la confirmation de commande. LE CLIENT est responsable de l’organisation de l’enlèvement des marchandises et tous les frais associés sont à la charge du CLIENT.",
+        "para2" : "La date de livraison est la date communiquée au CLIENT quand les marchandises sont disponibles au lieu de livraison. La date de livraison ou le délai de disponibilité indiqué dans la confirmation de commande est fourni à titre indicatif. Par conséquent, un retard dans la disponibilité des produits ne saurait ni donner lieu à l’octroi de dommages et intérêts au profit du CLIENT ni à l’annulation de la commande.",
+      "para3" : "Le risque de transport à partir du lieu de livraison est entièrement à la charge du CLIENT : le risque de perte ou de détérioration est transféré au CLIENT lors de l’enlèvement de la marchandise sur le lieu de livraison. Il appartient au CLIENT de vérifier le contenu du colis à l’arrivée et d’exercer un recours contre le transporteur, le cas échéant.",
+      "para4" : "En cas de marchandises manquantes ou détériorées pendant le transport, LE CLIENT doit formuler toutes les réclamations nécessaires sur le bon de livraison des dites marchandises (émargement). Ces réclamations doivent également être confirmées par écrit dans les cinq (5) jours suivant la livraison par courrier recommandé ou par courriel à order@wizzilab.com . ",
+      "para5" : "La livraison partielle, la non-livraison ou le report de livraison par WIZZILAB ne peuvent pas retarder le paiement de toute marchandise livrée.",
+      "para6" : "Dans le cas où les marchandises contiennent des batteries au lithium, WIZZILAB fournira sur demande tous les certificats de transport nécessaires. LE CLIENT doit s’assurer que son transporteur dispose d’une autorisation pour le transport de produits dangereux et s’engage à fournir un certificat de transport de matières dangereuses à WIZZILAB."
+      },
+      "clause9" : {
+        "title" : "Clause 9 : Garantie",
+        "subtitle1" : "1. Produits :",
+        "para1" : "WIZZILAB garantit ses produits contre vice caché pour une durée de deux (2) ans à com de la date de livraison. Un vice caché désigne un défaut du produit le rendant impropre à son usage et non susceptible d’être détecté par LE CLIENT avant son utilisation. Les pièces d’usure telles que les batteries, les connecteurs et les pièces mobiles telles que les supports de montage ne sont pas couverts par la garantie. La garantie ne s’appliquera pas si le produit n’est pas utilisé ou entretenu selon les règles fournies par WIZZILAB, si le produit ou son installation sont modifiés sans le consentement écrit de WIZZILAB, si le produit est modifié par LE CLIENT ou un tiers, si le produit a été endommagé pendant son transport.",
+        "para2" : "La garantie des vices cachés cessera automatiquement si LE CLIENT n’a pas informé WIZZ du défaut allégué dans les quinze (15) jours ouvrables suivant sa découverte. Il appartient au CLIENT de prouver le jour de la découverte du vice caché.",
+        "para3" : "En vertu de la garantie de vice caché, WIZZILAB sera tenu, à son choix, de remplacer ou de réparer, gratuitement, les marchandises défectueuses, ou de rembourser les marchandises défectueuses sous la forme d’une note de crédit sans que LE CLIENT puisse réclamer des dommages et intérêts, pour quelque raison que ce soit.",
+        "para4" : "Si le défaut couvert par la garantie peut être réparé par un correctif du logiciel embarqué du produit, applicable au travers d’un de ses ports de connexion standard (Ethernet, cellulaire, wifi, Bluetooth, NFC, DASH7, etc), WIZZILAB fournira le logiciel correctif, les outils et les instructions pour son application. Le cas échéant, le CLIENT devra appliquer cette méthode de réparation qu’il effectuera par ses propres moyens. ",
+        "para5" : "Dans les autres cas, avant tout retour de marchandise, LE CLIENT doit envoyer une demande à order@wizzilab.com. Aucun retour ne sera accepté sans l’accord préalable de WIZZILAB. Les produits non conformes seront retournés dans les quinze (15) jours suivant la réception du contrat WIZZILAB dans un emballage approprié aux frais du CLIENT. Si le défaut est couvert par la garantie, WIZZILAB remboursera les frais d’envoi à hauteur des tarifs d’expédition de service de colis standard depuis les locaux du CLIENT",
+        "para6" : "Dans le cadre de ces réparations ou remplacements, tous les autres frais liés à ces opérations sont à la charge du CLIENT.",
+        "para7" : "Si, après analyse du défaut, il s’avère les marchandises défectueuses ne sont pas couverts par la garantie, WIZZILAB évaluera leur réparabilité et, si elle est possible, indiquera le montant des frais de réparation et d’expédition",
+        "subtitle2" : "2. Service :",
+        "para8" : "WIZZILAB garantit que tous les services susceptibles d’être exécutés dans le cadre du présent contrat seront exécutés avec la compétence, le soin et la diligence attendus d’un prestataire de services professionnels.",
+        "para9" : "WIZZILAB mènera les services sous sa propre responsabilité et déterminera la manière et les moyens appropriés par lesquels ces services seront exécutés, en se conformant à tout moment aux termes du présent contrat et à la loi applicable",
+        "para10" : "Dans la fourniture de ses services, WIZZILAB n’utilisera aucune information confidentielle, exclusive ou secret commercial qu’elle a appris dans des projets précédents pour d’autres clients, ni n’enfreindra aucun droit d’auteur ou marque commerciale existant.En aucun cas, WIZZILAB ne sera responsable au-delà du montant du livrable défectueux."
+      }
   },
   "footer" : {
     "privacypolicy" : "Mentions légales",
