@@ -37,6 +37,14 @@
     width: 100%;
   }
 
+  .column-2-no-gap {
+    width: 50%;
+    padding: 0;
+    img {
+      width: 30%;
+    }
+  }
+
   .column {
     width: calc((var(--sectionWidth) - var(--gap)*2)/2)
   }

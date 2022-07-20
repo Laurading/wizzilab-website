@@ -39,7 +39,7 @@ const Secteurs = () => {
 						<div className='column-2'>
 							<div>
 								<h3 className='padding-tb'>{active.name}</h3>
-								<p>{active.content}</p>
+								<p className='align-left'>{active.content}</p>
 								<div className='content-col margin-top'>
 									{data.landing.activities[active.id - 1].solutions.map(solution => (
 										<Link href={solution.href} key={solution.name}>
