@@ -49,7 +49,7 @@ export default function Wizziteam() {
         <h3 className='padding-tb'>Managing Team</h3>
         <div className='content-col'>
           <div className='column-3'>
-            <img src='/img/wizziteam/test.png' />
+            <img src='/img/wizziteam/mike-blue.png' />
             <p className='center'><span>Michael ANDRE</span></p>
             <p className='center'>CEO</p>
           </div>
