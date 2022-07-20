@@ -403,7 +403,7 @@
         "kitli" : "1 gateway"
       }
     ],
-    "buy" : "commander",
+    "buy" : "order",
     "kitimg" : "/img/composants/kit/kitwolt.png",
     "partnertitle": "They trust us",
     "partners": [
