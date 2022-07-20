@@ -403,7 +403,7 @@
         "kitli" : "1 gateway"
       }
     ],
-    "buy" : "order",
+    "buy" : "Order",
     "kitimg" : "/img/composants/kit/kitwolt.png",
     "partnertitle": "They trust us",
     "partners": [
@@ -730,7 +730,7 @@
     "title" : "Privacy Policy"
   },
   "cgv" : {
-    "title" : "CGV"
+    "title" : "T&Cs"
   },
   "footer" : {
     "privacypolicy" : "Privacy Policy",
