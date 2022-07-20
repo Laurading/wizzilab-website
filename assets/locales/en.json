@@ -727,13 +727,13 @@
     ]
   },
   "privacypolicy" : {
-    "title" : "Privacy Policy",
-    "cgv" : "CGV"
+    "title" : "Privacy Policy"
   },
   "cgv" : {
     "title" : "CGV"
   },
   "footer" : {
-    "privacypolicy" : "Privacy Policy"
+    "privacypolicy" : "Privacy Policy",
+    "cgv" : "CGV"
   }
 }
