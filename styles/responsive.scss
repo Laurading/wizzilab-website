@@ -45,6 +45,11 @@
     }
   }
 
+  .column-5 {
+    width: 50%;
+    align-items: center;
+}
+
   .column {
     width: calc((var(--sectionWidth) - var(--gap)*2)/2)
   }
