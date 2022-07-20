@@ -11,7 +11,10 @@ const Conception = () => {
     setData(locales[locale])
   },[locale])
 	
-	const [active, setActive] = useState();
+	const [active, setActive] = useState(null);
+  useEffect(() => {
+    if (data) setActive(data.knowhow.tabs[0])
+  },[data])
 
 	return (
 		<>

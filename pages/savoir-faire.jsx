@@ -44,7 +44,7 @@ export default function SavoirFaire() {
               </div>
             </div>
           </section>
-          <Conception />
+          <Conception data={data}/>
           <section className='margin-lr padding-tb'>
             <div>
               <h3 className='padding-bottom'>
