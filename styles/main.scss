@@ -108,6 +108,10 @@ body {
     flex-wrap: wrap;
 }
 
+.space-between {
+    justify-content: space-between;
+}
+
 .number {
     color: var(--denimColor);
     font-size: 30px;
