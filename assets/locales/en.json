@@ -602,11 +602,11 @@
     ]
   },
   "support" : {
-    "dash7text" : "Nous avons un engagement particulier avec DASH7, une technologie spécialement conçue pour l'IoT moyenne portée. WizziLab est un membre actif de la DASH7 Alliance depuis 2011, préside le Protocol Action Group et développe des produits D7A.",
-    "dash7info" : "Toutes les infos sur le protocole DASH7 sont librement accessible sur le",
-    "dash7link" : "site de l'alliance.",
-    "wikitext" : "Vous pouvez consulter les pages dédiées à nos différents produits sur notre wiki :",
-    "contacttext" : "Vous pouvez contacter notre support technique : " ,
+    "dash7text" : "We have a particular commitment with DASH7, a technology specifically tailored for mid-range IoT. WizziLab is an active member of the DASH7 Alliance since 2011, chairs the Protocol Action Group and develops D7A products.",
+    "dash7info" : "All information on the DASH7 protocol is freely accessible on the ",
+    "dash7link" : "alliance's website.",
+    "wikitext" : "You can consult the pages dedicated to our different products on our wiki:",
+    "contacttext" : "You can contact our technical support:",
     "contactspan" : "support@wizzilab.fr"
   },
   "wizziteam" : {
