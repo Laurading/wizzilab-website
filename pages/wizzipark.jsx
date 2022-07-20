@@ -63,7 +63,7 @@ export default function Wizzipark() {
             <h3 className='padding-tb'>{data.wizzipark.partnertitle}</h3>
             <div className='content-col'>
               {data.wizzipark.partners.map(partner => (
-                <div key={partner.id} className='column-6 partenaire'>
+                <div key={partner.id} className='column-4 partenaire'>
                   <img src={partner.logo} />
                 </div>
               ))}
