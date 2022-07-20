@@ -293,7 +293,7 @@
       {
         "span": "Presence",
         "color": "yellow",
-        "text": "if an asset in an area of interest"
+        "text": "if an asset is an area of interest"
       }
     ],
     "bubblestitle": "Your advantages",
@@ -347,10 +347,10 @@
         "color": "blue",
         "descriptions": [
           {
-            "list": "Placé sur vos actifs, se repère par rapport aux ancres"
+            "list": "Placed on your assets, is located in relation to the anchors"
           },
           {
-            "list": "Communique avec le Cloud à travers le réseau local IoT crée par la Gateway"
+            "list": "Communicates with the Cloud through the IoT LAN created by the Gateway"
           },
           {
             "list": "On battery"
@@ -381,7 +381,7 @@
       },
       {
         "img": "/img/composants/wolt/4.png",
-        "name": "WizziCloud",
+        "name": "WizziCloud : Cloud",
         "color": "yellow",
         "descriptions": [
           {
@@ -472,7 +472,7 @@
     "components": [
       {
         "img": "/img/composants/wizzipark/1.png",
-        "name": "WP100 : Capteur au sol",
+        "name": "WP100 : Mount sensor",
         "color": "blue",
         "descriptions": [
           {
@@ -488,7 +488,7 @@
       },
       {
         "img": "/img/composants/wizzipark/2.png",
-        "name": "WP200 : Capteur plafonnier",
+        "name": "WP200 : Celling sensor",
         "color": "red",
         "descriptions": [
           {
@@ -650,7 +650,7 @@
       }
     ],
     "conceptiontitle" : "A strict conception philosophy",
-    "conceptiontext" : "At Wizzilab, we have a specific approach to support our customers in their IoT projects:",
+    "conceptiontext" : "At WizziLab, we put in practice a strict conception philosophy:",
     "tabs": [
       {
         "id": "1",
@@ -725,5 +725,15 @@
         "list" : "Large scale production management"
       }
     ]
+  },
+  "privacypolicy" : {
+    "title" : "Privacy Policy",
+    "cgv" : "CGV"
+  },
+  "cgv" : {
+    "title" : "CGV"
+  },
+  "footer" : {
+    "privacypolicy" : "Privacy Policy"
   }
 }

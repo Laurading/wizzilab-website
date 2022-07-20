@@ -4,7 +4,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import * as locales from '../assets/locales';
 
-export default function Wisp() {
+export default function SavoirFaire() {
 
   const { locale } = useRouter();
   const [data, setData] = useState(null);

@@ -730,5 +730,15 @@
         "list" : "La gestion de la production à grande échelle"
       }
     ]
+  },
+  "privacypolicy" : {
+    "title" : "Mentions légales"
+  },
+  "cgv" : {
+    "title" : "CGV"
+  },
+  "footer" : {
+    "privacypolicy" : "Mentions légales",
+    "cgv" : "CGV"
   }
 }
