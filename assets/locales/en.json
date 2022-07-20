@@ -17,7 +17,7 @@
     "activities" : [
       {
         "id": "1",
-        "name": "sCar Park",
+        "name": "Car Park",
         "image" : "/img/secteurs/parking.png",
         "content" : "Install our Indoor/Outdoor sensors to activate dynamic guidance , report information on displays to improve the customer experience and supervise/control the activity thanks to our platform (Wizzicloud)",
         "column" : "column-2",
@@ -468,7 +468,7 @@
         "img": "/img/pictos/wizzipark/6.svg"
       }
     ],
-    "componentstitle": "Nos composants",
+    "componentstitle": "Our components",
     "components": [
       {
         "img": "/img/composants/wizzipark/1.png",
