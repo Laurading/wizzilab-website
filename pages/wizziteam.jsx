@@ -54,7 +54,7 @@ export default function Wizziteam() {
             <p className='center'>CEO</p>
           </div>
           <div className='column-3'>
-            <img src='/img/wizziteam/test.png' />
+            <img src='/img/wizziteam/yordan-blue.png' />
             <p className='center'><span>Yordan TABAKOV</span></p>
             <p className='center'>CTO</p>
           </div>
@@ -74,7 +74,7 @@ export default function Wizziteam() {
             <p className='center'>Product Architect</p>
           </div>
           <div className='column-3'>
-            <img src='/img/wizziteam/test.png' />
+            <img src='/img/wizziteam/jeremie-blue.png' />
             <p className='center'><span>Jérémie GREFFE</span></p>
             <p className='center'>Embedded Firmware Architect</p>
           </div>

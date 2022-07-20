@@ -375,7 +375,7 @@
             "list": "Enable remote intervention"
           },
           {
-            "list": "Two connexion options: mobile or Ethernet"
+            "list": "2 connexion options: Cellular or Ethernet"
           }
         ]
       },
@@ -517,7 +517,7 @@
             "list": "Enable remote intervention"
           },
           {
-            "list": "Two connexion options: mobile or Ethernet"
+            "list": "2 connexion options: Cellular or Ethernet"
           }
         ]
       },
@@ -735,13 +735,29 @@
     ]
   },
   "privacypolicy" : {
-    "title" : "Privacy Policy"
+    "title" : "Privacy Policy",
+    "wizzilab" : "Wizzilab",
+    "capital" : "SAS au capital de 20 000Euros",
+    "rcs" : "R.C.S. Paris 529 970 352",
+    "headoffice" : "Siège social : 64 rue Greneta - 72002 PARIS",
+    "chargeof" : "Responsable de la publication",
+    "chargeofname" : "M. Michael André",
+    "tel" : "Tel: +33 (0) 6 30 57 96 12",
+    "email" : "contact@wizzilab.com",
+    "creation" : "Création du site",
+    "hosting" : "Hébergement",
+    "hostingtext" : "1and1",
+    "rgpd" : "Protection des données personnelles",
+    "rgpdtext" : "Numéro d’inscription à la CNIL : 1610284 v 0. Vous disposez d’un droit d’accès, de modification, de rectification et de suppression des données qui vous concernent (art. 34 de la loi « Informatique et Libertés » du 6 janvier 1978). Vous pouvez, à tout moment , demander à exercer ce droit soit en nous contactant à cette adresse mail contact@wizzilab.com, soit en nous adressant un courrier à l’adresse suivante : WizziLab SARL – 64 rue Greneta – 75002 Paris – FRANCE",
+    "copyright" : "Copyright et Propriété intellectuelle",
+    "copyrighttext1" : "L’ensemble des éléments figurant sur notre site sont protégés par les dispositions du Code de la Propriété Intellectuelle. En conséquence, toute reproduction de ceux-ci, totale ou partielle, ou imitation, sans notre accord exprès, préalable et écrit, est interdite.",
+    "copyrighttext2" : "Il est formellement interdit de collecter et d’utiliser les informations disponibles sur le site à des fins commerciales. Cette interdiction s’étend notamment, sans que cette liste ne soit limitative, à tout élément rédactionnel figurant sur le site, à la présentation des écrans, aux logiciels nécessaires à l’exploitation, aux logos, images, photos, graphiques, de quelque nature qu’ils soient."
   },
   "cgv" : {
     "title" : "T&Cs"
   },
   "footer" : {
     "privacypolicy" : "Privacy Policy",
-    "cgv" : "CGV"
+    "cgv" : "T&Cs"
   }
 }
