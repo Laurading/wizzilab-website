@@ -754,7 +754,140 @@
     "copyrighttext2" : "Il est formellement interdit de collecter et d’utiliser les informations disponibles sur le site à des fins commerciales. Cette interdiction s’étend notamment, sans que cette liste ne soit limitative, à tout élément rédactionnel figurant sur le site, à la présentation des écrans, aux logiciels nécessaires à l’exploitation, aux logos, images, photos, graphiques, de quelque nature qu’ils soient."
   },
   "cgv" : {
-    "title" : "T&Cs"
+    "title" : "GENERAL TERMS AND CONDITIONS WIZZILAB SAS 2022",
+    "preambletitle" : "Preamble: Purpose",
+    "preambletext" : "These General Terms and Conditions detail the contractual relations between the Parties WIZZILAB SAS (referred to as “WIZZILAB”) and its Customer, (referred to as “the CUSTOMER”) in the sale of goods and services. Any derogation from these General Terms and Conditions must have been previously and expressly accepted in writing by WIZZILAB SAS (referred to as “Special Conditions”).These General Terms and Conditions, in accordance with Article L 441-1 of the French Commercial Code, are the sole basis of the commercial relationship between the parties.",
+    "clause1" : {
+      "title" : "Clause 1 : Orders.",
+      "ul" : "Orders are made by the CUSTOMER:",
+      "li1" : "by accepting a commercial proposal (PR) made by WIZZILAB. In this case, the CUSTOMER checks the accuracy of the information provided on the proposal and reports any changes to be made. The CUSTOMER returns the proposal duly dated and signed by affixing the word “good for agreement” during the period of validity of the estimate. A proposal becomes void if not accepted by the CUSTOMER within the validity period of thirty (30) days from issuance.",
+      "li2" : "by directly sending a purchase order (PO). The purchase order must mention the CUSTOMER contact details, its VAT number, the name and reference of the products ordered, the quantities by reference, the unit price excluding taxes by reference, the place and contact of delivery, the expected delivery date and the total amount of the order with authorized signature of the CUSTOMER.",
+      "para1" : "WIZZILAB will notify the acceptance of the order by sending an order confirmation (CO) to the CUSTOMER specifying the payment terms and the delivery time of the goods or service ordered.",
+      "para2" : "When a down payment is required to start the order, the order start date is the date on which the down payment is cleared on WIZZILAB’s account. In all other case the order start date is the date of the CO. The availability date is computed relative to the order start date. If the products ordered are not in stock, a minimum period of twenty (20) weeks between the confirmation of the order and the date of delivery, in connection with the production times, will be applied.",
+      "para3" : "Any change of order will be subject to prior acceptance by WIZZILAB and may cause an additional cost and delay. It will be indicated to the CUSTOMER for acceptance."
+    },
+    "clause2" : {
+      "title" : "Clause 2 : Price.",
+      "para1" : "The prices of goods and services sold are the ones confirmed in the order confirmation (CO). They are denominated in euros and calculated excluding any taxes or other fees. As a result, they will be increased by the VAT rate, special packaging fees, shipping and handling fees if applicable.",
+      "para2" : "WIZZILAB grants itself the right to modify its tariffs at any time. In all cases, Wizzilab undertakes to invoice the goods ordered at the prices indicated in the CO when the order is registered."
+    },
+    "clause3" : {
+      "title" : "Clause 3 : Discounts and rebates",
+      "para" : "The proposed prices include all the discounts and rebates granted by WIZZILAB. No discount will be given in case of advance payment."
+    },
+    "clause4" : {
+      "title" : "Clause 4 : Payment Terms.",
+      "para1" : "The payment of the orders is done by wire transfer or SEPA payments. No other method of settlement is allowed.",
+      "para2" : "All bank charges are fully borne by the CUSTOMER, oversea bank charges included. In this case, Wizzilab will cover its local bank fees only",
+      "para3" : "Upon acceptance of the order, unless otherwise specified in the order confirmation (CO), the CUSTOMER must pay a down payment of 30% for goods and 50% for service to confirm the order. The availability delay starts on the date on which the down payment is cleared on WIZZILAB’s account. The balance is invoiced at the date of availability of the goods or fulfillment of the service ordered. The payment of the balance must be done within 30 days NET of the invoice."
+    },
+    "clause5" : {
+      "title" : "Clause 5 : Late payment.",
+      "para1" : "Any invoice not paid on the due date will automatically, and without prior notice, entitles WIZZILAB to penalties for late payment of the amounts due, at a rate equal to three (3) times the legal interest rate in force, from the day following the due date until full payment. In accordance with the provisions of Articles L.441-3 and L.441-6 of the French Commercial Code, any delay in payment automatically entails the payment of a lump sum indemnity for recovery costs currently set at forty (40) euros per year. Article D.441-5 of the Commercial Code. The rate of legal interest retained is that in force on the day of delivery of the goods or on the first day of the performance of the services.",
+      "para2" : "When the payment of the order is made in several installments, the non-payment of one of these installments shall result in the immediate payment of the entire amount of the debt, without giving rise to any formal notice.",
+      "para3" : "In case of overdue invoices, WIZZILAB reserves the right to suspend the delivery of goods or execution of service or support until the full payment of all pending invoices.",
+      "para4" : "If within fifteen (15) days of the implementation of the “Late payment” clause, the CUSTOMER has not paid the sums remaining due, the sale will be resolved ipso jure and WIZZILAB will be entitled to damages."
+    },
+    "clause6" : {
+      "title" : "Clause 6 : Retention of ownership.",
+      "para" : "WIZZILAB retains ownership of the goods sold or service deliveries until the full payment of the price, in principal and accessory. As such, if the CUSTOMER is subject to legal redress or liquidation, WIZZILAB reserves the right to claim, in the context of the collective proceedings, the goods and services sold and remained unpaid."
+    },
+     "clause7" : {
+      "title" : "Clause 7 : Cancellation of order.",
+      "para1" : "All orders for goods are NCNRNR (Non-Cancelable, Non-Returnable, Non-Reschedulable).",
+      "para2" : "In case of cancellation of the order, the down payment will remain due. The full amount will be converted into indemnities not subject to VAT.",
+      "para3" : "If the cancellation comes from the CUSTOMER, for whatever reason, besides the full down payment, WIZZILAB reserves the right for indemnities covering all expenses already engaged for the execution of the order.",
+      "para4" : "In the case of services, these additional allowances correspond to the days of service already performed but not paid by the CUSTOMER."
+      },
+      "clause8" : {
+        "title" : "Clause 8 : Delivery.",
+        "para1" : "Unless otherwise agreed by both parties, the goods delivery location is WIZZILAB’s premises or production facilities. The delivery is made Ex Works (EXW) (Incoterms 2020).The price of the products includes a standard cardboard case with interior chocking. Any specific packaging request will be charged extra The delivery location address is notified to the CUSTOMER in the CO. The CUSTOMER is responsible for the organization of the goods pickup and all associated costs are borne by the CUSTOMER.",
+        "para2" : "La date de livraison est la date communiquée au CLIENT quand les marchandises sont disponibles au lieu de livraison. La date de livraison ou le délai de disponibilité indiqué dans la confirmation de commande est fourni à titre indicatif. Par conséquent, un retard dans la disponibilité des produits ne saurait ni donner lieu à l’octroi de dommages et intérêts au profit du CLIENT ni à l’annulation de la commande.",
+        "para3" : "The delivery date is the date of notification to the CUSTOMER that the goods are available at the delivery location. The delivery time indicated in the CO is provided as an indication. Consequently, a delay in the availability of the products can neither give rise to the award of damages to the benefit of the CUSTOMER nor to the cancellation of the order. The risk of transport from the delivery location is borne entirely by the CUSTOMER: risk of loss or deterioration is transferred to the CUSTOMER upon pick up of the goods from the delivery location. It is the CUSTOMER’s responsibility to check the content of the parcel on arrival and to pursue a remedy against the carrier, if necessary",
+        "para4" : "In case of goods missing or deteriorated during transport, the CUSTOMER must formulate all the necessary remarks on the receipt note of the said goods. These remarks must also be confirmed in writing within five (5) days of delivery by registered post or email to order@wizzilab.com.",
+        "para5" : "Partial delivery, non-delivery or postponement of delivery by WIZZILAB cannot delay the payment of the delivered part.",
+        "para6" : "In case the goods contain Lithium batteries, WIZZILAB will provide upon request all necessary transportation certificates. The CUSTOMER must ensure that its carrier has an authorization for the transport of dangerous products and undertakes to provide a related certificate of transport of hazardous materials to WIZZILAB."
+      },
+      "clause9" : {
+        "title" : "Clause 9 : Warranty.",
+        "subtitle1" : "1. Products :",
+        "para1" : "WIZZILAB warrants its products against hidden defects for a period of two (2) years from the date of delivery. A hidden defect means a defect in the product making it unfit for its use and not likely to be detected by the CUSTOMER before its use. Wear parts such as batteries, connectors and moving parts such as mounting brackets are not covered by the warranty. The warranty will not apply if the product is not used or maintained according to the rules provided by WIZZILAB, if the product or its installation is modified without the written consent of WIZZILAB, if the product is modified by the CUSTOMER or a third party, if the product has been damaged during its transportation.",
+        "para2" : "The hidden defect warranty shall automatically cease if the CUSTOMER has not notified WIZZILAB of the alleged defect within fifteen (15) working days of its discovery. It is the CUSTOMER’s responsibility to prove the day of the discovery of the hidden defect.",
+        "para3" : "Under the warranty of hidden defect, WIZZILAB will only be held to, at its own choice, replace or repair, free of charge, defective goods, or refund defective goods in the form of a credit note without the CUSTOMER being able to claim damages, for any reason.",
+        "para4" : "If the defect, covered by the warranty, can be repaired by an update of the product's embedded firmware, applicable through one of its standard communication interface (Ethernet, cellular, WiFi, Bluetooth, NFC, DASH7, etc.), WIZZILAB will provide the updated software, the tools and the instructions for its application. In the latter case, the CUSTOMER will carry out by his own means and at his own expense.",
+        "para5" : "In other cases, before any merchandise return, the CUSTOMER must send a request to order@wizzilab.com. No return will be accepted without the prior agreement of WIZZILAB. Nonconfor products shall be returned within fifteen (15) days of receipt of the WIZZILAB agreement in appropriate packaging at the CUSTOMER’s expense. If the defect is covered by the warranty, WIZZILAB will reimburse the shipping cost up to reasonable standard parcel service shipping fee from the CUSTOMER premises.",
+        "para6" : "As part of these repairs or replacements, all other costs related to these operations are the responsibility of the CUSTOMER. ",
+        "para7" : "If after analysis of the defect, it is found to be not covered by the warranty, WIZZILAB will evaluate the repairability and if possible, quote repair and shipping costs. ",
+        "subtitle2" : "2. Service :",
+        "para8" : "WIZZILAB warrants that all services likely to be performed under this contract will be performed with the competence, care and diligence expected of a professional service provider. ",
+        "para9" : "WIZZILAB will render its services under its own responsibility and will determine the proper manner and means by which these services will be performed, by complying at all times with the terms of this contract and the applicable law.",
+        "para10" : "In the provision of its services, WIZZILAB will not use any confidential, proprietary or trade secret information it has learned in previous projects for other clients, nor will it infringe any existing copyright or trademark. Under no circumstances will WIZZILAB be liable beyond the remuneration for the faulty deliverable."
+      },
+      "clause10" : {
+        "title" : "Clause 10 : Force Majeure.",
+        "para" : "In the event of Force Majeure, the obligations of the affected Party will be suspended as from the notification made to the other Party by registered letter with acknowledgment of receipt mentioning the case of Force Majeure. WIZZILAB shall not be liable for failure to perform or for delay in performance due to fire, flood, strike, or other labor difficulty, act of any governmental author riot, embargo, fuel or energy shortage, wrecks or delays in transportation, inability to obtain necessary labor, materials, or manufacturing facilities from usual sources, or due to any cause beyond WIZZILAB’s reasonable control. In the event of a delay in performance due to any such cause, the estimated date of delivery or time for completion of performance will be extended by a period reasonably necessary to overcome the effect of such delay. If WIZZILAB reasonably determines that any such delay in performance is likely to extend for a period of ninety (90) days or more, WIZZILAB shall have the right to cancel the applicable Order upon notice to the CUSTOMER with no liability or further obligation to the CUSTOMER with respect to such Order."
+      },
+      "clause11" : {
+        "title" : "Clause 11 : Limitation of Liability.",
+        "para1": "The liability of WIZZILAB is limited to the supply of goods and the provision of services.",
+        "para2" : "The CUSTOMER agrees that it alone is fully responsible for the use of the products.",
+        "para3" : "WIZZILAB can not be held liable for indirect or immaterial damages (loss of business, loss of CUSTOMER, loss of opportunity) which is expressly accepted by the CUSTOMER.",
+        "para4" : "In the event of a claim, the Parties agree that WIZZILAB total liability will be limited to the pre-tax price of the product or service concerned.",
+        "para5" : "The CUSTOMER, if located in France, assumes responsibility and ensures and takes charge of the collection and disposal of waste electrical and electronic equipment (WEEE) under the conditions provided for in Articles 21 and 22 of Decree No. 2005-829 of 20 July 2005 amended by the Decree of 8 October 2014. The CUSTOMER releases WIZZILAB from any liability under Article 9 of the Waste Electrical and Electronic Equipment Directive 2002/96/EU (WEEE), and Article 13 of the WEEE Directive (care obligation for manufacturers) and claims by third parties in this regard. When expressly agreed in Special Conditions of Sale (SCS), the organization of the removal and processing of EEE placed on the market after August 13, 2005, may be entrusted to WIZZILAB in accordance with Article 18 of Decree No. 2005-829. In this case, the CUSTOMER undertakes to notify WIZZILAB of the end of life of his equipment, to decontaminate it and to deposit it accompanied by the certificate of non-contamination, at the collection point that will be indicated to him. The financing of the removal and treatment of the equipment will be borne by the CLIENT.",
+        "para6" : "The CUSTOMER who is in EU Member State other than France, is obliged, as an importer and commercial user of electrical and electronic devices, to dispose of the goods delivered at his own expense after the end of the service. In this case, WIZZILAB cannot be considered the manufacturer.",
+        "para7" : "The CUSTOMER located outside the EU does not fall within the regulatory scope of the WEEE Directives. As an importer and commercial user of electrical and electronic appliances, however, he is obliged to dispose of these goods after the end of the service in accordance with the relevant regulations."
+      },
+      "clause12" : {
+        "title" : "Clause 12: Insurance.",
+        "para" : "WIZZILAB declares that it is insured for its professional civil liability, as part of these Conditions and Terms, with an insurance company and undertakes to maintain this insurance cover for the duration of the performance of its obligations."
+      },
+      "clause13" : {
+        "title" : "Clause 13 : Non-solicitation of staff.",
+        "para" : "Throughout the duration of the contract and one year after its expiration for any reason whatsoever, neither party shall directly or indirectly recruit, use or solicit, to attempt to do so, the services of any person involved in the project. In the event of a breach of this prohibition, the defaulting party shall immediately, and ipso jure be liable to the other party for an indemnity assessed on a flat-rate basis during the last twenty-four months of gross remuneration of the person concerned by the solicitation."
+      },
+      "clause14" : {
+        "title" : "Clause 14: Intellectual Property.",
+        "para1" : "Services: unless otherwise agreed, the CUSTOMER owns all the works specifically designed in the execution of the service. The electronic or software sub-packages already designed by WIZZILAB and used in the solution remain the property of WIZZILAB. WIZZILAB may issue a license to the CUSTOMER to use these sub-packages in its products.",
+        "para2" : "Products: WIZZILAB retains full ownership of these products. An order does not constitute a transfer of intellectual and / or industrial property rights",
+        "para3" : "Customized Products: WIZZILAB will provide a specific part number allowing the CUSTOMER to order the customized product. WIZZILAB retains full ownership of these products. A customization does not constitute a transfer of intellectual and/ or industrial property rights, nor a transfer of know-how of WIZZILAB. No other right than the use of the product is transferred to the CUSTOMER.",
+        "para4" : "“Customized products” are defined as standard WIZZILAB products that contain differences (“customizations”). from the standard product, requested by the CUSTOMER, such as, without limitation, specific firmware configuration, casing form factor and color, battery capacity, and for which the CUSTOMER is granted a specific part number. "
+      },
+      "clause15" : {
+        "title" : "Clause 15: Communication.",
+        "para": "The CUSTOMER authorizes WIZZILAB to mention his name as a reference for his commercial promotion and has the right to cancel this authorization at any time with immediate notice."
+      },
+      "clause16" : {
+        "title" : "Clause 16: Confidentiality.",
+        "para1" : "The Parties undertake to observe the strictest confidentiality and to take all necessary measures to preserve this confidentiality about the Confidential Information disclosed during the commercial exchanges.",
+        "ul" : "The Parties are not under any obligation of confidentiality with respect to information linked to the followings:",
+        "li1" : "mentioned as non-confidential by the titular Party.",
+        "li2" : "which, prior to their release by the titular Party, was already owned or known to the recipient Party",
+        "li3" : "which belonged to the public domain before their date of communication by the titular Party or which would become public subsequently, without fault on the part of the recipient Party, and without any breach of an obligation of secrecy. ",
+        "li4" : "lawfully received from a third party without breach of an obligation of secrecy",
+        "li5" : "developed by or for the Receiving Party, regardless of any access to Confidential Information.",
+        "li6" : "to be communicated in accordance with laws, regulations, court rulings, provided that the recipient Party notifies the titular Party and measures are taken to ensure the confidentiality of the information despite being disclosed.",
+        "para2" : "Consequently, the Parties undertake to preserve the Confidential Information as of the first commercial exchange and for a period of five (5) years from the end of the execution. This clause remains valid in the event of termination for misconduct by one of the Parties and for any reason. "
+      },
+      "clause17" : {
+        "title" : "Clause 17: Personal Information.",
+        "para1" : "The personal data, communicated to WIZZILAB have the objective to assure the good treatment of the orders and the management of the commercial relations.",
+        "para2" : "The CUSTOMER has a right of access of rectification and opposition on the personal data."
+      },
+      "clause18" : {
+        "title" : "Clause 18: Termination for Breach.",
+        "para1" : "Any failure by one of the Parties to its obligations under these Conditions and Terms which it has not remedied within thirty (30) days of the notification made by the other Party, will result for the Party that invokes it in the possibility of automatically terminating these contractual relations without prejudice to any other course of action. Such termination will not give rise to any compensation for the benefit of the offending Party.",
+        "para2" : "Continuity: at the end of these Conditions and terms, the provisions of the articles “Intellectual Property “Confidentiality”, “Court of competent jurisdictions” will continue to apply to the Parties. "
+      },
+      "clause19" : {
+        "title" : "Clause 19: Court of competent jurisdictions",
+        "para1" : "The Parties undertake to attempt to resolve any dispute and / or request related to an order and the General Terms and Conditions, amicably, by notification to the other Party of its failure to perform by registered letter with acknowledgment of receipt.",
+        "para2" : "At the end of a period of two (2) months from receipt of the notification, without response from the Party failing to perform and / or failing to reach an amicable agreement, each Party may submit the dispute to the jurisdiction of the Court of Commerce of Paris exclusively, notwithstanding a plurality of defendants or the introduction of third parties.",
+        "para3" : "Any dispute relating to the interpretation and execution of these general conditions of sale is subject to French law."
+      },
+      "clause20" : {
+        "title" : "Clause 20: Other Agreements.",
+        "para" : "These Terms and Conditions shall apply to all sales of products and services by WIZZILAB to the CUSTOMER and may only be modified or amended by a writing executed by an authorized officer of WIZZILAB and the CUSTOMER."
+      }
   },
   "footer" : {
     "privacypolicy" : "Privacy Policy",
