@@ -11,7 +11,8 @@
       "send": "Envoyer",
       "order" : "Commander",
       "price" : "PRIX",
-      "ordertitle" : "Contactez-nous pour commander!"
+      "ordertitle" : "Contactez-nous pour commander!",
+      "delivery" : "*Hors frais de livraison"
     }
   },
   "landing": {

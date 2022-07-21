@@ -80,8 +80,9 @@ const Order = (props) => {
                 <div className='padding-tb'>
                   <h4 className='cultured mobile-hidden'>{data.header.contact.price}</h4>
                   <p className='cultured'>
-                    1 300 euros HT
+                    1 300 euros HT*
                   </p>
+                  <p className="mini cultured">{data.header.contact.delivery}</p>
                 </div>
               </div>
             </div>

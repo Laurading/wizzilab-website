@@ -11,7 +11,8 @@
       "send" : "Send",
       "order" : "Order",
       "price" : "PRICE",
-      "ordertitle" : "Contact us to order!"
+      "ordertitle" : "Contact us to order!",
+      "delivery" : "*Excluding delivery costs"
     }
   },
   "landing": {
