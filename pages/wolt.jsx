@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import LavenderPicto from '../components/LavenderPicto'
 import * as locales from '../assets/locales';
+import Order from '../components/Order';
 
 export default function Wolt() {
 
@@ -13,6 +14,8 @@ export default function Wolt() {
   useEffect(() => {
     setData(locales[locale])
   },[locale])
+
+  const [buttonPopup, setButtonPopup] = useState(false)
 
   return (
     <>
@@ -71,7 +74,8 @@ export default function Wolt() {
                   ))}
                   </ul>
               <div className='padding-tb'>
-                <a className="buy-button" href='https://wizzilab.com/shop'>{data.wolt.buy}</a>
+                <a onClick={() => setButtonPopup(true)} className="buy-button">{data.wolt.buy}</a>
+                <Order trigger={buttonPopup} setTrigger={setButtonPopup} data={data}/>
               </div>
             </div>
             <div className='column-2 padding-tb'>

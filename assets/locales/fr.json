@@ -8,7 +8,10 @@
       "society": "Société",
       "name": "Nom",
       "phonenumber": "Téléphone",
-      "send": "Envoyer"
+      "send": "Envoyer",
+      "order" : "Commander",
+      "price" : "PRIX",
+      "ordertitle" : "Contactez-nous pour commander!"
     }
   },
   "landing": {
