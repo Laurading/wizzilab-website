@@ -369,9 +369,6 @@
         "color": "green",
         "descriptions": [
           {
-            "list": "Passerelle IoT"
-          },
-          {
             "list": "Récolte les informations des capteurs"
           },
           {
@@ -513,9 +510,6 @@
         "name": "WGATE-PRO : Gateway",
         "color": "green",
         "descriptions": [
-          {
-            "list": "Passerelle IoT"
-          },
           {
             "list": "Récolte les informations des capteurs"
           },
