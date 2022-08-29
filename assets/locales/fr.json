@@ -279,7 +279,7 @@
   "wolt": {
     "title": "La solution RTLS autonome et ultra légère",
     "img": "/img/solutions/wolt-fr.png",
-    "text": "WOLT est une solution de localisation sur site basée sur une infrastructure ultra légère sans fil. Hors site, les tags peuvent se localisés grâce au réseau LoRaWAN.",
+    "text": "WOLT est une solution de localisation sur site basée sur une infrastructure ultra légère sans fil. Hors site, les tags peuvent se localiser grâce au réseau LoRaWAN.",
     "bullettitlespan": "3 niveaux de précisions",
     "bullettitle": "sont possibles :",
     "bulletpoints": [
