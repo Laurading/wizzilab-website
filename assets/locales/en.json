@@ -360,7 +360,7 @@
             "list": "On battery"
           },
           {
-            "list": "Three sizes with differents capacities according to the use"
+            "list": "Three sizes with different capacities according to the use"
           }
         ]
       },
@@ -370,10 +370,10 @@
         "color": "green",
         "descriptions": [
           {
-            "list": "Collect informations from tags"
+            "list": "Collect information from tags"
           },
           {
-            "list": "Send informations to the cloud"
+            "list": "Send information to the cloud"
           },
           {
             "list": "Enable remote intervention"
@@ -512,10 +512,10 @@
         "color": "green",
         "descriptions": [
           {
-            "list": "Collect informations from tags"
+            "list": "Collect information from tags"
           },
           {
-            "list": "Send informations to the cloud"
+            "list": "Send information to the cloud"
           },
           {
             "list": "Enable remote intervention"
