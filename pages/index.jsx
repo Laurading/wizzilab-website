@@ -42,7 +42,7 @@ export default function Home() {
             <div className='content-col'>
               <div className='column-3 '>
                 <h4 className='denim-bg'><span className='cultured'>{data.landing.target}</span></h4>
-                <img src='/img/processus/cibler.png' />
+                <img src={data.landing.targetimg} />
                 <br />
                 <p className='center'><span>{data.landing.targettext}</span></p>
               </div>

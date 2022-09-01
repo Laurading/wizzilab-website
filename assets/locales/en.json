@@ -175,6 +175,7 @@
     ],
     "process": "Stand alone, wireless and low-power solutions",
     "target": "1. TARGET",
+    "targetimg" : "/img/processus/cibler-en.png",
     "targettext": "Analyze and adress your specific needs",
     "deploy": "2. DEPLOY",
     "deploytext": "Install and play easily",
