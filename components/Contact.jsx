@@ -26,11 +26,11 @@ const Contact = (props) => {
         [{
           "From":
           {
-            "Email": "laura@wizzilab.com",
+            "Email": `${content.email}`
 
           },
           "To": [{
-            "Email": "laura@wizzilab.com",
+            "Email": "contact@wizzilab.com",
           }],
 
           "Subject": "On a essayé de vous contacter",
