@@ -32,17 +32,33 @@ export default function SavoirFaire() {
               </div>
               <div className='content-col'>
                 <div className='column-3'>
-                  <h5><a href='https://wizzilab.com/wiki/#!index.md'><span className='blue'>WOLT</span></a></h5>
+                <a href='https://wizzilab.com/wiki/#!index.md'>
+                  <h5><span className='blue'>WOLT</span></h5>
+                  <img src='/img/composants/wolt/support.png'/>
+                </a>
                 </div>
                 <div className='column-3'>
-                  <h5><a href='https://wizzilab.com/wiki/#!index.md'><span className='red'>WIZZIPARK</span></a></h5>
+                <a href='https://wizzilab.com/wiki/#!index.md'>
+                  <h5><span className='red'>WIZZIPARK</span></h5>
+                  <img src='/img/composants/wizzipark/support.png'/>
+                </a>
                 </div>
                 <div className='column-3'>
-                  <h5><a href='https://wizzilab.com/wiki/#!index.md'><span className='green'>WISP</span></a></h5>
+                <a href='https://wizzilab.com/wiki/#!index.md'>
+                  <h5><span className='green'>WISP</span></h5>
+                  <img src='/img/composants/wisp/support.png'/>
+                </a>
                 </div>
-                <div className='column-3'><h5><a href='https://wizzilab.com/wiki/#!index.md'><span>WIZZICLOUD</span></a></h5></div>
-                <div className='column-3'><h5><a href='https://wizzilab.com/wiki/#!index.md'><span>WIZZIGATE</span></a></h5></div>
-                <div className='column-3'><h5><a href='https://wizzilab.com/wiki/#!index.md'><span>WIZZIKIT</span></a></h5></div>
+                <div className='column-3'><a href='https://wizzilab.com/wiki/#!index.md'><h5><span>WIZZICLOUD</span></h5>
+                <img src='/img/composants/cloud.png'/>
+                </a></div>
+                <div className='column-3'><a href='https://wizzilab.com/wiki/#!index.md'><h5><span>WIZZIGATE</span></h5>
+                <img src='/img/composants/gateway.png'/>
+                </a></div>
+                <div className='column-3'>
+                <a href='https://wizzilab.com/wiki/#!index.md'><h5><span>WIZZIKIT</span></h5>
+                <img src='/img/composants/kit.png'/>
+                </a></div>
               </div>
               <a href='https://wizzilab.com/wiki/#!wizzicloud/network.md'><h4></h4></a>
 
