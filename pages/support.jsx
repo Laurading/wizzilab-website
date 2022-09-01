@@ -32,7 +32,7 @@ export default function SavoirFaire() {
               </div>
               <div className='content-col'>
                 <div className='column-3'>
-                <a href='https://wizzilab.com/wiki/#!index.md'>
+                <a href='https://wizzilab.com/wiki/#!hardware/wolt-d7a.md'>
                   <h5><span className='blue'>WOLT</span></h5>
                   <img src='/img/composants/wolt/support.png'/>
                 </a>
@@ -44,19 +44,19 @@ export default function SavoirFaire() {
                 </a>
                 </div>
                 <div className='column-3'>
-                <a href='https://wizzilab.com/wiki/#!index.md'>
+                <a href='https://wizzilab.com/wiki/#!hardware/wisp.md'>
                   <h5><span className='green'>WISP</span></h5>
                   <img src='/img/composants/wisp/support.png'/>
                 </a>
                 </div>
-                <div className='column-3'><a href='https://wizzilab.com/wiki/#!index.md'><h5><span>WIZZICLOUD</span></h5>
+                <div className='column-3'><a href='https://wizzilab.com/wiki/#!wizzicloud/network.md'><h5><span>WIZZICLOUD</span></h5>
                 <img src='/img/composants/cloud.png'/>
                 </a></div>
-                <div className='column-3'><a href='https://wizzilab.com/wiki/#!index.md'><h5><span>WIZZIGATE</span></h5>
+                <div className='column-3'><a href='https://wizzilab.com/wiki/#!hardware/wizzigate_wrt.md'><h5><span>WIZZIGATE</span></h5>
                 <img src='/img/composants/gateway.png'/>
                 </a></div>
                 <div className='column-3'>
-                <a href='https://wizzilab.com/wiki/#!index.md'><h5><span>WIZZIKIT</span></h5>
+                <a href='https://wizzilab.com/wiki/#!wizzikit/wizzikit.md'><h5><span>WIZZIKIT</span></h5>
                 <img src='/img/composants/kit.png'/>
                 </a></div>
               </div>
